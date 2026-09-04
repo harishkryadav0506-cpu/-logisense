@@ -1,0 +1,601 @@
+complaint_id,order_id,complaint_text,severity,resolution_type
+CMP-00001,ORD-00788,Product from ORD-00788 is good but took 1 extra day compared to the estimate.,low,no_action
+CMP-00002,ORD-00728,Order ORD-00728 arrived with missing parts. The charger was not included in the box.,medium,partial_refund
+CMP-00003,ORD-00463,Delivery for ORD-00463 was left at the doorstep without notification. Please improve this.,low,no_action
+CMP-00004,ORD-00381,I received a wrong item in order ORD-00381. I ordered headphones but got a mouse. Need exchange.,medium,replacement_sent
+CMP-00005,ORD-00870,Order ORD-00870 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,partial_refund
+CMP-00006,ORD-00016,I need to cancel order ORD-00016 but the app won't let me. It hasn't shipped yet.,medium,replacement_sent
+CMP-00007,ORD-01184,"Order ORD-01184 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,escalated_to_manager
+CMP-00008,ORD-01021,I've been given the runaround for 2 weeks about order ORD-01021 refund. Filing complaint with consumer forum.,high,escalated_to_manager
+CMP-00009,ORD-00485,Order ORD-00485 product is DEFECTIVE and almost caused a safety hazard. This needs immediate attention.,high,investigation_opened
+CMP-00010,ORD-01028,Order ORD-01028 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,replacement_sent
+CMP-00011,ORD-00552,My order ORD-00552 was split into two shipments without notice. One part is still missing.,medium,rescheduled_delivery
+CMP-00012,ORD-00842,Order ORD-00842 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,exchange_initiated
+CMP-00013,ORD-01119,"My order ORD-01119 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,escalated_to_manager
+CMP-00014,ORD-01181,Order ORD-01181 is 10 days late and nobody from support is helping. This is unacceptable! Escalate NOW.,high,refund_with_compensation
+CMP-00015,ORD-00752,Order ORD-00752 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,rescheduled_delivery
+CMP-00016,ORD-00069,Order ORD-00069 is 10 days late and nobody from support is helping. This is unacceptable! Escalate NOW.,high,investigation_opened
+CMP-00017,ORD-00078,I paid for express shipping on order ORD-00078 but it's being shipped standard. Need correction.,medium,replacement_sent
+CMP-00018,ORD-01164,Order ORD-01164 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,replacement_sent
+CMP-00019,ORD-00990,Order ORD-00990 was delivered but the seal was broken. I suspect it's a returned product.,medium,partial_refund
+CMP-00020,ORD-00755,Order ORD-00755 was supposed to arrive yesterday but came today. Minor inconvenience.,low,no_action
+CMP-00021,ORD-00232,Order ORD-00232 product has a scratch on the screen. It's supposed to be brand new.,medium,exchange_initiated
+CMP-00022,ORD-00987,Order ORD-00987 was delivered but the seal was broken. I suspect it's a returned product.,medium,partial_refund
+CMP-00023,ORD-00164,Order ORD-00164 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,escalated_to_manager
+CMP-00024,ORD-00291,Order ORD-00291: product arrived but doesn't match the size specifications listed.,medium,rescheduled_delivery
+CMP-00025,ORD-01079,Order ORD-01079 arrived with missing parts. The charger was not included in the box.,medium,rescheduled_delivery
+CMP-00026,ORD-00573,Order ORD-00573 was supposed to arrive yesterday but came today. Minor inconvenience.,low,apology_email
+CMP-00027,ORD-00953,Order ORD-00953 delivery was rescheduled twice without my consent. Very inconvenient.,medium,replacement_sent
+CMP-00028,ORD-01059,Order ORD-01059 delivery was rescheduled twice without my consent. Very inconvenient.,medium,rescheduled_delivery
+CMP-00029,ORD-00161,I've been waiting for order ORD-00161 refund for a week now. When will it be processed?,medium,replacement_sent
+CMP-00030,ORD-01072,"Minor issue with order ORD-01072 - the accessories were in a separate bag, initially thought missing.",low,apology_email
+CMP-00031,ORD-00182,The invoice for order ORD-00182 has a small typo in my name. Can you correct it?,low,no_action
+CMP-00032,ORD-00503,The packaging for order ORD-00503 was slightly damaged but the product inside is okay.,low,no_action
+CMP-00033,ORD-00968,The packaging for order ORD-00968 was slightly damaged but the product inside is okay.,low,coupon_issued
+CMP-00034,ORD-00160,Order ORD-00160 tracking was not updating for a day. It arrived though.,low,no_action
+CMP-00035,ORD-01105,Order ORD-01105 product has a scratch on the screen. It's supposed to be brand new.,medium,replacement_sent
+CMP-00036,ORD-00640,Order ORD-00640 was delivered to the right address but wrong apartment number initially.,low,coupon_issued
+CMP-00037,ORD-00109,"Order ORD-00109 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,refund_with_compensation
+CMP-00038,ORD-00704,My order ORD-00704 was split into two shipments without notice. One part is still missing.,medium,replacement_sent
+CMP-00039,ORD-01096,The packaging for order ORD-01096 was slightly damaged but the product inside is okay.,low,no_action
+CMP-00040,ORD-00023,Order ORD-00023 - I've called 5 times about my missing package. Each time told to wait. I want my money back NOW.,high,refund_with_compensation
+CMP-00041,ORD-00961,I've been waiting for order ORD-00961 refund for a week now. When will it be processed?,medium,rescheduled_delivery
+CMP-00042,ORD-00930,Order ORD-00930 product has a scratch on the screen. It's supposed to be brand new.,medium,exchange_initiated
+CMP-00043,ORD-01050,I paid for express shipping on order ORD-01050 but it's being shipped standard. Need correction.,medium,partial_refund
+CMP-00044,ORD-01160,FRAUD ALERT: Order ORD-01160 was delivered to wrong address and signed by unknown person. Need investigation.,high,escalated_to_manager
+CMP-00045,ORD-00679,Order ORD-00679 - I've called 5 times about my missing package. Each time told to wait. I want my money back NOW.,high,investigation_opened
+CMP-00046,ORD-00863,Order ORD-00863 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,replacement_sent
+CMP-00047,ORD-00723,Delivery for ORD-00723 was left at the doorstep without notification. Please improve this.,low,apology_email
+CMP-00048,ORD-00604,Order ORD-00604 has been lost by the carrier and nobody takes responsibility. 15 days and counting!,high,escalated_to_manager
+CMP-00049,ORD-00593,Order ORD-00593 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,partial_refund
+CMP-00050,ORD-00344,URGENT: Order ORD-00344 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,escalated_to_manager
+CMP-00051,ORD-00073,The packaging for order ORD-00073 was slightly damaged but the product inside is okay.,low,no_action
+CMP-00052,ORD-00623,Order ORD-00623 has been lost by the carrier and nobody takes responsibility. 15 days and counting!,high,escalated_to_manager
+CMP-00053,ORD-00534,I've been waiting for order ORD-00534 refund for a week now. When will it be processed?,medium,partial_refund
+CMP-00054,ORD-00126,Tracking for order ORD-00126 showed delivered but I found it at neighbor's place.,low,no_action
+CMP-00055,ORD-00970,I've been waiting for order ORD-00970 refund for a week now. When will it be processed?,medium,partial_refund
+CMP-00056,ORD-00347,Order ORD-00347 delivery was rescheduled twice without my consent. Very inconvenient.,medium,partial_refund
+CMP-00057,ORD-00106,I received a wrong item in order ORD-00106. I ordered headphones but got a mouse. Need exchange.,medium,replacement_sent
+CMP-00058,ORD-00598,The quality of the product in order ORD-00598 doesn't match the description. Want a return.,medium,partial_refund
+CMP-00059,ORD-00056,Order ORD-00056: Allergic reaction from product that had wrong ingredients listed. Need compensation NOW.,high,refund_with_compensation
+CMP-00060,ORD-00588,Tracking for order ORD-00588 showed delivered but I found it at neighbor's place.,low,coupon_issued
+CMP-00061,ORD-00993,Order ORD-00993 product is DEFECTIVE and almost caused a safety hazard. This needs immediate attention.,high,refund_with_compensation
+CMP-00062,ORD-00169,Order ORD-00169 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,partial_refund
+CMP-00063,ORD-00260,"My order ORD-00260 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,investigation_opened
+CMP-00064,ORD-01036,I received a wrong item in order ORD-01036. I ordered headphones but got a mouse. Need exchange.,medium,exchange_initiated
+CMP-00065,ORD-00158,I received a completely damaged product in order ORD-00158. Screen is cracked. DEMAND full refund.,high,full_refund
+CMP-00066,ORD-00570,Order ORD-00570 arrived with missing parts. The charger was not included in the box.,medium,partial_refund
+CMP-00067,ORD-00517,I received a wrong item in order ORD-00517. I ordered headphones but got a mouse. Need exchange.,medium,rescheduled_delivery
+CMP-00068,ORD-00272,Order ORD-00272 was delivered to the right address but wrong apartment number initially.,low,no_action
+CMP-00069,ORD-00576,The product from order ORD-00576 stopped working after 2 days. I want a replacement.,medium,rescheduled_delivery
+CMP-00070,ORD-00564,The packaging for order ORD-00564 was slightly damaged but the product inside is okay.,low,coupon_issued
+CMP-00071,ORD-00527,Order ORD-00527: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,full_refund
+CMP-00072,ORD-00030,I've been given the runaround for 2 weeks about order ORD-00030 refund. Filing complaint with consumer forum.,high,escalated_to_manager
+CMP-00073,ORD-00229,I paid for express shipping on order ORD-00229 but it's being shipped standard. Need correction.,medium,replacement_sent
+CMP-00074,ORD-00358,Order ORD-00358 product is DEFECTIVE and almost caused a safety hazard. This needs immediate attention.,high,investigation_opened
+CMP-00075,ORD-00310,"Order ORD-00310: the box was a bit crushed but product is fine, thanks.",low,apology_email
+CMP-00076,ORD-00915,I've been waiting for order ORD-00915 refund for a week now. When will it be processed?,medium,replacement_sent
+CMP-00077,ORD-00758,Order ORD-00758 was supposed to arrive yesterday but came today. Minor inconvenience.,low,apology_email
+CMP-00078,ORD-00360,URGENT: Order ORD-00360 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,full_refund
+CMP-00079,ORD-00536,"Minor issue with order ORD-00536 - the accessories were in a separate bag, initially thought missing.",low,apology_email
+CMP-00080,ORD-00484,Order ORD-00484 arrived with missing parts. The charger was not included in the box.,medium,exchange_initiated
+CMP-00081,ORD-00994,Product from ORD-00994 is good but took 1 extra day compared to the estimate.,low,coupon_issued
+CMP-00082,ORD-00371,I've been given the runaround for 2 weeks about order ORD-00371 refund. Filing complaint with consumer forum.,high,investigation_opened
+CMP-00083,ORD-01081,The product from order ORD-01081 works but the manual was missing. Can you send one?,low,coupon_issued
+CMP-00084,ORD-00068,I received order ORD-00068 and the color is slightly different from the picture. Not a big deal.,low,apology_email
+CMP-00085,ORD-00703,I need to cancel order ORD-00703 but the app won't let me. It hasn't shipped yet.,medium,rescheduled_delivery
+CMP-00086,ORD-00173,The product from order ORD-00173 works but the manual was missing. Can you send one?,low,apology_email
+CMP-00087,ORD-00298,The invoice for order ORD-00298 has a small typo in my name. Can you correct it?,low,coupon_issued
+CMP-00088,ORD-00316,I've been given the runaround for 2 weeks about order ORD-00316 refund. Filing complaint with consumer forum.,high,escalated_to_manager
+CMP-00089,ORD-01016,My order ORD-01016 was split into two shipments without notice. One part is still missing.,medium,partial_refund
+CMP-00090,ORD-00846,"Order ORD-00846: the box was a bit crushed but product is fine, thanks.",low,apology_email
+CMP-00091,ORD-00785,Order ORD-00785 arrived fine but the delivery person was a bit rude.,low,no_action
+CMP-00092,ORD-00488,FRAUD ALERT: Order ORD-00488 was delivered to wrong address and signed by unknown person. Need investigation.,high,refund_with_compensation
+CMP-00093,ORD-00902,My order ORD-00902 was split into two shipments without notice. One part is still missing.,medium,exchange_initiated
+CMP-00094,ORD-00343,Product from ORD-00343 is good but took 1 extra day compared to the estimate.,low,no_action
+CMP-00095,ORD-00432,Delivery for ORD-00432 was left at the doorstep without notification. Please improve this.,low,coupon_issued
+CMP-00096,ORD-00707,"Order ORD-00707 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,full_refund
+CMP-00097,ORD-00112,Order ORD-00112: product arrived but doesn't match the size specifications listed.,medium,rescheduled_delivery
+CMP-00098,ORD-00542,The quality of the product in order ORD-00542 doesn't match the description. Want a return.,medium,partial_refund
+CMP-00099,ORD-00238,Product from ORD-00238 is good but took 1 extra day compared to the estimate.,low,apology_email
+CMP-00100,ORD-00108,I received a wrong item in order ORD-00108. I ordered headphones but got a mouse. Need exchange.,medium,rescheduled_delivery
+CMP-00101,ORD-01151,I paid for express shipping on order ORD-01151 but it's being shipped standard. Need correction.,medium,exchange_initiated
+CMP-00102,ORD-00951,Order ORD-00951: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,investigation_opened
+CMP-00103,ORD-00817,URGENT: Order ORD-00817 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,full_refund
+CMP-00104,ORD-00976,My order ORD-00976 was split into two shipments without notice. One part is still missing.,medium,replacement_sent
+CMP-00105,ORD-00618,I received a completely damaged product in order ORD-00618. Screen is cracked. DEMAND full refund.,high,full_refund
+CMP-00106,ORD-01097,Order ORD-01097 arrived fine but the delivery person was a bit rude.,low,coupon_issued
+CMP-00107,ORD-01091,Order ORD-01091 tracking was not updating for a day. It arrived though.,low,no_action
+CMP-00108,ORD-00479,The invoice for order ORD-00479 has a small typo in my name. Can you correct it?,low,coupon_issued
+CMP-00109,ORD-00778,Order ORD-00778 product is DEFECTIVE and almost caused a safety hazard. This needs immediate attention.,high,full_refund
+CMP-00110,ORD-00799,I got order ORD-00799 a few hours after the estimated window. Not urgent but noting it.,low,coupon_issued
+CMP-00111,ORD-00972,"EXTREMELY DISAPPOINTED with order ORD-00972. Wrong product, damaged box, late delivery. Want to speak to manager.",high,escalated_to_manager
+CMP-00112,ORD-00538,I received a completely damaged product in order ORD-00538. Screen is cracked. DEMAND full refund.,high,full_refund
+CMP-00113,ORD-01114,Order ORD-01114 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,rescheduled_delivery
+CMP-00114,ORD-01087,URGENT: Order ORD-01087 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,refund_with_compensation
+CMP-00115,ORD-00891,Tracking for order ORD-00891 showed delivered but I found it at neighbor's place.,low,coupon_issued
+CMP-00116,ORD-00025,Order ORD-00025 delivery was rescheduled twice without my consent. Very inconvenient.,medium,rescheduled_delivery
+CMP-00117,ORD-00592,URGENT: Order ORD-00592 never arrived and I was charged twice! I need immediate refund for both charges.,high,escalated_to_manager
+CMP-00118,ORD-00920,I've been waiting for order ORD-00920 refund for a week now. When will it be processed?,medium,exchange_initiated
+CMP-00119,ORD-00783,Order ORD-00783: product arrived but doesn't match the size specifications listed.,medium,partial_refund
+CMP-00120,ORD-00647,Order ORD-00647 tracking was not updating for a day. It arrived though.,low,coupon_issued
+CMP-00121,ORD-00085,I received order ORD-00085 and the color is slightly different from the picture. Not a big deal.,low,coupon_issued
+CMP-00122,ORD-00200,I need to cancel order ORD-00200 but the app won't let me. It hasn't shipped yet.,medium,replacement_sent
+CMP-00123,ORD-00725,Order ORD-00725: product arrived but doesn't match the size specifications listed.,medium,replacement_sent
+CMP-00124,ORD-00885,Order ORD-00885 tracking was not updating for a day. It arrived though.,low,no_action
+CMP-00125,ORD-00559,Order ORD-00559 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,rescheduled_delivery
+CMP-00126,ORD-00687,Order ORD-00687 arrived fine but the delivery person was a bit rude.,low,coupon_issued
+CMP-00127,ORD-00554,I've been waiting for order ORD-00554 refund for a week now. When will it be processed?,medium,partial_refund
+CMP-00128,ORD-00547,Order ORD-00547 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,replacement_sent
+CMP-00129,ORD-00202,"Order ORD-00202: the box was a bit crushed but product is fine, thanks.",low,coupon_issued
+CMP-00130,ORD-00523,I received order ORD-00523 and the color is slightly different from the picture. Not a big deal.,low,apology_email
+CMP-00131,ORD-00802,Order ORD-00802 tracking was not updating for a day. It arrived though.,low,no_action
+CMP-00132,ORD-00945,Order ORD-00945 was delivered but the seal was broken. I suspect it's a returned product.,medium,replacement_sent
+CMP-00133,ORD-00496,Product from ORD-00496 is good but took 1 extra day compared to the estimate.,low,apology_email
+CMP-00134,ORD-00400,URGENT: Order ORD-00400 never arrived and I was charged twice! I need immediate refund for both charges.,high,escalated_to_manager
+CMP-00135,ORD-01065,Product from ORD-01065 is good but took 1 extra day compared to the estimate.,low,coupon_issued
+CMP-00136,ORD-00692,Order ORD-00692 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,exchange_initiated
+CMP-00137,ORD-00369,Delivery for ORD-00369 was left at the doorstep without notification. Please improve this.,low,no_action
+CMP-00138,ORD-00642,Order ORD-00642 was delivered to the right address but wrong apartment number initially.,low,no_action
+CMP-00139,ORD-00022,Order ORD-00022 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,full_refund
+CMP-00140,ORD-00018,Order ORD-00018 - I've called 5 times about my missing package. Each time told to wait. I want my money back NOW.,high,escalated_to_manager
+CMP-00141,ORD-00140,Order ORD-00140 was supposed to arrive yesterday but came today. Minor inconvenience.,low,no_action
+CMP-00142,ORD-01085,"Order ORD-01085: the box was a bit crushed but product is fine, thanks.",low,coupon_issued
+CMP-00143,ORD-00843,Order ORD-00843 has been lost by the carrier and nobody takes responsibility. 15 days and counting!,high,refund_with_compensation
+CMP-00144,ORD-00201,I need to cancel order ORD-00201 but the app won't let me. It hasn't shipped yet.,medium,partial_refund
+CMP-00145,ORD-00213,I received a wrong item in order ORD-00213. I ordered headphones but got a mouse. Need exchange.,medium,replacement_sent
+CMP-00146,ORD-00914,Order ORD-00914 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,full_refund
+CMP-00147,ORD-00720,My order ORD-00720 was split into two shipments without notice. One part is still missing.,medium,partial_refund
+CMP-00148,ORD-00450,I received a completely damaged product in order ORD-00450. Screen is cracked. DEMAND full refund.,high,full_refund
+CMP-00149,ORD-00581,Order ORD-00581 is 10 days late and nobody from support is helping. This is unacceptable! Escalate NOW.,high,escalated_to_manager
+CMP-00150,ORD-00516,URGENT: Order ORD-00516 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,investigation_opened
+CMP-00151,ORD-00396,I paid for express shipping on order ORD-00396 but it's being shipped standard. Need correction.,medium,partial_refund
+CMP-00152,ORD-00070,I received a wrong item in order ORD-00070. I ordered headphones but got a mouse. Need exchange.,medium,partial_refund
+CMP-00153,ORD-00049,I've been given the runaround for 2 weeks about order ORD-00049 refund. Filing complaint with consumer forum.,high,investigation_opened
+CMP-00154,ORD-00189,I received order ORD-00189 and the color is slightly different from the picture. Not a big deal.,low,apology_email
+CMP-00155,ORD-00117,Order ORD-00117 was supposed to arrive yesterday but came today. Minor inconvenience.,low,no_action
+CMP-00156,ORD-00445,Order ORD-00445 delivery was rescheduled twice without my consent. Very inconvenient.,medium,partial_refund
+CMP-00157,ORD-00250,I've been waiting for order ORD-00250 refund for a week now. When will it be processed?,medium,rescheduled_delivery
+CMP-00158,ORD-00246,Order ORD-00246 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,replacement_sent
+CMP-00159,ORD-00177,I received a wrong item in order ORD-00177. I ordered headphones but got a mouse. Need exchange.,medium,exchange_initiated
+CMP-00160,ORD-00267,The product from order ORD-00267 works but the manual was missing. Can you send one?,low,coupon_issued
+CMP-00161,ORD-00770,I need to cancel order ORD-00770 but the app won't let me. It hasn't shipped yet.,medium,exchange_initiated
+CMP-00162,ORD-00379,The invoice for order ORD-00379 has a small typo in my name. Can you correct it?,low,apology_email
+CMP-00163,ORD-00228,I've been given the runaround for 2 weeks about order ORD-00228 refund. Filing complaint with consumer forum.,high,escalated_to_manager
+CMP-00164,ORD-00378,Order ORD-00378: Allergic reaction from product that had wrong ingredients listed. Need compensation NOW.,high,investigation_opened
+CMP-00165,ORD-00519,Order ORD-00519 product is DEFECTIVE and almost caused a safety hazard. This needs immediate attention.,high,escalated_to_manager
+CMP-00166,ORD-01153,Order ORD-01153 was delivered to the right address but wrong apartment number initially.,low,apology_email
+CMP-00167,ORD-00957,Order ORD-00957 arrived with missing parts. The charger was not included in the box.,medium,exchange_initiated
+CMP-00168,ORD-00156,Order ORD-00156 product has a scratch on the screen. It's supposed to be brand new.,medium,replacement_sent
+CMP-00169,ORD-00929,The invoice for order ORD-00929 has a small typo in my name. Can you correct it?,low,apology_email
+CMP-00170,ORD-00567,I received a wrong item in order ORD-00567. I ordered headphones but got a mouse. Need exchange.,medium,partial_refund
+CMP-00171,ORD-00875,I received order ORD-00875 and the color is slightly different from the picture. Not a big deal.,low,apology_email
+CMP-00172,ORD-00663,"Order ORD-00663: the box was a bit crushed but product is fine, thanks.",low,apology_email
+CMP-00173,ORD-00528,"Order ORD-00528: the box was a bit crushed but product is fine, thanks.",low,apology_email
+CMP-00174,ORD-00332,Order ORD-00332 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,rescheduled_delivery
+CMP-00175,ORD-00152,Order ORD-00152 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,investigation_opened
+CMP-00176,ORD-00568,Order ORD-00568 product has a scratch on the screen. It's supposed to be brand new.,medium,exchange_initiated
+CMP-00177,ORD-00128,"EXTREMELY DISAPPOINTED with order ORD-00128. Wrong product, damaged box, late delivery. Want to speak to manager.",high,refund_with_compensation
+CMP-00178,ORD-00392,Order ORD-00392 arrived fine but the delivery person was a bit rude.,low,no_action
+CMP-00179,ORD-00398,Order ORD-00398 arrived fine but the delivery person was a bit rude.,low,apology_email
+CMP-00180,ORD-00341,Order ORD-00341 tracking was not updating for a day. It arrived though.,low,no_action
+CMP-00181,ORD-01020,My order ORD-01020 arrived a day late but everything looks fine. Just wanted to let you know.,low,no_action
+CMP-00182,ORD-00062,Order ORD-00062 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,partial_refund
+CMP-00183,ORD-00265,Order ORD-00265 product has a scratch on the screen. It's supposed to be brand new.,medium,rescheduled_delivery
+CMP-00184,ORD-00979,The product from order ORD-00979 works but the manual was missing. Can you send one?,low,coupon_issued
+CMP-00185,ORD-00833,The packaging for order ORD-00833 was slightly damaged but the product inside is okay.,low,coupon_issued
+CMP-00186,ORD-01133,Order ORD-01133 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,investigation_opened
+CMP-00187,ORD-00183,Order ORD-00183 - I've called 5 times about my missing package. Each time told to wait. I want my money back NOW.,high,refund_with_compensation
+CMP-00188,ORD-00452,The quality of the product in order ORD-00452 doesn't match the description. Want a return.,medium,rescheduled_delivery
+CMP-00189,ORD-00072,Order ORD-00072 was delivered but the seal was broken. I suspect it's a returned product.,medium,replacement_sent
+CMP-00190,ORD-00504,URGENT: Order ORD-00504 never arrived and I was charged twice! I need immediate refund for both charges.,high,investigation_opened
+CMP-00191,ORD-01003,Order ORD-01003 is 10 days late and nobody from support is helping. This is unacceptable! Escalate NOW.,high,investigation_opened
+CMP-00192,ORD-01099,I need to cancel order ORD-01099 but the app won't let me. It hasn't shipped yet.,medium,exchange_initiated
+CMP-00193,ORD-00206,Order ORD-00206 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,replacement_sent
+CMP-00194,ORD-00625,Order ORD-00625 was delivered to the right address but wrong apartment number initially.,low,apology_email
+CMP-00195,ORD-00403,I received a completely damaged product in order ORD-00403. Screen is cracked. DEMAND full refund.,high,investigation_opened
+CMP-00196,ORD-01014,Order ORD-01014 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,exchange_initiated
+CMP-00197,ORD-00661,I received a wrong item in order ORD-00661. I ordered headphones but got a mouse. Need exchange.,medium,exchange_initiated
+CMP-00198,ORD-01011,Order ORD-01011 product has a scratch on the screen. It's supposed to be brand new.,medium,exchange_initiated
+CMP-00199,ORD-01104,I need to cancel order ORD-01104 but the app won't let me. It hasn't shipped yet.,medium,partial_refund
+CMP-00200,ORD-00148,Order ORD-00148 arrived with missing parts. The charger was not included in the box.,medium,rescheduled_delivery
+CMP-00201,ORD-01074,Order ORD-01074 arrived with missing parts. The charger was not included in the box.,medium,rescheduled_delivery
+CMP-00202,ORD-01200,FRAUD ALERT: Order ORD-01200 was delivered to wrong address and signed by unknown person. Need investigation.,high,refund_with_compensation
+CMP-00203,ORD-00442,The product from order ORD-00442 works but the manual was missing. Can you send one?,low,no_action
+CMP-00204,ORD-00224,Order ORD-00224 was supposed to arrive yesterday but came today. Minor inconvenience.,low,apology_email
+CMP-00205,ORD-00629,Order ORD-00629 has been lost by the carrier and nobody takes responsibility. 15 days and counting!,high,full_refund
+CMP-00206,ORD-00659,Order ORD-00659: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,refund_with_compensation
+CMP-00207,ORD-01183,Order ORD-01183 arrived with missing parts. The charger was not included in the box.,medium,rescheduled_delivery
+CMP-00208,ORD-00935,I've been given the runaround for 2 weeks about order ORD-00935 refund. Filing complaint with consumer forum.,high,refund_with_compensation
+CMP-00209,ORD-00453,I received order ORD-00453 and the color is slightly different from the picture. Not a big deal.,low,no_action
+CMP-00210,ORD-00733,Delivery for ORD-00733 was left at the doorstep without notification. Please improve this.,low,coupon_issued
+CMP-00211,ORD-00266,Tracking for order ORD-00266 showed delivered but I found it at neighbor's place.,low,no_action
+CMP-00212,ORD-01144,Order ORD-01144 is 10 days late and nobody from support is helping. This is unacceptable! Escalate NOW.,high,refund_with_compensation
+CMP-00213,ORD-00036,I got order ORD-00036 a few hours after the estimated window. Not urgent but noting it.,low,apology_email
+CMP-00214,ORD-00075,Order ORD-00075 was delivered to the right address but wrong apartment number initially.,low,apology_email
+CMP-00215,ORD-01150,Order ORD-01150: product arrived but doesn't match the size specifications listed.,medium,exchange_initiated
+CMP-00216,ORD-00586,Tracking for order ORD-00586 showed delivered but I found it at neighbor's place.,low,apology_email
+CMP-00217,ORD-00746,I've been waiting for order ORD-00746 refund for a week now. When will it be processed?,medium,exchange_initiated
+CMP-00218,ORD-00257,I've been waiting for order ORD-00257 refund for a week now. When will it be processed?,medium,replacement_sent
+CMP-00219,ORD-00796,Order ORD-00796 is 10 days late and nobody from support is helping. This is unacceptable! Escalate NOW.,high,escalated_to_manager
+CMP-00220,ORD-00457,Order ORD-00457 delivery was rescheduled twice without my consent. Very inconvenient.,medium,rescheduled_delivery
+CMP-00221,ORD-00020,Delivery for ORD-00020 was left at the doorstep without notification. Please improve this.,low,apology_email
+CMP-00222,ORD-00919,Order ORD-00919 - I've called 5 times about my missing package. Each time told to wait. I want my money back NOW.,high,investigation_opened
+CMP-00223,ORD-00510,Order ORD-00510 was delivered but the seal was broken. I suspect it's a returned product.,medium,replacement_sent
+CMP-00224,ORD-00153,"EXTREMELY DISAPPOINTED with order ORD-00153. Wrong product, damaged box, late delivery. Want to speak to manager.",high,escalated_to_manager
+CMP-00225,ORD-00669,My order ORD-00669 arrived a day late but everything looks fine. Just wanted to let you know.,low,apology_email
+CMP-00226,ORD-00656,I've been given the runaround for 2 weeks about order ORD-00656 refund. Filing complaint with consumer forum.,high,escalated_to_manager
+CMP-00227,ORD-00001,I received a wrong item in order ORD-00001. I ordered headphones but got a mouse. Need exchange.,medium,replacement_sent
+CMP-00228,ORD-00956,Order ORD-00956 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,replacement_sent
+CMP-00229,ORD-00039,Order ORD-00039 delivery was rescheduled twice without my consent. Very inconvenient.,medium,exchange_initiated
+CMP-00230,ORD-00681,I've been waiting for order ORD-00681 refund for a week now. When will it be processed?,medium,replacement_sent
+CMP-00231,ORD-01067,Order ORD-01067 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,rescheduled_delivery
+CMP-00232,ORD-00273,Order ORD-00273 delivery was rescheduled twice without my consent. Very inconvenient.,medium,rescheduled_delivery
+CMP-00233,ORD-01033,The invoice for order ORD-01033 has a small typo in my name. Can you correct it?,low,apology_email
+CMP-00234,ORD-00717,The quality of the product in order ORD-00717 doesn't match the description. Want a return.,medium,partial_refund
+CMP-00235,ORD-00338,Order ORD-00338: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,escalated_to_manager
+CMP-00236,ORD-00927,The product from order ORD-00927 stopped working after 2 days. I want a replacement.,medium,exchange_initiated
+CMP-00237,ORD-00401,Order ORD-00401 was delivered to the right address but wrong apartment number initially.,low,coupon_issued
+CMP-00238,ORD-00589,URGENT: Order ORD-00589 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,investigation_opened
+CMP-00239,ORD-00004,"My order ORD-00004 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,full_refund
+CMP-00240,ORD-01191,I've been waiting for order ORD-01191 refund for a week now. When will it be processed?,medium,exchange_initiated
+CMP-00241,ORD-01078,Order ORD-01078 tracking was not updating for a day. It arrived though.,low,coupon_issued
+CMP-00242,ORD-00790,Order ORD-00790 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,exchange_initiated
+CMP-00243,ORD-01169,I need to cancel order ORD-01169 but the app won't let me. It hasn't shipped yet.,medium,replacement_sent
+CMP-00244,ORD-00490,I need to cancel order ORD-00490 but the app won't let me. It hasn't shipped yet.,medium,exchange_initiated
+CMP-00245,ORD-00447,Delivery for ORD-00447 was left at the doorstep without notification. Please improve this.,low,coupon_issued
+CMP-00246,ORD-00414,Order ORD-00414 was delivered to the right address but wrong apartment number initially.,low,coupon_issued
+CMP-00247,ORD-00865,I received order ORD-00865 and the color is slightly different from the picture. Not a big deal.,low,no_action
+CMP-00248,ORD-00984,My order ORD-00984 arrived a day late but everything looks fine. Just wanted to let you know.,low,no_action
+CMP-00249,ORD-00800,FRAUD ALERT: Order ORD-00800 was delivered to wrong address and signed by unknown person. Need investigation.,high,investigation_opened
+CMP-00250,ORD-00832,Order ORD-00832 arrived with missing parts. The charger was not included in the box.,medium,exchange_initiated
+CMP-00251,ORD-00805,Order ORD-00805 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,partial_refund
+CMP-00252,ORD-01012,Order ORD-01012 tracking was not updating for a day. It arrived though.,low,no_action
+CMP-00253,ORD-01000,Product from ORD-01000 is good but took 1 extra day compared to the estimate.,low,apology_email
+CMP-00254,ORD-01180,Order ORD-01180 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,replacement_sent
+CMP-00255,ORD-00962,"Order ORD-00962 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,full_refund
+CMP-00256,ORD-00394,"Minor issue with order ORD-00394 - the accessories were in a separate bag, initially thought missing.",low,no_action
+CMP-00257,ORD-00706,Order ORD-00706 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,replacement_sent
+CMP-00258,ORD-00838,I've been given the runaround for 2 weeks about order ORD-00838 refund. Filing complaint with consumer forum.,high,refund_with_compensation
+CMP-00259,ORD-01094,Order ORD-01094: product arrived but doesn't match the size specifications listed.,medium,replacement_sent
+CMP-00260,ORD-00494,I need to cancel order ORD-00494 but the app won't let me. It hasn't shipped yet.,medium,partial_refund
+CMP-00261,ORD-00125,The product from order ORD-00125 works but the manual was missing. Can you send one?,low,coupon_issued
+CMP-00262,ORD-01052,I received a wrong item in order ORD-01052. I ordered headphones but got a mouse. Need exchange.,medium,rescheduled_delivery
+CMP-00263,ORD-00549,I received a wrong item in order ORD-00549. I ordered headphones but got a mouse. Need exchange.,medium,partial_refund
+CMP-00264,ORD-00368,Order ORD-00368 was delivered but the seal was broken. I suspect it's a returned product.,medium,rescheduled_delivery
+CMP-00265,ORD-00342,I paid for express shipping on order ORD-00342 but it's being shipped standard. Need correction.,medium,exchange_initiated
+CMP-00266,ORD-00699,"My order ORD-00699 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,escalated_to_manager
+CMP-00267,ORD-00311,Order ORD-00311 - I've called 5 times about my missing package. Each time told to wait. I want my money back NOW.,high,escalated_to_manager
+CMP-00268,ORD-00411,I received order ORD-00411 and the color is slightly different from the picture. Not a big deal.,low,apology_email
+CMP-00269,ORD-00057,Order ORD-00057 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,replacement_sent
+CMP-00270,ORD-00648,I've been waiting for order ORD-00648 refund for a week now. When will it be processed?,medium,replacement_sent
+CMP-00271,ORD-01029,Order ORD-01029 arrived with missing parts. The charger was not included in the box.,medium,exchange_initiated
+CMP-00272,ORD-00093,Order ORD-00093 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,partial_refund
+CMP-00273,ORD-00375,My order ORD-00375 was split into two shipments without notice. One part is still missing.,medium,rescheduled_delivery
+CMP-00274,ORD-00548,URGENT: Order ORD-00548 never arrived and I was charged twice! I need immediate refund for both charges.,high,full_refund
+CMP-00275,ORD-00874,Order ORD-00874: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,full_refund
+CMP-00276,ORD-00349,Order ORD-00349 was delivered but the seal was broken. I suspect it's a returned product.,medium,partial_refund
+CMP-00277,ORD-00083,The invoice for order ORD-00083 has a small typo in my name. Can you correct it?,low,apology_email
+CMP-00278,ORD-00862,My order ORD-00862 was split into two shipments without notice. One part is still missing.,medium,rescheduled_delivery
+CMP-00279,ORD-00471,Order ORD-00471: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,full_refund
+CMP-00280,ORD-00779,The product from order ORD-00779 stopped working after 2 days. I want a replacement.,medium,exchange_initiated
+CMP-00281,ORD-01110,Order ORD-01110: product arrived but doesn't match the size specifications listed.,medium,exchange_initiated
+CMP-00282,ORD-00297,Order ORD-00297: Allergic reaction from product that had wrong ingredients listed. Need compensation NOW.,high,refund_with_compensation
+CMP-00283,ORD-00664,Order ORD-00664: product arrived but doesn't match the size specifications listed.,medium,partial_refund
+CMP-00284,ORD-00208,"Order ORD-00208: the box was a bit crushed but product is fine, thanks.",low,no_action
+CMP-00285,ORD-00181,Order ORD-00181: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,refund_with_compensation
+CMP-00286,ORD-01025,Order ORD-01025 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,investigation_opened
+CMP-00287,ORD-00041,FRAUD ALERT: Order ORD-00041 was delivered to wrong address and signed by unknown person. Need investigation.,high,full_refund
+CMP-00288,ORD-01069,"Order ORD-01069 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,investigation_opened
+CMP-00289,ORD-00677,Order ORD-00677: product arrived but doesn't match the size specifications listed.,medium,rescheduled_delivery
+CMP-00290,ORD-00196,Order ORD-00196: product arrived but doesn't match the size specifications listed.,medium,replacement_sent
+CMP-00291,ORD-00307,"My order ORD-00307 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,refund_with_compensation
+CMP-00292,ORD-00713,I've been waiting for order ORD-00713 refund for a week now. When will it be processed?,medium,exchange_initiated
+CMP-00293,ORD-01146,I need to cancel order ORD-01146 but the app won't let me. It hasn't shipped yet.,medium,rescheduled_delivery
+CMP-00294,ORD-00110,Order ORD-00110 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,replacement_sent
+CMP-00295,ORD-00646,Order ORD-00646 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,exchange_initiated
+CMP-00296,ORD-00944,I received a completely damaged product in order ORD-00944. Screen is cracked. DEMAND full refund.,high,full_refund
+CMP-00297,ORD-00937,Order ORD-00937 product has a scratch on the screen. It's supposed to be brand new.,medium,rescheduled_delivery
+CMP-00298,ORD-00499,I received a wrong item in order ORD-00499. I ordered headphones but got a mouse. Need exchange.,medium,replacement_sent
+CMP-00299,ORD-00087,I got order ORD-00087 a few hours after the estimated window. Not urgent but noting it.,low,coupon_issued
+CMP-00300,ORD-00931,URGENT: Order ORD-00931 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,escalated_to_manager
+CMP-00301,ORD-00449,Order ORD-00449: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,investigation_opened
+CMP-00302,ORD-00753,Order ORD-00753 product is DEFECTIVE and almost caused a safety hazard. This needs immediate attention.,high,investigation_opened
+CMP-00303,ORD-00195,My order ORD-00195 was split into two shipments without notice. One part is still missing.,medium,partial_refund
+CMP-00304,ORD-00144,Order ORD-00144 was delivered to the right address but wrong apartment number initially.,low,coupon_issued
+CMP-00305,ORD-00037,Order ORD-00037 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,refund_with_compensation
+CMP-00306,ORD-00198,The invoice for order ORD-00198 has a small typo in my name. Can you correct it?,low,apology_email
+CMP-00307,ORD-00026,"Minor issue with order ORD-00026 - the accessories were in a separate bag, initially thought missing.",low,apology_email
+CMP-00308,ORD-00738,Order ORD-00738: Allergic reaction from product that had wrong ingredients listed. Need compensation NOW.,high,escalated_to_manager
+CMP-00309,ORD-00608,My order ORD-00608 arrived a day late but everything looks fine. Just wanted to let you know.,low,coupon_issued
+CMP-00310,ORD-00245,Order ORD-00245 product has a scratch on the screen. It's supposed to be brand new.,medium,partial_refund
+CMP-00311,ORD-00501,"Order ORD-00501 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,escalated_to_manager
+CMP-00312,ORD-00399,"Order ORD-00399: the box was a bit crushed but product is fine, thanks.",low,no_action
+CMP-00313,ORD-00065,The product from order ORD-00065 works but the manual was missing. Can you send one?,low,apology_email
+CMP-00314,ORD-00812,Order ORD-00812 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,replacement_sent
+CMP-00315,ORD-00948,I received a completely damaged product in order ORD-00948. Screen is cracked. DEMAND full refund.,high,full_refund
+CMP-00316,ORD-00995,I got order ORD-00995 a few hours after the estimated window. Not urgent but noting it.,low,apology_email
+CMP-00317,ORD-01113,Order ORD-01113: Allergic reaction from product that had wrong ingredients listed. Need compensation NOW.,high,investigation_opened
+CMP-00318,ORD-00512,"Order ORD-00512 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,full_refund
+CMP-00319,ORD-01073,I received order ORD-01073 and the color is slightly different from the picture. Not a big deal.,low,no_action
+CMP-00320,ORD-00855,URGENT: Order ORD-00855 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,refund_with_compensation
+CMP-00321,ORD-01009,Order ORD-01009 arrived fine but the delivery person was a bit rude.,low,apology_email
+CMP-00322,ORD-00461,"Order ORD-00461: the box was a bit crushed but product is fine, thanks.",low,no_action
+CMP-00323,ORD-00017,I need to cancel order ORD-00017 but the app won't let me. It hasn't shipped yet.,medium,rescheduled_delivery
+CMP-00324,ORD-00038,The product from order ORD-00038 stopped working after 2 days. I want a replacement.,medium,exchange_initiated
+CMP-00325,ORD-00348,Product from ORD-00348 is good but took 1 extra day compared to the estimate.,low,no_action
+CMP-00326,ORD-00058,Delivery for ORD-00058 was left at the doorstep without notification. Please improve this.,low,no_action
+CMP-00327,ORD-00346,Order ORD-00346: product arrived but doesn't match the size specifications listed.,medium,partial_refund
+CMP-00328,ORD-00807,Order ORD-00807 product has a scratch on the screen. It's supposed to be brand new.,medium,exchange_initiated
+CMP-00329,ORD-00739,Order ORD-00739 arrived fine but the delivery person was a bit rude.,low,no_action
+CMP-00330,ORD-00044,"My order ORD-00044 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,investigation_opened
+CMP-00331,ORD-00416,My order ORD-00416 was split into two shipments without notice. One part is still missing.,medium,exchange_initiated
+CMP-00332,ORD-00122,My order ORD-00122 was split into two shipments without notice. One part is still missing.,medium,rescheduled_delivery
+CMP-00333,ORD-00217,I got order ORD-00217 a few hours after the estimated window. Not urgent but noting it.,low,no_action
+CMP-00334,ORD-00827,"Minor issue with order ORD-00827 - the accessories were in a separate bag, initially thought missing.",low,no_action
+CMP-00335,ORD-00670,I've been waiting for order ORD-00670 refund for a week now. When will it be processed?,medium,replacement_sent
+CMP-00336,ORD-00684,I got order ORD-00684 a few hours after the estimated window. Not urgent but noting it.,low,coupon_issued
+CMP-00337,ORD-01122,Order ORD-01122 arrived with missing parts. The charger was not included in the box.,medium,rescheduled_delivery
+CMP-00338,ORD-00470,"Minor issue with order ORD-00470 - the accessories were in a separate bag, initially thought missing.",low,coupon_issued
+CMP-00339,ORD-00695,Order ORD-00695 tracking was not updating for a day. It arrived though.,low,apology_email
+CMP-00340,ORD-00550,Order ORD-00550 arrived fine but the delivery person was a bit rude.,low,apology_email
+CMP-00341,ORD-00977,I received a completely damaged product in order ORD-00977. Screen is cracked. DEMAND full refund.,high,full_refund
+CMP-00342,ORD-00759,Order ORD-00759 delivery was rescheduled twice without my consent. Very inconvenient.,medium,exchange_initiated
+CMP-00343,ORD-00594,The packaging for order ORD-00594 was slightly damaged but the product inside is okay.,low,apology_email
+CMP-00344,ORD-00239,Order ORD-00239 tracking was not updating for a day. It arrived though.,low,apology_email
+CMP-00345,ORD-00074,URGENT: Order ORD-00074 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,refund_with_compensation
+CMP-00346,ORD-00877,Order ORD-00877: product arrived but doesn't match the size specifications listed.,medium,exchange_initiated
+CMP-00347,ORD-00754,"Minor issue with order ORD-00754 - the accessories were in a separate bag, initially thought missing.",low,apology_email
+CMP-00348,ORD-00145,Order ORD-00145 was delivered but the seal was broken. I suspect it's a returned product.,medium,rescheduled_delivery
+CMP-00349,ORD-00890,Order ORD-00890 arrived with missing parts. The charger was not included in the box.,medium,partial_refund
+CMP-00350,ORD-00866,The quality of the product in order ORD-00866 doesn't match the description. Want a return.,medium,partial_refund
+CMP-00351,ORD-00980,Order ORD-00980: product arrived but doesn't match the size specifications listed.,medium,exchange_initiated
+CMP-00352,ORD-00483,Order ORD-00483 tracking was not updating for a day. It arrived though.,low,no_action
+CMP-00353,ORD-00634,My order ORD-00634 arrived a day late but everything looks fine. Just wanted to let you know.,low,apology_email
+CMP-00354,ORD-00047,Tracking for order ORD-00047 showed delivered but I found it at neighbor's place.,low,apology_email
+CMP-00355,ORD-00249,Order ORD-00249: product arrived but doesn't match the size specifications listed.,medium,exchange_initiated
+CMP-00356,ORD-00719,Order ORD-00719 was supposed to arrive yesterday but came today. Minor inconvenience.,low,coupon_issued
+CMP-00357,ORD-00665,The quality of the product in order ORD-00665 doesn't match the description. Want a return.,medium,exchange_initiated
+CMP-00358,ORD-00134,Tracking for order ORD-00134 showed delivered but I found it at neighbor's place.,low,no_action
+CMP-00359,ORD-00015,The packaging for order ORD-00015 was slightly damaged but the product inside is okay.,low,no_action
+CMP-00360,ORD-01042,I received a completely damaged product in order ORD-01042. Screen is cracked. DEMAND full refund.,high,escalated_to_manager
+CMP-00361,ORD-00901,I need to cancel order ORD-00901 but the app won't let me. It hasn't shipped yet.,medium,rescheduled_delivery
+CMP-00362,ORD-00052,Order ORD-00052 product has a scratch on the screen. It's supposed to be brand new.,medium,partial_refund
+CMP-00363,ORD-00315,Order ORD-00315 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,partial_refund
+CMP-00364,ORD-00813,I received a wrong item in order ORD-00813. I ordered headphones but got a mouse. Need exchange.,medium,partial_refund
+CMP-00365,ORD-00100,Order ORD-00100: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,full_refund
+CMP-00366,ORD-00468,URGENT: Order ORD-00468 never arrived and I was charged twice! I need immediate refund for both charges.,high,refund_with_compensation
+CMP-00367,ORD-00626,Order ORD-00626 product has a scratch on the screen. It's supposed to be brand new.,medium,replacement_sent
+CMP-00368,ORD-00175,I paid for express shipping on order ORD-00175 but it's being shipped standard. Need correction.,medium,replacement_sent
+CMP-00369,ORD-00606,I received a completely damaged product in order ORD-00606. Screen is cracked. DEMAND full refund.,high,full_refund
+CMP-00370,ORD-00066,"Order ORD-00066: the box was a bit crushed but product is fine, thanks.",low,coupon_issued
+CMP-00371,ORD-01120,The quality of the product in order ORD-01120 doesn't match the description. Want a return.,medium,rescheduled_delivery
+CMP-00372,ORD-01046,Order ORD-01046 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,rescheduled_delivery
+CMP-00373,ORD-00978,Order ORD-00978: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,investigation_opened
+CMP-00374,ORD-00610,My order ORD-00610 was split into two shipments without notice. One part is still missing.,medium,partial_refund
+CMP-00375,ORD-00819,My order ORD-00819 arrived a day late but everything looks fine. Just wanted to let you know.,low,coupon_issued
+CMP-00376,ORD-00631,Product from ORD-00631 is good but took 1 extra day compared to the estimate.,low,no_action
+CMP-00377,ORD-00226,Order ORD-00226 delivery was rescheduled twice without my consent. Very inconvenient.,medium,exchange_initiated
+CMP-00378,ORD-00888,Delivery for ORD-00888 was left at the doorstep without notification. Please improve this.,low,no_action
+CMP-00379,ORD-00917,Product from ORD-00917 is good but took 1 extra day compared to the estimate.,low,apology_email
+CMP-00380,ORD-00437,"Order ORD-00437: the box was a bit crushed but product is fine, thanks.",low,no_action
+CMP-00381,ORD-00926,Product from ORD-00926 is good but took 1 extra day compared to the estimate.,low,apology_email
+CMP-00382,ORD-00756,Product from ORD-00756 is good but took 1 extra day compared to the estimate.,low,coupon_issued
+CMP-00383,ORD-00923,Delivery for ORD-00923 was left at the doorstep without notification. Please improve this.,low,apology_email
+CMP-00384,ORD-00412,"My order ORD-00412 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,refund_with_compensation
+CMP-00385,ORD-00333,Order ORD-00333 has been lost by the carrier and nobody takes responsibility. 15 days and counting!,high,escalated_to_manager
+CMP-00386,ORD-00124,I received a wrong item in order ORD-00124. I ordered headphones but got a mouse. Need exchange.,medium,rescheduled_delivery
+CMP-00387,ORD-00701,The quality of the product in order ORD-00701 doesn't match the description. Want a return.,medium,exchange_initiated
+CMP-00388,ORD-00590,"Order ORD-00590 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,refund_with_compensation
+CMP-00389,ORD-01076,Order ORD-01076 arrived with missing parts. The charger was not included in the box.,medium,replacement_sent
+CMP-00390,ORD-00141,Order ORD-00141 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,refund_with_compensation
+CMP-00391,ORD-00330,Order ORD-00330 arrived with missing parts. The charger was not included in the box.,medium,exchange_initiated
+CMP-00392,ORD-00219,I got order ORD-00219 a few hours after the estimated window. Not urgent but noting it.,low,apology_email
+CMP-00393,ORD-01082,Order ORD-01082: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,escalated_to_manager
+CMP-00394,ORD-00847,My order ORD-00847 was split into two shipments without notice. One part is still missing.,medium,partial_refund
+CMP-00395,ORD-00892,"EXTREMELY DISAPPOINTED with order ORD-00892. Wrong product, damaged box, late delivery. Want to speak to manager.",high,full_refund
+CMP-00396,ORD-00178,The invoice for order ORD-00178 has a small typo in my name. Can you correct it?,low,no_action
+CMP-00397,ORD-01100,"Order ORD-01100 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,refund_with_compensation
+CMP-00398,ORD-00823,Order ORD-00823 tracking was not updating for a day. It arrived though.,low,coupon_issued
+CMP-00399,ORD-00815,URGENT: Order ORD-00815 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,escalated_to_manager
+CMP-00400,ORD-00281,Order ORD-00281 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,replacement_sent
+CMP-00401,ORD-00853,Order ORD-00853: product arrived but doesn't match the size specifications listed.,medium,replacement_sent
+CMP-00402,ORD-00776,Order ORD-00776 delivery was rescheduled twice without my consent. Very inconvenient.,medium,exchange_initiated
+CMP-00403,ORD-00426,The quality of the product in order ORD-00426 doesn't match the description. Want a return.,medium,rescheduled_delivery
+CMP-00404,ORD-01115,I paid for express shipping on order ORD-01115 but it's being shipped standard. Need correction.,medium,replacement_sent
+CMP-00405,ORD-00714,URGENT: Order ORD-00714 never arrived and I was charged twice! I need immediate refund for both charges.,high,full_refund
+CMP-00406,ORD-01039,The quality of the product in order ORD-01039 doesn't match the description. Want a return.,medium,partial_refund
+CMP-00407,ORD-01031,URGENT: Order ORD-01031 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,investigation_opened
+CMP-00408,ORD-01139,The invoice for order ORD-01139 has a small typo in my name. Can you correct it?,low,coupon_issued
+CMP-00409,ORD-01053,The product from order ORD-01053 works but the manual was missing. Can you send one?,low,coupon_issued
+CMP-00410,ORD-01044,Order ORD-01044 product has a scratch on the screen. It's supposed to be brand new.,medium,exchange_initiated
+CMP-00411,ORD-00596,Order ORD-00596 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,rescheduled_delivery
+CMP-00412,ORD-00042,URGENT: Order ORD-00042 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,escalated_to_manager
+CMP-00413,ORD-00137,The packaging for order ORD-00137 was slightly damaged but the product inside is okay.,low,coupon_issued
+CMP-00414,ORD-00103,FRAUD ALERT: Order ORD-00103 was delivered to wrong address and signed by unknown person. Need investigation.,high,full_refund
+CMP-00415,ORD-00840,Order ORD-00840 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,replacement_sent
+CMP-00416,ORD-00628,Order ORD-00628 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,partial_refund
+CMP-00417,ORD-00386,The quality of the product in order ORD-00386 doesn't match the description. Want a return.,medium,exchange_initiated
+CMP-00418,ORD-00162,"My order ORD-00162 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,investigation_opened
+CMP-00419,ORD-00878,I need to cancel order ORD-00878 but the app won't let me. It hasn't shipped yet.,medium,rescheduled_delivery
+CMP-00420,ORD-00903,My order ORD-00903 was split into two shipments without notice. One part is still missing.,medium,exchange_initiated
+CMP-00421,ORD-00924,Order ORD-00924 is 10 days late and nobody from support is helping. This is unacceptable! Escalate NOW.,high,escalated_to_manager
+CMP-00422,ORD-00007,I received order ORD-00007 and the color is slightly different from the picture. Not a big deal.,low,no_action
+CMP-00423,ORD-00008,"My order ORD-00008 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,escalated_to_manager
+CMP-00424,ORD-00184,Order ORD-00184 - I've called 5 times about my missing package. Each time told to wait. I want my money back NOW.,high,investigation_opened
+CMP-00425,ORD-00092,Order ORD-00092 product has a scratch on the screen. It's supposed to be brand new.,medium,partial_refund
+CMP-00426,ORD-00724,Order ORD-00724 product has a scratch on the screen. It's supposed to be brand new.,medium,partial_refund
+CMP-00427,ORD-00668,Product from ORD-00668 is good but took 1 extra day compared to the estimate.,low,apology_email
+CMP-00428,ORD-00806,The invoice for order ORD-00806 has a small typo in my name. Can you correct it?,low,no_action
+CMP-00429,ORD-01177,"Minor issue with order ORD-01177 - the accessories were in a separate bag, initially thought missing.",low,no_action
+CMP-00430,ORD-00427,The quality of the product in order ORD-00427 doesn't match the description. Want a return.,medium,exchange_initiated
+CMP-00431,ORD-00711,I need to cancel order ORD-00711 but the app won't let me. It hasn't shipped yet.,medium,exchange_initiated
+CMP-00432,ORD-01109,The product from order ORD-01109 stopped working after 2 days. I want a replacement.,medium,rescheduled_delivery
+CMP-00433,ORD-00709,I need to cancel order ORD-00709 but the app won't let me. It hasn't shipped yet.,medium,exchange_initiated
+CMP-00434,ORD-00130,My order ORD-00130 arrived a day late but everything looks fine. Just wanted to let you know.,low,no_action
+CMP-00435,ORD-00212,My order ORD-00212 was split into two shipments without notice. One part is still missing.,medium,exchange_initiated
+CMP-00436,ORD-00147,URGENT: Order ORD-00147 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,investigation_opened
+CMP-00437,ORD-00975,I paid for express shipping on order ORD-00975 but it's being shipped standard. Need correction.,medium,rescheduled_delivery
+CMP-00438,ORD-00278,The invoice for order ORD-00278 has a small typo in my name. Can you correct it?,low,apology_email
+CMP-00439,ORD-00864,My order ORD-00864 was split into two shipments without notice. One part is still missing.,medium,exchange_initiated
+CMP-00440,ORD-00462,My order ORD-00462 arrived a day late but everything looks fine. Just wanted to let you know.,low,coupon_issued
+CMP-00441,ORD-00422,The product from order ORD-00422 works but the manual was missing. Can you send one?,low,apology_email
+CMP-00442,ORD-01086,Order ORD-01086 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,exchange_initiated
+CMP-00443,ORD-00179,Order ORD-00179 is 10 days late and nobody from support is helping. This is unacceptable! Escalate NOW.,high,investigation_opened
+CMP-00444,ORD-00834,Order ORD-00834 product has a scratch on the screen. It's supposed to be brand new.,medium,rescheduled_delivery
+CMP-00445,ORD-00768,Order ORD-00768 arrived with missing parts. The charger was not included in the box.,medium,replacement_sent
+CMP-00446,ORD-01090,Tracking for order ORD-01090 showed delivered but I found it at neighbor's place.,low,no_action
+CMP-00447,ORD-00611,The quality of the product in order ORD-00611 doesn't match the description. Want a return.,medium,partial_refund
+CMP-00448,ORD-00185,I paid for express shipping on order ORD-00185 but it's being shipped standard. Need correction.,medium,rescheduled_delivery
+CMP-00449,ORD-00735,URGENT: Order ORD-00735 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,investigation_opened
+CMP-00450,ORD-00883,Delivery for ORD-00883 was left at the doorstep without notification. Please improve this.,low,coupon_issued
+CMP-00451,ORD-00627,Order ORD-00627 arrived with missing parts. The charger was not included in the box.,medium,rescheduled_delivery
+CMP-00452,ORD-00091,Order ORD-00091 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,escalated_to_manager
+CMP-00453,ORD-00643,Order ORD-00643 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,replacement_sent
+CMP-00454,ORD-00309,Order ORD-00309 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,partial_refund
+CMP-00455,ORD-00357,The product from order ORD-00357 works but the manual was missing. Can you send one?,low,apology_email
+CMP-00456,ORD-00429,The invoice for order ORD-00429 has a small typo in my name. Can you correct it?,low,apology_email
+CMP-00457,ORD-00005,The product from order ORD-00005 stopped working after 2 days. I want a replacement.,medium,replacement_sent
+CMP-00458,ORD-00572,Order ORD-00572 product is DEFECTIVE and almost caused a safety hazard. This needs immediate attention.,high,refund_with_compensation
+CMP-00459,ORD-00242,Order ORD-00242 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,partial_refund
+CMP-00460,ORD-00197,Order ORD-00197: Allergic reaction from product that had wrong ingredients listed. Need compensation NOW.,high,full_refund
+CMP-00461,ORD-00121,Order ORD-00121 product is DEFECTIVE and almost caused a safety hazard. This needs immediate attention.,high,investigation_opened
+CMP-00462,ORD-00543,I received order ORD-00543 and the color is slightly different from the picture. Not a big deal.,low,no_action
+CMP-00463,ORD-00098,The quality of the product in order ORD-00098 doesn't match the description. Want a return.,medium,rescheduled_delivery
+CMP-00464,ORD-00848,Order ORD-00848 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,refund_with_compensation
+CMP-00465,ORD-01188,Order ORD-01188 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,refund_with_compensation
+CMP-00466,ORD-00553,URGENT: Order ORD-00553 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,full_refund
+CMP-00467,ORD-00520,Order ORD-00520: product arrived but doesn't match the size specifications listed.,medium,exchange_initiated
+CMP-00468,ORD-00225,URGENT: Order ORD-00225 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,full_refund
+CMP-00469,ORD-00476,Order ORD-00476 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,full_refund
+CMP-00470,ORD-01063,URGENT: Order ORD-01063 never arrived and I was charged twice! I need immediate refund for both charges.,high,full_refund
+CMP-00471,ORD-00676,The packaging for order ORD-00676 was slightly damaged but the product inside is okay.,low,no_action
+CMP-00472,ORD-00214,I received a completely damaged product in order ORD-00214. Screen is cracked. DEMAND full refund.,high,refund_with_compensation
+CMP-00473,ORD-00284,Order ORD-00284 was delivered but the seal was broken. I suspect it's a returned product.,medium,exchange_initiated
+CMP-00474,ORD-00055,I received a wrong item in order ORD-00055. I ordered headphones but got a mouse. Need exchange.,medium,partial_refund
+CMP-00475,ORD-00199,I've been waiting for order ORD-00199 refund for a week now. When will it be processed?,medium,partial_refund
+CMP-00476,ORD-00116,I received order ORD-00116 and the color is slightly different from the picture. Not a big deal.,low,apology_email
+CMP-00477,ORD-00860,Order ORD-00860 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,full_refund
+CMP-00478,ORD-00702,Product from ORD-00702 is good but took 1 extra day compared to the estimate.,low,apology_email
+CMP-00479,ORD-00486,Order ORD-00486 delivery was rescheduled twice without my consent. Very inconvenient.,medium,partial_refund
+CMP-00480,ORD-00828,Order ORD-00828 was supposed to arrive yesterday but came today. Minor inconvenience.,low,coupon_issued
+CMP-00481,ORD-00916,Order ORD-00916 product is DEFECTIVE and almost caused a safety hazard. This needs immediate attention.,high,escalated_to_manager
+CMP-00482,ORD-01178,Product from ORD-01178 is good but took 1 extra day compared to the estimate.,low,coupon_issued
+CMP-00483,ORD-01075,The product from order ORD-01075 stopped working after 2 days. I want a replacement.,medium,partial_refund
+CMP-00484,ORD-00045,I've been given the runaround for 2 weeks about order ORD-00045 refund. Filing complaint with consumer forum.,high,investigation_opened
+CMP-00485,ORD-01142,URGENT: Order ORD-01142 was supposed to be a gift. It's 2 weeks late and the occasion has passed. Full refund.,high,refund_with_compensation
+CMP-00486,ORD-01004,"Order ORD-01004 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,escalated_to_manager
+CMP-00487,ORD-00373,"My order ORD-00373 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,full_refund
+CMP-00488,ORD-00292,Order ORD-00292 was supposed to arrive yesterday but came today. Minor inconvenience.,low,apology_email
+CMP-00489,ORD-00215,I received a completely damaged product in order ORD-00215. Screen is cracked. DEMAND full refund.,high,investigation_opened
+CMP-00490,ORD-00446,Product from ORD-00446 is good but took 1 extra day compared to the estimate.,low,no_action
+CMP-00491,ORD-00258,Order ORD-00258 product has a scratch on the screen. It's supposed to be brand new.,medium,partial_refund
+CMP-00492,ORD-01107,URGENT: Order ORD-01107 never arrived and I was charged twice! I need immediate refund for both charges.,high,refund_with_compensation
+CMP-00493,ORD-00632,Order ORD-00632: product arrived but doesn't match the size specifications listed.,medium,rescheduled_delivery
+CMP-00494,ORD-00465,I've been waiting for order ORD-00465 refund for a week now. When will it be processed?,medium,rescheduled_delivery
+CMP-00495,ORD-00967,Delivery for ORD-00967 was left at the doorstep without notification. Please improve this.,low,coupon_issued
+CMP-00496,ORD-00107,Order ORD-00107 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,exchange_initiated
+CMP-00497,ORD-00054,The product from order ORD-00054 stopped working after 2 days. I want a replacement.,medium,exchange_initiated
+CMP-00498,ORD-00551,Order ORD-00551: product arrived but doesn't match the size specifications listed.,medium,exchange_initiated
+CMP-00499,ORD-01054,Order ORD-01054: Allergic reaction from product that had wrong ingredients listed. Need compensation NOW.,high,refund_with_compensation
+CMP-00500,ORD-00808,I got order ORD-00808 a few hours after the estimated window. Not urgent but noting it.,low,apology_email
+CMP-00501,ORD-01129,My order ORD-01129 was split into two shipments without notice. One part is still missing.,medium,partial_refund
+CMP-00502,ORD-00497,Order ORD-00497 delivery was rescheduled twice without my consent. Very inconvenient.,medium,rescheduled_delivery
+CMP-00503,ORD-01157,I got order ORD-01157 a few hours after the estimated window. Not urgent but noting it.,low,coupon_issued
+CMP-00504,ORD-00119,I've been waiting for order ORD-00119 refund for a week now. When will it be processed?,medium,partial_refund
+CMP-00505,ORD-00986,"Minor issue with order ORD-00986 - the accessories were in a separate bag, initially thought missing.",low,coupon_issued
+CMP-00506,ORD-00241,The product from order ORD-00241 stopped working after 2 days. I want a replacement.,medium,rescheduled_delivery
+CMP-00507,ORD-00456,Order ORD-00456 delivery was rescheduled twice without my consent. Very inconvenient.,medium,replacement_sent
+CMP-00508,ORD-00607,I need to cancel order ORD-00607 but the app won't let me. It hasn't shipped yet.,medium,rescheduled_delivery
+CMP-00509,ORD-00858,I got order ORD-00858 a few hours after the estimated window. Not urgent but noting it.,low,apology_email
+CMP-00510,ORD-00334,Product from ORD-00334 is good but took 1 extra day compared to the estimate.,low,coupon_issued
+CMP-00511,ORD-00430,"Order ORD-00430 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,refund_with_compensation
+CMP-00512,ORD-00204,Order ORD-00204 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,exchange_initiated
+CMP-00513,ORD-00691,The product from order ORD-00691 stopped working after 2 days. I want a replacement.,medium,partial_refund
+CMP-00514,ORD-00236,Order ORD-00236 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,partial_refund
+CMP-00515,ORD-00113,Order ORD-00113 delivery was rescheduled twice without my consent. Very inconvenient.,medium,partial_refund
+CMP-00516,ORD-00688,I got order ORD-00688 a few hours after the estimated window. Not urgent but noting it.,low,coupon_issued
+CMP-00517,ORD-00234,Product from ORD-00234 is good but took 1 extra day compared to the estimate.,low,apology_email
+CMP-00518,ORD-00101,Order ORD-00101 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,exchange_initiated
+CMP-00519,ORD-00243,Order ORD-00243 is 10 days late and nobody from support is helping. This is unacceptable! Escalate NOW.,high,full_refund
+CMP-00520,ORD-00423,"Minor issue with order ORD-00423 - the accessories were in a separate bag, initially thought missing.",low,no_action
+CMP-00521,ORD-00205,The quality of the product in order ORD-00205 doesn't match the description. Want a return.,medium,replacement_sent
+CMP-00522,ORD-00385,Order ORD-00385 delivery was rescheduled twice without my consent. Very inconvenient.,medium,exchange_initiated
+CMP-00523,ORD-00824,Order ORD-00824 delivery was rescheduled twice without my consent. Very inconvenient.,medium,exchange_initiated
+CMP-00524,ORD-00076,Order ORD-00076 has been lost by the carrier and nobody takes responsibility. 15 days and counting!,high,investigation_opened
+CMP-00525,ORD-00849,The quality of the product in order ORD-00849 doesn't match the description. Want a return.,medium,exchange_initiated
+CMP-00526,ORD-00600,Order ORD-00600 arrived with missing parts. The charger was not included in the box.,medium,partial_refund
+CMP-00527,ORD-01140,Order ORD-01140 tracking was not updating for a day. It arrived though.,low,apology_email
+CMP-00528,ORD-00716,Order ORD-00716 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,replacement_sent
+CMP-00529,ORD-00973,The quality of the product in order ORD-00973 doesn't match the description. Want a return.,medium,exchange_initiated
+CMP-00530,ORD-00149,Order ORD-00149 tracking was not updating for a day. It arrived though.,low,coupon_issued
+CMP-00531,ORD-00222,I received a wrong item in order ORD-00222. I ordered headphones but got a mouse. Need exchange.,medium,exchange_initiated
+CMP-00532,ORD-01007,Order ORD-01007 was supposed to arrive yesterday but came today. Minor inconvenience.,low,coupon_issued
+CMP-00533,ORD-00466,I got order ORD-00466 a few hours after the estimated window. Not urgent but noting it.,low,no_action
+CMP-00534,ORD-01005,Delivery for ORD-01005 was left at the doorstep without notification. Please improve this.,low,apology_email
+CMP-00535,ORD-00397,The quality of the product in order ORD-00397 doesn't match the description. Want a return.,medium,replacement_sent
+CMP-00536,ORD-00383,I received a completely damaged product in order ORD-00383. Screen is cracked. DEMAND full refund.,high,investigation_opened
+CMP-00537,ORD-01060,"Minor issue with order ORD-01060 - the accessories were in a separate bag, initially thought missing.",low,apology_email
+CMP-00538,ORD-00469,Order ORD-00469 - I've called 5 times about my missing package. Each time told to wait. I want my money back NOW.,high,escalated_to_manager
+CMP-00539,ORD-00726,"Order ORD-00726 is a SCAM - the product is counterfeit, not genuine. I want full refund and compensation.",high,full_refund
+CMP-00540,ORD-00786,Order ORD-00786 was supposed to arrive yesterday but came today. Minor inconvenience.,low,no_action
+CMP-00541,ORD-00904,I've been given the runaround for 2 weeks about order ORD-00904 refund. Filing complaint with consumer forum.,high,investigation_opened
+CMP-00542,ORD-00277,I paid for express shipping on order ORD-00277 but it's being shipped standard. Need correction.,medium,exchange_initiated
+CMP-00543,ORD-00822,Order ORD-00822 delivered broken product. Customer service hung up on me TWICE. Absolutely furious.,high,investigation_opened
+CMP-00544,ORD-00804,My order ORD-00804 was split into two shipments without notice. One part is still missing.,medium,partial_refund
+CMP-00545,ORD-00131,"EXTREMELY DISAPPOINTED with order ORD-00131. Wrong product, damaged box, late delivery. Want to speak to manager.",high,investigation_opened
+CMP-00546,ORD-00033,Order ORD-00033: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,investigation_opened
+CMP-00547,ORD-00583,Tracking for order ORD-00583 showed delivered but I found it at neighbor's place.,low,apology_email
+CMP-00548,ORD-01019,The product from order ORD-01019 works but the manual was missing. Can you send one?,low,coupon_issued
+CMP-00549,ORD-00288,Order ORD-00288 arrived with missing parts. The charger was not included in the box.,medium,partial_refund
+CMP-00550,ORD-00918,Order ORD-00918 product is DEFECTIVE and almost caused a safety hazard. This needs immediate attention.,high,full_refund
+CMP-00551,ORD-00114,Order ORD-00114: Allergic reaction from product that had wrong ingredients listed. Need compensation NOW.,high,investigation_opened
+CMP-00552,ORD-00477,Order ORD-00477 product has a scratch on the screen. It's supposed to be brand new.,medium,replacement_sent
+CMP-00553,ORD-01155,"My order ORD-01155 worth $500+ has vanished. No tracking, no updates, no support. Considering legal action.",high,full_refund
+CMP-00554,ORD-00745,Order ORD-00745 was delivered but the seal was broken. I suspect it's a returned product.,medium,rescheduled_delivery
+CMP-00555,ORD-00176,I received a wrong item in order ORD-00176. I ordered headphones but got a mouse. Need exchange.,medium,replacement_sent
+CMP-00556,ORD-00352,The product from order ORD-00352 works but the manual was missing. Can you send one?,low,coupon_issued
+CMP-00557,ORD-00678,Order ORD-00678 is delayed by 3 days now. I need it for an event this weekend. Please expedite.,medium,partial_refund
+CMP-00558,ORD-00303,"EXTREMELY DISAPPOINTED with order ORD-00303. Wrong product, damaged box, late delivery. Want to speak to manager.",high,full_refund
+CMP-00559,ORD-00619,"Minor issue with order ORD-00619 - the accessories were in a separate bag, initially thought missing.",low,coupon_issued
+CMP-00560,ORD-01172,My order ORD-01172 arrived a day late but everything looks fine. Just wanted to let you know.,low,apology_email
+CMP-00561,ORD-00750,Order ORD-00750 - I've called 5 times about my missing package. Each time told to wait. I want my money back NOW.,high,investigation_opened
+CMP-00562,ORD-01112,I got order ORD-01112 a few hours after the estimated window. Not urgent but noting it.,low,coupon_issued
+CMP-00563,ORD-01084,I paid for express shipping on order ORD-01084 but it's being shipped standard. Need correction.,medium,replacement_sent
+CMP-00564,ORD-00794,Order ORD-00794: product arrived but doesn't match the size specifications listed.,medium,replacement_sent
+CMP-00565,ORD-00718,Order ORD-00718 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,exchange_initiated
+CMP-00566,ORD-00089,I got order ORD-00089 a few hours after the estimated window. Not urgent but noting it.,low,apology_email
+CMP-00567,ORD-00760,I received a wrong item in order ORD-00760. I ordered headphones but got a mouse. Need exchange.,medium,replacement_sent
+CMP-00568,ORD-00535,"EXTREMELY DISAPPOINTED with order ORD-00535. Wrong product, damaged box, late delivery. Want to speak to manager.",high,escalated_to_manager
+CMP-00569,ORD-00852,Order ORD-00852 tracking was not updating for a day. It arrived though.,low,apology_email
+CMP-00570,ORD-00851,I received a completely damaged product in order ORD-00851. Screen is cracked. DEMAND full refund.,high,refund_with_compensation
+CMP-00571,ORD-00880,Order ORD-00880: Received used item sold as new. Battery is degraded. This is FRAUD. Refund immediately.,high,escalated_to_manager
+CMP-00572,ORD-01192,Order ORD-01192 was supposed to arrive yesterday but came today. Minor inconvenience.,low,no_action
+CMP-00573,ORD-00474,My order ORD-00474 arrived a day late but everything looks fine. Just wanted to let you know.,low,apology_email
+CMP-00574,ORD-00286,I've been waiting for order ORD-00286 refund for a week now. When will it be processed?,medium,partial_refund
+CMP-00575,ORD-01189,I've been waiting for order ORD-01189 refund for a week now. When will it be processed?,medium,rescheduled_delivery
+CMP-00576,ORD-00439,I need to cancel order ORD-00439 but the app won't let me. It hasn't shipped yet.,medium,replacement_sent
+CMP-00577,ORD-00253,I received order ORD-00253 and the color is slightly different from the picture. Not a big deal.,low,coupon_issued
+CMP-00578,ORD-00254,The quality of the product in order ORD-00254 doesn't match the description. Want a return.,medium,exchange_initiated
+CMP-00579,ORD-00336,FRAUD ALERT: Order ORD-00336 was delivered to wrong address and signed by unknown person. Need investigation.,high,full_refund
+CMP-00580,ORD-01045,Order ORD-01045 delivery was rescheduled twice without my consent. Very inconvenient.,medium,exchange_initiated
+CMP-00581,ORD-01066,My order ORD-01066 arrived a day late but everything looks fine. Just wanted to let you know.,low,apology_email
+CMP-00582,ORD-01038,Order ORD-01038: product arrived but doesn't match the size specifications listed.,medium,replacement_sent
+CMP-00583,ORD-00630,The product from order ORD-00630 works but the manual was missing. Can you send one?,low,coupon_issued
+CMP-00584,ORD-00775,Product from ORD-00775 is good but took 1 extra day compared to the estimate.,low,coupon_issued
+CMP-00585,ORD-01141,Order ORD-01141 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,rescheduled_delivery
+CMP-00586,ORD-00006,The quality of the product in order ORD-00006 doesn't match the description. Want a return.,medium,replacement_sent
+CMP-00587,ORD-00428,"EXTREMELY DISAPPOINTED with order ORD-00428. Wrong product, damaged box, late delivery. Want to speak to manager.",high,escalated_to_manager
+CMP-00588,ORD-00046,I received a completely damaged product in order ORD-00046. Screen is cracked. DEMAND full refund.,high,refund_with_compensation
+CMP-00589,ORD-00789,Order ORD-00789 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,partial_refund
+CMP-00590,ORD-00482,Order ORD-00482 arrived with missing parts. The charger was not included in the box.,medium,exchange_initiated
+CMP-00591,ORD-01134,"Order ORD-01134: the box was a bit crushed but product is fine, thanks.",low,apology_email
+CMP-00592,ORD-00035,Order ORD-00035 has been lost by the carrier and nobody takes responsibility. 15 days and counting!,high,refund_with_compensation
+CMP-00593,ORD-00436,Order ORD-00436 has been stuck in transit for 5 days. No tracking updates. Very frustrating.,medium,replacement_sent
+CMP-00594,ORD-00544,"Minor issue with order ORD-00544 - the accessories were in a separate bag, initially thought missing.",low,apology_email
+CMP-00595,ORD-00404,Delivery for ORD-00404 was left at the doorstep without notification. Please improve this.,low,coupon_issued
+CMP-00596,ORD-00491,I've been waiting for order ORD-00491 refund for a week now. When will it be processed?,medium,partial_refund
+CMP-00597,ORD-00683,Order ORD-00683 delivery was rescheduled twice without my consent. Very inconvenient.,medium,rescheduled_delivery
+CMP-00598,ORD-00464,Tracking for order ORD-00464 showed delivered but I found it at neighbor's place.,low,coupon_issued
+CMP-00599,ORD-00508,Order ORD-00508 was marked delivered but I haven't received it. Delivery agent marked wrong.,medium,replacement_sent
+CMP-00600,ORD-00247,I received a wrong item in order ORD-00247. I ordered headphones but got a mouse. Need exchange.,medium,partial_refund

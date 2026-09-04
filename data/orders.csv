@@ -1,0 +1,1201 @@
+order_id,customer_name,product,order_date,status,carrier,delivery_date,delay_reason
+ORD-00001,Carlos Verma,Wireless Bluetooth Headphones,2024-10-08,in_transit,UPS,,
+ORD-00002,Krishna Joshi,Action Camera 4K Waterproof,2025-07-12,delivered,BlueDart,2025-07-19,customs_clearance
+ORD-00003,Kavya Jones,Ring Light 12-inch,2025-09-08,delivered,BlueDart,2025-09-12,
+ORD-00004,Chen Ali,Desk Lamp LED Dimmable,2024-08-13,returned,BlueDart,,address_error
+ORD-00005,Aarav Smith,Drone Mini Foldable,2025-03-08,delayed,DHL,,warehouse_backlog
+ORD-00006,Kavya Anderson,Mechanical Keyboard RGB,2024-04-04,returned,FedEx,,out_of_stock
+ORD-00007,Liam Fernandez,Tablet Stand Holder,2024-02-14,out_for_delivery,USPS,,
+ORD-00008,Alexander Verma,Robot Vacuum Cleaner,2025-01-22,delivered,BlueDart,2025-01-27,
+ORD-00009,Evelyn Taylor,Router WiFi 6 Mesh,2024-07-15,out_for_delivery,FedEx,,
+ORD-00010,Aditya Jones,E-Reader 8-inch Display,2024-10-23,delivered,Amazon Logistics,2024-10-27,
+ORD-00011,Noah Davis,Cable Management Kit,2025-10-12,delayed,UPS,,out_of_stock
+ORD-00012,Liam Brown,Action Camera 4K Waterproof,2024-09-30,out_for_delivery,Delhivery,,
+ORD-00013,Maria Reddy,Surge Protector 8-Outlet,2025-10-12,in_transit,BlueDart,,
+ORD-00014,Fatima Garcia,Webcam HD 1080p,2025-04-18,returned,DHL,,incorrect_routing
+ORD-00015,Isha Wilson,Smart Home Hub,2024-02-27,in_transit,Amazon Logistics,,
+ORD-00016,Aditya Wilson,Phone Case Premium Leather,2024-10-01,delivered,UPS,2024-10-11,
+ORD-00017,James Brown,Smart Speaker Voice Assistant,2025-05-26,returned,Delhivery,,high_demand_surge
+ORD-00018,Ishaan Miller,Portable SSD 1TB,2024-09-09,out_for_delivery,BlueDart,,
+ORD-00019,Alexander Miller,VR Headset Standalone,2025-08-21,returned,BlueDart,,vehicle_breakdown
+ORD-00020,Olivia Jones,Portable SSD 1TB,2025-06-05,returned,FedEx,,weather_disruption
+ORD-00021,Ayaan Mehta,Smart Speaker Voice Assistant,2024-06-12,out_for_delivery,USPS,,
+ORD-00022,Matthew Reddy,Phone Case Premium Leather,2025-01-25,cancelled,USPS,,
+ORD-00023,Charlotte Miller,Graphics Tablet Drawing,2024-01-12,out_for_delivery,Delhivery,,
+ORD-00024,Ayaan Ali,E-Reader 8-inch Display,2024-09-30,out_for_delivery,DHL,,
+ORD-00025,Ayaan Rodriguez,Desk Lamp LED Dimmable,2024-06-10,returned,FedEx,,address_error
+ORD-00026,Henry Johnson,Ring Light 12-inch,2024-04-18,out_for_delivery,DHL,,
+ORD-00027,Carlos Li,Surge Protector 8-Outlet,2024-07-22,in_transit,DHL,,
+ORD-00028,Priyanka Smith,Graphics Tablet Drawing,2025-06-27,delivered,BlueDart,2025-07-03,
+ORD-00029,Ayaan Taylor,Air Purifier HEPA Filter,2024-11-10,in_transit,FedEx,,
+ORD-00030,Meera Park,USB-C Hub 7-in-1,2024-03-28,out_for_delivery,USPS,,
+ORD-00031,Arjun Ali,E-Reader 8-inch Display,2024-05-08,in_transit,Delhivery,,
+ORD-00032,Lucas Kim,Webcam HD 1080p,2024-09-28,cancelled,Amazon Logistics,,
+ORD-00033,Matthew Lee,Smart Watch Fitness Tracker,2025-07-06,out_for_delivery,Delhivery,,
+ORD-00034,Priya Martinez,Phone Case Premium Leather,2025-11-18,out_for_delivery,DHL,,
+ORD-00035,Benjamin Hassan,Cable Management Kit,2024-05-03,in_transit,UPS,,
+ORD-00036,Arjun Anderson,Wireless Bluetooth Headphones,2025-08-25,cancelled,UPS,,
+ORD-00037,Harper Jones,Wireless Bluetooth Headphones,2024-03-13,out_for_delivery,Delhivery,,
+ORD-00038,Vihaan Jones,USB-C Hub 7-in-1,2024-02-02,delayed,FedEx,,incorrect_routing
+ORD-00039,Meera Davis,Action Camera 4K Waterproof,2025-05-12,in_transit,BlueDart,,
+ORD-00040,Krishna Park,Router WiFi 6 Mesh,2025-04-29,in_transit,Amazon Logistics,,
+ORD-00041,Lucas Martin,Smart Watch Fitness Tracker,2024-04-06,delivered,Delhivery,2024-04-13,
+ORD-00042,William Thompson,Electric Toothbrush Sonic,2024-02-25,out_for_delivery,Delhivery,,
+ORD-00043,Maria Joshi,Laptop Stand Adjustable,2025-02-16,out_for_delivery,DHL,,
+ORD-00044,Reyansh Garcia,Smart Watch Fitness Tracker,2024-07-13,cancelled,USPS,,
+ORD-00045,Krishna Lee,Webcam HD 1080p,2024-10-12,returned,UPS,,customs_clearance
+ORD-00046,Benjamin Kim,Mechanical Keyboard RGB,2024-02-21,out_for_delivery,BlueDart,,
+ORD-00047,Aarav Gupta,Robot Vacuum Cleaner,2024-08-30,in_transit,USPS,,
+ORD-00048,Mia Nakamura,Smart Watch Fitness Tracker,2025-02-14,delivered,UPS,2025-02-21,vehicle_breakdown
+ORD-00049,Riya Thompson,External Battery 20000mAh,2025-03-09,out_for_delivery,Delhivery,,
+ORD-00050,Amelia Wang,Portable SSD 1TB,2024-07-13,delayed,UPS,,weather_disruption
+ORD-00051,Harper Ali,Laptop Stand Adjustable,2024-11-17,delivered,FedEx,2024-11-27,
+ORD-00052,Charlotte Smith,Laptop Stand Adjustable,2025-06-04,delivered,Amazon Logistics,2025-06-07,customs_clearance
+ORD-00053,Haruto Garcia,Phone Case Premium Leather,2024-05-02,cancelled,UPS,,
+ORD-00054,Harper Fernandez,Laptop Stand Adjustable,2025-09-26,delivered,USPS,2025-10-07,
+ORD-00055,Charlotte Wilson,Robot Vacuum Cleaner,2024-09-24,in_transit,Delhivery,,
+ORD-00056,Wei Wilson,Noise Cancelling Earbuds,2024-09-28,returned,UPS,,address_error
+ORD-00057,Isabella Wilson,Robot Vacuum Cleaner,2024-03-15,delivered,USPS,2024-03-25,
+ORD-00058,Reyansh Reddy,Graphics Tablet Drawing,2024-08-06,cancelled,DHL,,
+ORD-00059,Krishna Thomas,Air Purifier HEPA Filter,2024-03-11,in_transit,DHL,,
+ORD-00060,Aanya Smith,Cable Management Kit,2025-07-10,out_for_delivery,DHL,,
+ORD-00061,Evelyn Hassan,Wireless Bluetooth Headphones,2025-11-14,cancelled,DHL,,
+ORD-00062,Yuki Joshi,Air Purifier HEPA Filter,2024-05-17,delayed,FedEx,,customs_clearance
+ORD-00063,Ahmed Kim,Portable SSD 1TB,2024-10-05,delayed,BlueDart,,carrier_issue
+ORD-00064,Wei Anderson,Smart Watch Fitness Tracker,2025-12-04,out_for_delivery,Amazon Logistics,,
+ORD-00065,Riya Li,Microphone USB Condenser,2024-09-14,delivered,FedEx,2024-09-25,
+ORD-00066,Saanvi Kumar,Wireless Bluetooth Headphones,2024-12-07,in_transit,Delhivery,,
+ORD-00067,Riya Smith,VR Headset Standalone,2025-03-28,cancelled,Delhivery,,
+ORD-00068,Sophia Kim,Wireless Bluetooth Headphones,2024-04-24,delivered,Delhivery,2024-04-27,
+ORD-00069,Olivia Santos,Graphics Tablet Drawing,2024-05-31,returned,UPS,,weather_disruption
+ORD-00070,Navya Taylor,Air Purifier HEPA Filter,2024-02-10,delayed,UPS,,carrier_issue
+ORD-00071,Yuki Joshi,Wireless Mouse Ergonomic,2025-07-27,returned,BlueDart,,warehouse_backlog
+ORD-00072,Meera Smith,Portable Projector Mini,2024-06-30,returned,FedEx,,warehouse_backlog
+ORD-00073,Ahmed Anderson,Portable Projector Mini,2025-02-25,out_for_delivery,Amazon Logistics,,
+ORD-00074,Ahmed Garcia,Tablet Stand Holder,2024-06-12,out_for_delivery,FedEx,,
+ORD-00075,Noah Kumar,Electric Toothbrush Sonic,2025-04-26,in_transit,UPS,,
+ORD-00076,Isabella Thomas,External Battery 20000mAh,2024-08-21,in_transit,FedEx,,
+ORD-00077,Yuki Williams,Phone Case Premium Leather,2024-12-02,delayed,Amazon Logistics,,customs_clearance
+ORD-00078,Rahul Davis,Wireless Mouse Ergonomic,2025-10-18,cancelled,USPS,,
+ORD-00079,Haruto Ali,Monitor 27-inch 4K,2024-01-29,delivered,DHL,2024-02-01,
+ORD-00080,Riya Kumar,Mechanical Keyboard RGB,2025-09-02,returned,DHL,,out_of_stock
+ORD-00081,Sophia Fernandez,Ring Light 12-inch,2024-04-28,returned,BlueDart,,carrier_issue
+ORD-00082,Riya Kumar,Drone Mini Foldable,2025-03-22,delivered,BlueDart,2025-04-04,
+ORD-00083,Fatima Williams,Wireless Mouse Ergonomic,2025-03-17,delivered,Delhivery,2025-03-23,
+ORD-00084,Yuki Verma,VR Headset Standalone,2024-11-03,cancelled,DHL,,
+ORD-00085,Yuki Martin,Monitor 27-inch 4K,2025-02-16,out_for_delivery,DHL,,
+ORD-00086,Amelia Yadav,Smart Watch Fitness Tracker,2025-03-06,out_for_delivery,USPS,,
+ORD-00087,Haruto Johnson,Surge Protector 8-Outlet,2025-08-05,delayed,USPS,,incorrect_routing
+ORD-00088,Aarav Martinez,External Battery 20000mAh,2024-08-03,returned,Amazon Logistics,,security_check
+ORD-00089,Matthew Wilson,Cable Management Kit,2025-03-28,returned,Delhivery,,carrier_issue
+ORD-00090,Henry Nakamura,Portable Projector Mini,2024-06-22,out_for_delivery,FedEx,,
+ORD-00091,Aanya Li,Action Camera 4K Waterproof,2025-10-10,cancelled,DHL,,
+ORD-00092,Sai Garcia,Action Camera 4K Waterproof,2024-11-13,in_transit,Amazon Logistics,,
+ORD-00093,Priya Mehta,Wireless Bluetooth Headphones,2024-02-17,in_transit,USPS,,
+ORD-00094,Evelyn Reddy,Cable Management Kit,2025-02-28,out_for_delivery,BlueDart,,
+ORD-00095,Priya Moore,Microphone USB Condenser,2025-02-13,in_transit,UPS,,
+ORD-00096,Maria Sharma,Air Purifier HEPA Filter,2024-04-19,returned,UPS,,warehouse_backlog
+ORD-00097,Chen Hassan,Cable Management Kit,2024-02-21,cancelled,UPS,,
+ORD-00098,Ayaan Thompson,Portable SSD 1TB,2025-04-20,out_for_delivery,BlueDart,,
+ORD-00099,Amelia Fernandez,Monitor 27-inch 4K,2025-03-29,cancelled,Amazon Logistics,,
+ORD-00100,Fatima Li,Desk Lamp LED Dimmable,2025-07-15,returned,UPS,,high_demand_surge
+ORD-00101,Benjamin Miller,E-Reader 8-inch Display,2024-09-10,out_for_delivery,DHL,,
+ORD-00102,Rahul Hassan,Microphone USB Condenser,2025-10-03,in_transit,DHL,,
+ORD-00103,Benjamin Reddy,Drone Mini Foldable,2024-10-19,in_transit,DHL,,
+ORD-00104,Emma Wilson,Air Purifier HEPA Filter,2025-07-07,delivered,UPS,2025-07-10,
+ORD-00105,Chen Mehta,Drone Mini Foldable,2024-08-07,delivered,USPS,2024-08-14,
+ORD-00106,Isabella Martin,Laptop Stand Adjustable,2024-07-30,returned,USPS,,security_check
+ORD-00107,Chen Patel,Electric Toothbrush Sonic,2025-08-12,returned,USPS,,weather_disruption
+ORD-00108,Liam Martinez,E-Reader 8-inch Display,2025-02-03,returned,BlueDart,,incorrect_routing
+ORD-00109,Matthew Jones,Microphone USB Condenser,2024-08-12,delayed,USPS,,high_demand_surge
+ORD-00110,Vivaan Moore,Monitor 27-inch 4K,2025-11-15,out_for_delivery,Amazon Logistics,,
+ORD-00111,Ava Smith,Smart Home Hub,2025-04-23,in_transit,BlueDart,,
+ORD-00112,Alexander Patel,Robot Vacuum Cleaner,2025-02-07,cancelled,BlueDart,,
+ORD-00113,Yuki Patel,USB-C Hub 7-in-1,2025-10-20,returned,UPS,,high_demand_surge
+ORD-00114,Diya Singh,Tablet Stand Holder,2025-01-23,delayed,UPS,,high_demand_surge
+ORD-00115,James Anderson,E-Reader 8-inch Display,2025-01-23,delayed,Amazon Logistics,,vehicle_breakdown
+ORD-00116,Riya Gupta,Microphone USB Condenser,2024-01-20,out_for_delivery,BlueDart,,
+ORD-00117,Vihaan Thomas,Noise Cancelling Earbuds,2025-10-27,delivered,Amazon Logistics,2025-11-07,weather_disruption
+ORD-00118,Meera Williams,Smart Home Hub,2024-01-21,cancelled,UPS,,
+ORD-00119,Meera Yadav,Microphone USB Condenser,2025-11-16,delivered,BlueDart,2025-11-20,
+ORD-00120,Riya Taylor,Webcam HD 1080p,2025-09-12,cancelled,Delhivery,,
+ORD-00121,Wei Verma,E-Reader 8-inch Display,2024-06-16,delayed,FedEx,,security_check
+ORD-00122,Vivaan Martinez,Router WiFi 6 Mesh,2025-11-24,returned,USPS,,carrier_issue
+ORD-00123,Arjun Santos,Drone Mini Foldable,2025-10-04,in_transit,FedEx,,
+ORD-00124,Chen Martinez,Electric Toothbrush Sonic,2025-12-01,cancelled,Amazon Logistics,,
+ORD-00125,Ayaan Park,Portable Projector Mini,2024-02-12,delayed,BlueDart,,vehicle_breakdown
+ORD-00126,Yuki Taylor,USB-C Hub 7-in-1,2025-06-02,out_for_delivery,DHL,,
+ORD-00127,Aarav Martin,Smart Home Hub,2025-05-16,delivered,USPS,2025-05-22,
+ORD-00128,Isabella Mehta,Desk Lamp LED Dimmable,2024-06-29,out_for_delivery,BlueDart,,
+ORD-00129,Maria Davis,Surge Protector 8-Outlet,2025-07-05,returned,USPS,,vehicle_breakdown
+ORD-00130,Fatima Santos,Tablet Stand Holder,2024-11-26,in_transit,Amazon Logistics,,
+ORD-00131,Sai Davis,Air Purifier HEPA Filter,2025-04-06,in_transit,Amazon Logistics,,
+ORD-00132,Isabella Park,Surge Protector 8-Outlet,2025-11-15,returned,DHL,,weather_disruption
+ORD-00133,Mia Wilson,Webcam HD 1080p,2025-05-14,in_transit,DHL,,
+ORD-00134,Riya Anderson,Tablet Stand Holder,2025-09-02,out_for_delivery,DHL,,
+ORD-00135,Amelia Sharma,Ring Light 12-inch,2024-07-14,delivered,UPS,2024-07-26,
+ORD-00136,Amelia Garcia,Drone Mini Foldable,2025-05-02,out_for_delivery,Delhivery,,
+ORD-00137,Mia Perez,Portable Projector Mini,2024-01-18,delivered,DHL,2024-01-22,
+ORD-00138,Meera Martinez,Action Camera 4K Waterproof,2025-08-18,delayed,USPS,,incorrect_routing
+ORD-00139,Charlotte Thomas,Desk Lamp LED Dimmable,2025-07-17,delayed,DHL,,high_demand_surge
+ORD-00140,Saanvi Martinez,Tablet Stand Holder,2024-08-24,delivered,Delhivery,2024-08-28,
+ORD-00141,Ahmed Ali,E-Reader 8-inch Display,2025-12-07,in_transit,UPS,,
+ORD-00142,Kavya Nakamura,Tablet Stand Holder,2025-08-26,cancelled,BlueDart,,
+ORD-00143,Aanya Joshi,Smart Home Hub,2024-07-17,delayed,UPS,,out_of_stock
+ORD-00144,Diya Martinez,Wireless Bluetooth Headphones,2025-12-26,cancelled,UPS,,
+ORD-00145,Saanvi Kumar,Laptop Stand Adjustable,2025-07-20,delayed,Delhivery,,warehouse_backlog
+ORD-00146,Carlos Wang,Mechanical Keyboard RGB,2024-01-13,cancelled,DHL,,
+ORD-00147,Lucas Nakamura,Cable Management Kit,2024-12-14,in_transit,FedEx,,
+ORD-00148,Riya Nakamura,Mechanical Keyboard RGB,2024-03-07,returned,USPS,,customs_clearance
+ORD-00149,Daniel Singh,Portable SSD 1TB,2024-06-01,cancelled,DHL,,
+ORD-00150,Sai Garcia,Mechanical Keyboard RGB,2025-07-25,returned,BlueDart,,security_check
+ORD-00151,Evelyn Jones,E-Reader 8-inch Display,2025-06-19,returned,USPS,,high_demand_surge
+ORD-00152,Navya Santos,Desk Lamp LED Dimmable,2024-11-08,cancelled,BlueDart,,
+ORD-00153,Vihaan Nguyen,VR Headset Standalone,2024-04-11,in_transit,Delhivery,,
+ORD-00154,Kavya Miller,Action Camera 4K Waterproof,2024-03-24,in_transit,UPS,,
+ORD-00155,Diya Kim,USB-C Hub 7-in-1,2024-06-09,delivered,USPS,2024-06-17,
+ORD-00156,Lucas Rodriguez,Laptop Stand Adjustable,2024-08-25,delayed,Delhivery,,address_error
+ORD-00157,Chen Thompson,USB-C Hub 7-in-1,2025-12-04,in_transit,DHL,,
+ORD-00158,Carlos Santos,Action Camera 4K Waterproof,2024-07-21,returned,FedEx,,incorrect_routing
+ORD-00159,Isha Mehta,Robot Vacuum Cleaner,2024-09-29,in_transit,FedEx,,
+ORD-00160,Vihaan Smith,Portable Projector Mini,2024-11-10,cancelled,Delhivery,,
+ORD-00161,Daniel Rodriguez,Cable Management Kit,2024-05-07,returned,Delhivery,,address_error
+ORD-00162,Chen Jackson,Tablet Stand Holder,2025-05-27,cancelled,USPS,,
+ORD-00163,Benjamin Gupta,Surge Protector 8-Outlet,2024-02-10,returned,Delhivery,,out_of_stock
+ORD-00164,Matthew Miller,Wireless Bluetooth Headphones,2024-04-03,in_transit,Delhivery,,
+ORD-00165,Daniel Santos,Wireless Bluetooth Headphones,2025-11-19,delayed,BlueDart,,weather_disruption
+ORD-00166,Priyanka Johnson,Microphone USB Condenser,2025-06-15,out_for_delivery,USPS,,
+ORD-00167,Saanvi Johnson,Router WiFi 6 Mesh,2025-03-22,out_for_delivery,Amazon Logistics,,
+ORD-00168,Mia Gupta,Microphone USB Condenser,2024-12-22,returned,DHL,,out_of_stock
+ORD-00169,Yuki Joshi,Electric Toothbrush Sonic,2024-06-13,delayed,USPS,,high_demand_surge
+ORD-00170,Aanya Jackson,Smart Home Hub,2025-07-17,delivered,USPS,2025-07-19,
+ORD-00171,James Verma,E-Reader 8-inch Display,2025-02-17,cancelled,Amazon Logistics,,
+ORD-00172,Aarav Ali,Cable Management Kit,2025-02-27,delivered,UPS,2025-03-08,
+ORD-00173,Priyanka Wang,Smart Speaker Voice Assistant,2025-03-28,delivered,UPS,2025-04-02,
+ORD-00174,Aanya Perez,Air Purifier HEPA Filter,2025-12-16,returned,FedEx,,weather_disruption
+ORD-00175,Carlos Fernandez,Portable Projector Mini,2024-09-02,out_for_delivery,UPS,,
+ORD-00176,Navya Kim,Wireless Bluetooth Headphones,2025-07-19,returned,FedEx,,carrier_issue
+ORD-00177,Ayaan Thompson,Mechanical Keyboard RGB,2025-10-25,in_transit,USPS,,
+ORD-00178,Wei Rodriguez,Ring Light 12-inch,2025-12-23,delayed,USPS,,high_demand_surge
+ORD-00179,Lucas Garcia,Cable Management Kit,2025-07-18,in_transit,USPS,,
+ORD-00180,Priya Fernandez,Ring Light 12-inch,2024-05-19,delivered,DHL,2024-06-01,
+ORD-00181,William Anderson,Robot Vacuum Cleaner,2025-06-03,delayed,Amazon Logistics,,weather_disruption
+ORD-00182,Aanya Martinez,Smart Home Hub,2025-08-24,cancelled,Delhivery,,
+ORD-00183,Mia Mehta,Cable Management Kit,2025-07-05,returned,DHL,,out_of_stock
+ORD-00184,Amelia Ali,Phone Case Premium Leather,2025-04-11,delayed,Amazon Logistics,,carrier_issue
+ORD-00185,Chen Garcia,Router WiFi 6 Mesh,2025-01-27,in_transit,Amazon Logistics,,
+ORD-00186,Rahul Martin,Laptop Stand Adjustable,2024-11-21,out_for_delivery,USPS,,
+ORD-00187,Wei Moore,Phone Case Premium Leather,2025-11-10,out_for_delivery,UPS,,
+ORD-00188,Mia Kumar,Portable SSD 1TB,2025-05-29,cancelled,DHL,,
+ORD-00189,Reyansh Perez,Mechanical Keyboard RGB,2025-06-22,returned,FedEx,,warehouse_backlog
+ORD-00190,William Mehta,USB-C Hub 7-in-1,2025-04-25,delayed,DHL,,security_check
+ORD-00191,Chen Jackson,Smart Speaker Voice Assistant,2024-03-23,delayed,Amazon Logistics,,incorrect_routing
+ORD-00192,Noah Wilson,Smart Speaker Voice Assistant,2025-05-14,cancelled,FedEx,,
+ORD-00193,Evelyn Reddy,Noise Cancelling Earbuds,2025-10-08,out_for_delivery,DHL,,
+ORD-00194,Isha Gupta,Desk Lamp LED Dimmable,2024-04-10,out_for_delivery,Delhivery,,
+ORD-00195,Reyansh Perez,Webcam HD 1080p,2025-12-11,delayed,FedEx,,weather_disruption
+ORD-00196,James Singh,External Battery 20000mAh,2025-01-02,delayed,USPS,,warehouse_backlog
+ORD-00197,Meera Hassan,Desk Lamp LED Dimmable,2025-08-02,out_for_delivery,Amazon Logistics,,
+ORD-00198,Diya Smith,Webcam HD 1080p,2024-03-21,cancelled,Amazon Logistics,,
+ORD-00199,Noah Nguyen,Action Camera 4K Waterproof,2024-09-03,returned,BlueDart,,warehouse_backlog
+ORD-00200,Isha Thompson,Smart Speaker Voice Assistant,2024-09-17,returned,DHL,,weather_disruption
+ORD-00201,Isabella Rodriguez,Action Camera 4K Waterproof,2025-07-13,in_transit,FedEx,,
+ORD-00202,Benjamin Thomas,Router WiFi 6 Mesh,2024-11-02,out_for_delivery,USPS,,
+ORD-00203,Chen Miller,Cable Management Kit,2024-11-05,in_transit,USPS,,
+ORD-00204,Lucas Joshi,Noise Cancelling Earbuds,2025-01-25,cancelled,DHL,,
+ORD-00205,Daniel Rodriguez,Drone Mini Foldable,2024-10-29,delivered,Amazon Logistics,2024-11-09,
+ORD-00206,Aarav Park,Electric Toothbrush Sonic,2025-12-03,out_for_delivery,FedEx,,
+ORD-00207,Matthew Wang,Smart Home Hub,2024-10-20,in_transit,BlueDart,,
+ORD-00208,Liam Jones,Smart Speaker Voice Assistant,2024-07-13,cancelled,DHL,,
+ORD-00209,Haruto Yadav,Smart Speaker Voice Assistant,2024-04-09,out_for_delivery,Delhivery,,
+ORD-00210,Aditya Martinez,Portable Projector Mini,2025-03-27,delivered,BlueDart,2025-04-02,
+ORD-00211,Sai Rodriguez,Monitor 27-inch 4K,2025-03-01,in_transit,UPS,,
+ORD-00212,Krishna Ali,Air Purifier HEPA Filter,2025-01-09,cancelled,BlueDart,,
+ORD-00213,Saanvi Smith,Tablet Stand Holder,2025-05-08,delayed,Delhivery,,out_of_stock
+ORD-00214,Ayaan Thompson,USB-C Hub 7-in-1,2024-05-24,in_transit,Amazon Logistics,,
+ORD-00215,Haruto Jackson,Electric Toothbrush Sonic,2025-07-24,delayed,FedEx,,vehicle_breakdown
+ORD-00216,Aarav Miller,Graphics Tablet Drawing,2024-05-06,returned,DHL,,address_error
+ORD-00217,Harper Moore,Smart Home Hub,2025-10-15,delayed,FedEx,,carrier_issue
+ORD-00218,Lucas Patel,Surge Protector 8-Outlet,2025-07-28,delayed,BlueDart,,carrier_issue
+ORD-00219,Maria Reddy,Smart Speaker Voice Assistant,2025-04-20,out_for_delivery,DHL,,
+ORD-00220,Maria Martin,Mechanical Keyboard RGB,2024-05-23,delivered,FedEx,2024-05-28,
+ORD-00221,Ayaan Joshi,Noise Cancelling Earbuds,2025-07-04,in_transit,USPS,,
+ORD-00222,Isabella Taylor,Action Camera 4K Waterproof,2025-12-14,cancelled,USPS,,
+ORD-00223,Harper Mehta,Air Purifier HEPA Filter,2025-02-28,out_for_delivery,FedEx,,
+ORD-00224,Mia Nguyen,Desk Lamp LED Dimmable,2024-10-13,delivered,Delhivery,2024-10-19,
+ORD-00225,Benjamin Garcia,Electric Toothbrush Sonic,2025-01-06,delivered,Delhivery,2025-01-12,
+ORD-00226,Maria Thomas,Laptop Stand Adjustable,2025-02-11,delayed,UPS,,customs_clearance
+ORD-00227,Isabella Gupta,Action Camera 4K Waterproof,2024-08-05,out_for_delivery,Delhivery,,
+ORD-00228,Matthew Patel,Laptop Stand Adjustable,2024-12-07,in_transit,UPS,,
+ORD-00229,Daniel Brown,USB-C Hub 7-in-1,2025-07-21,in_transit,BlueDart,,
+ORD-00230,Kavya Jones,Monitor 27-inch 4K,2024-05-31,cancelled,FedEx,,
+ORD-00231,Saanvi Mehta,Portable SSD 1TB,2025-07-07,delayed,Amazon Logistics,,warehouse_backlog
+ORD-00232,Ayaan Patel,Portable SSD 1TB,2024-01-16,delayed,Amazon Logistics,,carrier_issue
+ORD-00233,Harper Wilson,Wireless Bluetooth Headphones,2024-06-27,delayed,FedEx,,warehouse_backlog
+ORD-00234,Ahmed Martin,Ring Light 12-inch,2024-04-26,out_for_delivery,FedEx,,
+ORD-00235,Lucas Perez,E-Reader 8-inch Display,2025-01-05,cancelled,BlueDart,,
+ORD-00236,Reyansh Perez,Ring Light 12-inch,2024-08-14,cancelled,FedEx,,
+ORD-00237,Fatima Hassan,External Battery 20000mAh,2025-04-14,out_for_delivery,FedEx,,
+ORD-00238,Vihaan Nakamura,Electric Toothbrush Sonic,2025-02-15,returned,Delhivery,,customs_clearance
+ORD-00239,Mia Perez,USB-C Hub 7-in-1,2024-03-23,delayed,BlueDart,,warehouse_backlog
+ORD-00240,Arjun Yadav,Tablet Stand Holder,2025-10-01,out_for_delivery,BlueDart,,
+ORD-00241,Amelia Wilson,Phone Case Premium Leather,2025-09-03,cancelled,DHL,,
+ORD-00242,Isabella Li,Surge Protector 8-Outlet,2025-03-16,delivered,Amazon Logistics,2025-03-28,incorrect_routing
+ORD-00243,Fatima Brown,Desk Lamp LED Dimmable,2025-04-07,in_transit,USPS,,
+ORD-00244,Emma Thompson,Phone Case Premium Leather,2025-03-01,out_for_delivery,FedEx,,
+ORD-00245,James Lee,Monitor 27-inch 4K,2025-11-12,delayed,DHL,,warehouse_backlog
+ORD-00246,Haruto Nakamura,USB-C Hub 7-in-1,2024-04-03,delivered,FedEx,2024-04-10,out_of_stock
+ORD-00247,Krishna Kim,Laptop Stand Adjustable,2025-08-23,cancelled,BlueDart,,
+ORD-00248,Emma Verma,Desk Lamp LED Dimmable,2024-12-28,out_for_delivery,Amazon Logistics,,
+ORD-00249,Sophia Singh,External Battery 20000mAh,2025-09-06,delayed,DHL,,customs_clearance
+ORD-00250,Daniel Li,Smart Watch Fitness Tracker,2024-06-07,out_for_delivery,USPS,,
+ORD-00251,Isha Joshi,Wireless Mouse Ergonomic,2025-07-23,delayed,FedEx,,address_error
+ORD-00252,Daniel Jones,Portable Projector Mini,2025-03-15,cancelled,Amazon Logistics,,
+ORD-00253,Evelyn Nguyen,Action Camera 4K Waterproof,2025-10-20,cancelled,FedEx,,
+ORD-00254,Matthew Davis,Wireless Bluetooth Headphones,2024-07-03,delayed,Delhivery,,address_error
+ORD-00255,Emma Thomas,Wireless Bluetooth Headphones,2024-07-04,in_transit,BlueDart,,
+ORD-00256,Yuki Jackson,USB-C Hub 7-in-1,2024-05-25,out_for_delivery,Delhivery,,
+ORD-00257,Vivaan Gupta,VR Headset Standalone,2025-06-27,in_transit,USPS,,
+ORD-00258,William Thompson,Monitor 27-inch 4K,2024-06-10,delayed,DHL,,out_of_stock
+ORD-00259,Rahul Park,Surge Protector 8-Outlet,2024-03-27,delivered,UPS,2024-03-30,
+ORD-00260,Vihaan Gupta,Tablet Stand Holder,2025-03-29,out_for_delivery,USPS,,
+ORD-00261,Mia Fernandez,Cable Management Kit,2025-02-28,delayed,UPS,,incorrect_routing
+ORD-00262,Ayaan Thomas,Desk Lamp LED Dimmable,2024-04-23,delayed,Delhivery,,security_check
+ORD-00263,Mia Hassan,Action Camera 4K Waterproof,2024-11-11,delivered,UPS,2024-11-18,
+ORD-00264,Vihaan Sharma,Smart Watch Fitness Tracker,2024-11-04,in_transit,Amazon Logistics,,
+ORD-00265,Krishna Miller,External Battery 20000mAh,2024-12-01,delivered,FedEx,2024-12-09,
+ORD-00266,Diya Yadav,Phone Case Premium Leather,2025-06-29,out_for_delivery,UPS,,
+ORD-00267,Henry Kim,Smart Home Hub,2025-11-15,delayed,FedEx,,vehicle_breakdown
+ORD-00268,Ahmed Kumar,Desk Lamp LED Dimmable,2024-01-20,returned,FedEx,,out_of_stock
+ORD-00269,Daniel Lee,Router WiFi 6 Mesh,2025-02-18,out_for_delivery,Delhivery,,
+ORD-00270,William Rodriguez,Mechanical Keyboard RGB,2025-02-18,delivered,DHL,2025-02-21,
+ORD-00271,Evelyn Thompson,Smart Home Hub,2025-12-07,delayed,FedEx,,vehicle_breakdown
+ORD-00272,Reyansh Garcia,Desk Lamp LED Dimmable,2025-08-26,returned,BlueDart,,customs_clearance
+ORD-00273,Ava Martinez,VR Headset Standalone,2024-12-13,in_transit,DHL,,
+ORD-00274,Rahul Smith,USB-C Hub 7-in-1,2025-06-06,out_for_delivery,FedEx,,
+ORD-00275,Charlotte Li,Smart Watch Fitness Tracker,2024-12-23,delayed,Delhivery,,warehouse_backlog
+ORD-00276,Meera Joshi,Portable SSD 1TB,2024-09-19,in_transit,UPS,,
+ORD-00277,Matthew Mehta,E-Reader 8-inch Display,2025-11-02,delivered,UPS,2025-11-15,
+ORD-00278,Isabella Park,E-Reader 8-inch Display,2025-08-16,returned,Delhivery,,security_check
+ORD-00279,Maria Nguyen,Monitor 27-inch 4K,2025-10-04,delayed,UPS,,high_demand_surge
+ORD-00280,Arjun Nakamura,Cable Management Kit,2025-10-08,delayed,Amazon Logistics,,address_error
+ORD-00281,Harper Singh,Wireless Mouse Ergonomic,2025-06-03,delivered,DHL,2025-06-11,
+ORD-00282,Vihaan Taylor,Smart Home Hub,2024-10-20,delivered,Delhivery,2024-11-03,
+ORD-00283,Sai Nguyen,Surge Protector 8-Outlet,2025-06-03,returned,USPS,,security_check
+ORD-00284,Amelia Kumar,Cable Management Kit,2025-08-08,out_for_delivery,UPS,,
+ORD-00285,James Fernandez,Microphone USB Condenser,2025-05-28,in_transit,FedEx,,
+ORD-00286,Benjamin Joshi,Portable Projector Mini,2024-12-17,out_for_delivery,FedEx,,
+ORD-00287,Henry Johnson,Laptop Stand Adjustable,2024-09-10,out_for_delivery,USPS,,
+ORD-00288,Benjamin Hassan,Ring Light 12-inch,2025-09-16,in_transit,DHL,,
+ORD-00289,Olivia Rodriguez,Phone Case Premium Leather,2025-02-22,delayed,Delhivery,,security_check
+ORD-00290,Vihaan Anderson,USB-C Hub 7-in-1,2024-12-03,delivered,BlueDart,2024-12-14,
+ORD-00291,Riya Fernandez,Electric Toothbrush Sonic,2024-06-02,delayed,FedEx,,security_check
+ORD-00292,Yuki Mehta,Robot Vacuum Cleaner,2024-12-24,delayed,Delhivery,,vehicle_breakdown
+ORD-00293,Krishna Fernandez,Drone Mini Foldable,2024-03-27,delayed,BlueDart,,vehicle_breakdown
+ORD-00294,Maria Anderson,Smart Home Hub,2024-05-10,out_for_delivery,Delhivery,,
+ORD-00295,Ahmed Hassan,USB-C Hub 7-in-1,2025-10-23,out_for_delivery,USPS,,
+ORD-00296,Henry Taylor,Wireless Bluetooth Headphones,2025-01-06,delayed,UPS,,carrier_issue
+ORD-00297,Emma Wang,Smart Watch Fitness Tracker,2024-08-19,in_transit,UPS,,
+ORD-00298,Arjun Rodriguez,Electric Toothbrush Sonic,2024-04-13,cancelled,Amazon Logistics,,
+ORD-00299,Alexander Hassan,Laptop Stand Adjustable,2025-11-08,delayed,Amazon Logistics,,security_check
+ORD-00300,Krishna Fernandez,Phone Case Premium Leather,2024-06-06,in_transit,UPS,,
+ORD-00301,Chen Nguyen,Portable Projector Mini,2024-06-18,out_for_delivery,USPS,,
+ORD-00302,Aditya Martin,Wireless Mouse Ergonomic,2025-11-23,out_for_delivery,UPS,,
+ORD-00303,Benjamin Nguyen,External Battery 20000mAh,2025-04-04,in_transit,BlueDart,,
+ORD-00304,Meera Martinez,Portable Projector Mini,2025-04-25,in_transit,DHL,,
+ORD-00305,Haruto Park,Cable Management Kit,2025-04-17,delayed,Amazon Logistics,,vehicle_breakdown
+ORD-00306,Henry Hassan,Desk Lamp LED Dimmable,2024-06-14,in_transit,Amazon Logistics,,
+ORD-00307,Matthew Yadav,Electric Toothbrush Sonic,2024-09-13,delivered,Delhivery,2024-09-21,
+ORD-00308,Amelia Joshi,Drone Mini Foldable,2025-06-12,delivered,DHL,2025-06-14,
+ORD-00309,Saanvi Perez,Air Purifier HEPA Filter,2025-06-09,in_transit,Amazon Logistics,,
+ORD-00310,Sophia Gupta,Robot Vacuum Cleaner,2024-08-15,returned,DHL,,weather_disruption
+ORD-00311,William Singh,Phone Case Premium Leather,2025-05-29,delayed,UPS,,vehicle_breakdown
+ORD-00312,Sai Taylor,Noise Cancelling Earbuds,2024-01-29,delayed,FedEx,,out_of_stock
+ORD-00313,Ishaan Yadav,Laptop Stand Adjustable,2024-10-20,returned,Delhivery,,warehouse_backlog
+ORD-00314,Priyanka Nakamura,Cable Management Kit,2025-09-22,delivered,FedEx,2025-09-23,
+ORD-00315,Ishaan Kim,VR Headset Standalone,2025-09-15,cancelled,USPS,,
+ORD-00316,Ayaan Rodriguez,Noise Cancelling Earbuds,2024-11-04,delivered,FedEx,2024-11-08,
+ORD-00317,Evelyn Thompson,USB-C Hub 7-in-1,2024-04-23,returned,BlueDart,,incorrect_routing
+ORD-00318,Vivaan Li,Router WiFi 6 Mesh,2024-09-04,out_for_delivery,UPS,,
+ORD-00319,Aanya Lee,Wireless Bluetooth Headphones,2025-09-21,delayed,UPS,,security_check
+ORD-00320,William Johnson,Action Camera 4K Waterproof,2025-11-15,delivered,BlueDart,2025-11-21,incorrect_routing
+ORD-00321,Alexander Li,Portable Projector Mini,2025-06-03,cancelled,FedEx,,
+ORD-00322,Noah Nakamura,Laptop Stand Adjustable,2025-10-12,returned,DHL,,address_error
+ORD-00323,Ahmed Patel,Wireless Mouse Ergonomic,2024-03-10,delayed,UPS,,customs_clearance
+ORD-00324,Rahul Santos,VR Headset Standalone,2024-12-06,in_transit,FedEx,,
+ORD-00325,Liam Ali,Monitor 27-inch 4K,2025-10-20,in_transit,Amazon Logistics,,
+ORD-00326,Rahul Thompson,Drone Mini Foldable,2025-05-05,out_for_delivery,UPS,,
+ORD-00327,Krishna Reddy,Drone Mini Foldable,2025-04-13,delivered,DHL,2025-04-17,carrier_issue
+ORD-00328,Aditya Wilson,Robot Vacuum Cleaner,2024-11-13,cancelled,USPS,,
+ORD-00329,Alexander Nakamura,Tablet Stand Holder,2024-02-07,out_for_delivery,UPS,,
+ORD-00330,Aanya Thomas,Electric Toothbrush Sonic,2024-02-18,out_for_delivery,DHL,,
+ORD-00331,Saanvi Verma,Portable Projector Mini,2025-01-11,returned,USPS,,high_demand_surge
+ORD-00332,Noah Anderson,Webcam HD 1080p,2025-05-23,out_for_delivery,USPS,,
+ORD-00333,Olivia Hassan,Tablet Stand Holder,2024-03-25,out_for_delivery,USPS,,
+ORD-00334,Sai Lee,Surge Protector 8-Outlet,2024-07-03,cancelled,DHL,,
+ORD-00335,James Joshi,USB-C Hub 7-in-1,2024-12-01,out_for_delivery,DHL,,
+ORD-00336,Navya Perez,Surge Protector 8-Outlet,2025-03-12,in_transit,Delhivery,,
+ORD-00337,Benjamin Thomas,Cable Management Kit,2024-02-13,out_for_delivery,Amazon Logistics,,
+ORD-00338,Liam Nguyen,Desk Lamp LED Dimmable,2024-10-08,out_for_delivery,Amazon Logistics,,
+ORD-00339,Vihaan Reddy,Action Camera 4K Waterproof,2025-10-14,returned,DHL,,incorrect_routing
+ORD-00340,Ahmed Smith,Wireless Bluetooth Headphones,2024-05-26,cancelled,Delhivery,,
+ORD-00341,Benjamin Kumar,Portable SSD 1TB,2024-03-09,in_transit,Amazon Logistics,,
+ORD-00342,Maria Taylor,Wireless Mouse Ergonomic,2025-01-27,cancelled,FedEx,,
+ORD-00343,Matthew Mehta,Action Camera 4K Waterproof,2025-04-05,delayed,DHL,,high_demand_surge
+ORD-00344,Priyanka Reddy,Router WiFi 6 Mesh,2024-05-20,cancelled,DHL,,
+ORD-00345,Ava Wilson,Smart Speaker Voice Assistant,2024-10-12,in_transit,FedEx,,
+ORD-00346,Vivaan Johnson,Microphone USB Condenser,2025-06-14,returned,BlueDart,,customs_clearance
+ORD-00347,Riya Miller,Drone Mini Foldable,2025-04-01,in_transit,BlueDart,,
+ORD-00348,Aanya Wang,Smart Watch Fitness Tracker,2024-05-05,in_transit,Amazon Logistics,,
+ORD-00349,Arjun Perez,Webcam HD 1080p,2025-12-31,returned,FedEx,,out_of_stock
+ORD-00350,Yuki Thomas,Drone Mini Foldable,2024-03-07,cancelled,BlueDart,,
+ORD-00351,Aanya Martinez,Electric Toothbrush Sonic,2024-06-10,out_for_delivery,Delhivery,,
+ORD-00352,Chen Johnson,Portable Projector Mini,2025-01-05,cancelled,UPS,,
+ORD-00353,Ayaan Williams,Portable Projector Mini,2024-05-22,in_transit,Amazon Logistics,,
+ORD-00354,Mia Patel,Wireless Mouse Ergonomic,2025-07-21,cancelled,DHL,,
+ORD-00355,Isabella Kim,Portable SSD 1TB,2025-09-18,delivered,FedEx,2025-09-23,
+ORD-00356,Wei Nakamura,Ring Light 12-inch,2025-02-24,returned,Amazon Logistics,,security_check
+ORD-00357,Arjun Yadav,Monitor 27-inch 4K,2025-10-19,delivered,USPS,2025-10-27,
+ORD-00358,Liam Yadav,Air Purifier HEPA Filter,2025-07-18,out_for_delivery,BlueDart,,
+ORD-00359,Diya Yadav,Desk Lamp LED Dimmable,2025-05-29,delivered,Amazon Logistics,2025-05-31,
+ORD-00360,Navya Smith,Webcam HD 1080p,2024-11-26,out_for_delivery,UPS,,
+ORD-00361,Liam Hassan,Air Purifier HEPA Filter,2024-10-17,delivered,DHL,2024-10-21,
+ORD-00362,Amelia Davis,Portable SSD 1TB,2025-10-02,delayed,BlueDart,,incorrect_routing
+ORD-00363,Sai Li,Smart Speaker Voice Assistant,2024-06-21,cancelled,BlueDart,,
+ORD-00364,Ishaan Smith,Action Camera 4K Waterproof,2025-10-01,out_for_delivery,BlueDart,,
+ORD-00365,Emma Park,Laptop Stand Adjustable,2024-01-30,delivered,FedEx,2024-02-10,
+ORD-00366,Riya Brown,E-Reader 8-inch Display,2025-08-08,returned,BlueDart,,weather_disruption
+ORD-00367,Mia Ali,External Battery 20000mAh,2025-10-19,delayed,USPS,,carrier_issue
+ORD-00368,Haruto Jackson,External Battery 20000mAh,2025-04-09,delivered,Delhivery,2025-04-10,vehicle_breakdown
+ORD-00369,Lucas Thompson,Smart Watch Fitness Tracker,2024-12-14,cancelled,UPS,,
+ORD-00370,James Wilson,VR Headset Standalone,2024-12-19,returned,UPS,,out_of_stock
+ORD-00371,Henry Kim,Mechanical Keyboard RGB,2024-11-22,in_transit,USPS,,
+ORD-00372,Ayaan Davis,Cable Management Kit,2024-09-10,in_transit,FedEx,,
+ORD-00373,Vihaan Rodriguez,Phone Case Premium Leather,2025-09-22,returned,UPS,,warehouse_backlog
+ORD-00374,James Park,VR Headset Standalone,2024-11-16,in_transit,Amazon Logistics,,
+ORD-00375,Ananya Wang,Ring Light 12-inch,2025-04-23,returned,DHL,,high_demand_surge
+ORD-00376,Vivaan Gupta,Phone Case Premium Leather,2025-06-01,returned,UPS,,carrier_issue
+ORD-00377,Harper Thomas,Laptop Stand Adjustable,2024-02-21,delayed,USPS,,security_check
+ORD-00378,Maria Nakamura,External Battery 20000mAh,2025-07-03,delivered,Amazon Logistics,2025-07-05,
+ORD-00379,Riya Taylor,E-Reader 8-inch Display,2025-02-16,delayed,FedEx,,vehicle_breakdown
+ORD-00380,Vihaan Park,Graphics Tablet Drawing,2024-07-18,delayed,BlueDart,,address_error
+ORD-00381,Arjun Moore,Ring Light 12-inch,2025-04-06,cancelled,DHL,,
+ORD-00382,Evelyn Nguyen,Mechanical Keyboard RGB,2024-05-11,delivered,USPS,2024-05-17,
+ORD-00383,Emma Kim,Wireless Mouse Ergonomic,2024-05-27,in_transit,BlueDart,,
+ORD-00384,Henry Jackson,Ring Light 12-inch,2024-02-11,delivered,FedEx,2024-02-14,
+ORD-00385,Lucas Hassan,Cable Management Kit,2024-06-01,cancelled,BlueDart,,
+ORD-00386,Krishna Wilson,Robot Vacuum Cleaner,2025-09-19,delayed,UPS,,vehicle_breakdown
+ORD-00387,Evelyn Martinez,Router WiFi 6 Mesh,2024-12-10,cancelled,Amazon Logistics,,
+ORD-00388,Henry Ali,Microphone USB Condenser,2025-12-26,cancelled,DHL,,
+ORD-00389,Lucas Patel,Wireless Mouse Ergonomic,2024-12-05,out_for_delivery,FedEx,,
+ORD-00390,William Santos,External Battery 20000mAh,2025-12-05,out_for_delivery,FedEx,,
+ORD-00391,Matthew Nakamura,Tablet Stand Holder,2025-11-02,cancelled,BlueDart,,
+ORD-00392,Isha Singh,Router WiFi 6 Mesh,2025-05-06,in_transit,BlueDart,,
+ORD-00393,Carlos Nguyen,E-Reader 8-inch Display,2025-01-24,in_transit,Amazon Logistics,,
+ORD-00394,Haruto Garcia,Laptop Stand Adjustable,2025-08-09,out_for_delivery,FedEx,,
+ORD-00395,Priya Patel,Cable Management Kit,2024-11-17,returned,UPS,,vehicle_breakdown
+ORD-00396,Chen Brown,Desk Lamp LED Dimmable,2025-05-28,cancelled,USPS,,
+ORD-00397,Ahmed Singh,Drone Mini Foldable,2024-05-21,cancelled,UPS,,
+ORD-00398,Amelia Wilson,Action Camera 4K Waterproof,2025-05-04,cancelled,USPS,,
+ORD-00399,James Johnson,Cable Management Kit,2025-06-29,delayed,BlueDart,,out_of_stock
+ORD-00400,Haruto Miller,Surge Protector 8-Outlet,2025-05-10,in_transit,UPS,,
+ORD-00401,Saanvi Kim,External Battery 20000mAh,2024-08-18,delayed,Amazon Logistics,,address_error
+ORD-00402,Wei Brown,Drone Mini Foldable,2025-12-22,returned,DHL,,high_demand_surge
+ORD-00403,Liam Kim,Robot Vacuum Cleaner,2024-10-07,delayed,FedEx,,security_check
+ORD-00404,Haruto Ali,Phone Case Premium Leather,2025-02-08,delayed,Amazon Logistics,,warehouse_backlog
+ORD-00405,Aanya Kumar,External Battery 20000mAh,2024-03-21,delayed,USPS,,address_error
+ORD-00406,Ahmed Nakamura,Smart Watch Fitness Tracker,2024-07-25,cancelled,DHL,,
+ORD-00407,Amelia Davis,Portable SSD 1TB,2024-04-21,cancelled,Delhivery,,
+ORD-00408,Harper Garcia,Noise Cancelling Earbuds,2024-02-21,out_for_delivery,BlueDart,,
+ORD-00409,Isha Jones,Laptop Stand Adjustable,2024-04-12,returned,DHL,,high_demand_surge
+ORD-00410,Reyansh Yadav,Wireless Bluetooth Headphones,2025-07-17,in_transit,USPS,,
+ORD-00411,Maria Nakamura,Microphone USB Condenser,2025-10-28,in_transit,Amazon Logistics,,
+ORD-00412,Aanya Wilson,External Battery 20000mAh,2025-10-23,delivered,Amazon Logistics,2025-10-25,
+ORD-00413,Isha Ali,VR Headset Standalone,2024-02-08,in_transit,USPS,,
+ORD-00414,Diya Kumar,Smart Home Hub,2025-02-10,returned,UPS,,address_error
+ORD-00415,Aditya Sharma,External Battery 20000mAh,2025-08-04,cancelled,FedEx,,
+ORD-00416,Emma Rodriguez,Cable Management Kit,2025-10-18,cancelled,BlueDart,,
+ORD-00417,Mia Yadav,Electric Toothbrush Sonic,2025-05-31,returned,DHL,,carrier_issue
+ORD-00418,Ayaan Anderson,Webcam HD 1080p,2025-04-14,out_for_delivery,DHL,,
+ORD-00419,Wei Johnson,Wireless Bluetooth Headphones,2024-12-11,delayed,BlueDart,,carrier_issue
+ORD-00420,Diya Nguyen,Electric Toothbrush Sonic,2025-10-16,returned,Amazon Logistics,,vehicle_breakdown
+ORD-00421,Henry Wilson,USB-C Hub 7-in-1,2025-02-14,out_for_delivery,FedEx,,
+ORD-00422,Diya Yadav,Microphone USB Condenser,2024-11-27,in_transit,FedEx,,
+ORD-00423,Riya Moore,Noise Cancelling Earbuds,2025-04-02,delayed,DHL,,address_error
+ORD-00424,Harper Park,Wireless Bluetooth Headphones,2024-09-24,out_for_delivery,DHL,,
+ORD-00425,Chen Garcia,Laptop Stand Adjustable,2025-11-14,delivered,USPS,2025-11-19,incorrect_routing
+ORD-00426,Wei Martinez,Drone Mini Foldable,2024-04-30,out_for_delivery,DHL,,
+ORD-00427,Olivia Nguyen,Noise Cancelling Earbuds,2024-08-12,in_transit,USPS,,
+ORD-00428,Ishaan Thompson,VR Headset Standalone,2025-09-12,delayed,USPS,,incorrect_routing
+ORD-00429,Lucas Ali,Portable Projector Mini,2025-11-11,in_transit,Amazon Logistics,,
+ORD-00430,Meera Fernandez,Electric Toothbrush Sonic,2024-03-24,cancelled,USPS,,
+ORD-00431,Charlotte Taylor,USB-C Hub 7-in-1,2025-07-31,delivered,FedEx,2025-08-14,
+ORD-00432,Henry Williams,Router WiFi 6 Mesh,2025-07-03,in_transit,UPS,,
+ORD-00433,James Hassan,Cable Management Kit,2024-04-29,out_for_delivery,UPS,,
+ORD-00434,Wei Santos,Microphone USB Condenser,2024-04-03,cancelled,USPS,,
+ORD-00435,Vihaan Thompson,Portable SSD 1TB,2025-06-09,returned,USPS,,security_check
+ORD-00436,Vihaan Kim,Cable Management Kit,2025-11-19,delayed,Delhivery,,weather_disruption
+ORD-00437,Ava Miller,Smart Home Hub,2024-01-04,out_for_delivery,UPS,,
+ORD-00438,Harper Reddy,Laptop Stand Adjustable,2025-03-09,delayed,Delhivery,,customs_clearance
+ORD-00439,Alexander Singh,Robot Vacuum Cleaner,2024-03-11,returned,FedEx,,address_error
+ORD-00440,William Johnson,E-Reader 8-inch Display,2024-05-18,out_for_delivery,Delhivery,,
+ORD-00441,Maria Martin,Wireless Mouse Ergonomic,2025-01-26,returned,Amazon Logistics,,vehicle_breakdown
+ORD-00442,Noah Gupta,Action Camera 4K Waterproof,2025-11-08,cancelled,UPS,,
+ORD-00443,Maria Thomas,Mechanical Keyboard RGB,2024-07-01,cancelled,USPS,,
+ORD-00444,Charlotte Yadav,VR Headset Standalone,2024-08-16,delivered,Amazon Logistics,2024-08-17,
+ORD-00445,Isabella Ali,Desk Lamp LED Dimmable,2025-06-28,returned,Amazon Logistics,,carrier_issue
+ORD-00446,Meera Thompson,Wireless Mouse Ergonomic,2024-06-07,delayed,UPS,,customs_clearance
+ORD-00447,Aditya Martin,Surge Protector 8-Outlet,2024-01-17,in_transit,UPS,,
+ORD-00448,Arjun Joshi,Surge Protector 8-Outlet,2024-02-04,returned,BlueDart,,weather_disruption
+ORD-00449,Meera Kumar,Phone Case Premium Leather,2025-03-25,in_transit,BlueDart,,
+ORD-00450,Kavya Singh,Portable SSD 1TB,2025-05-30,delayed,UPS,,security_check
+ORD-00451,James Park,Surge Protector 8-Outlet,2025-11-19,delayed,UPS,,address_error
+ORD-00452,Ishaan Hassan,Noise Cancelling Earbuds,2025-02-27,delayed,DHL,,weather_disruption
+ORD-00453,Amelia Santos,Air Purifier HEPA Filter,2024-06-28,out_for_delivery,Delhivery,,
+ORD-00454,Sophia Kim,Microphone USB Condenser,2024-02-18,delayed,Delhivery,,vehicle_breakdown
+ORD-00455,Charlotte Wilson,Drone Mini Foldable,2025-03-02,returned,UPS,,address_error
+ORD-00456,Noah Johnson,E-Reader 8-inch Display,2025-07-04,returned,UPS,,carrier_issue
+ORD-00457,Navya Mehta,Portable Projector Mini,2025-04-19,delivered,BlueDart,2025-04-26,
+ORD-00458,Amelia Hassan,Portable SSD 1TB,2025-02-01,in_transit,DHL,,
+ORD-00459,Kavya Anderson,Smart Speaker Voice Assistant,2024-03-21,returned,Amazon Logistics,,out_of_stock
+ORD-00460,Sai Ali,VR Headset Standalone,2024-07-14,delivered,DHL,2024-07-21,
+ORD-00461,Matthew Kumar,Electric Toothbrush Sonic,2024-03-15,in_transit,Amazon Logistics,,
+ORD-00462,Priyanka Santos,VR Headset Standalone,2025-11-18,cancelled,UPS,,
+ORD-00463,Lucas Brown,Electric Toothbrush Sonic,2024-12-06,delayed,FedEx,,carrier_issue
+ORD-00464,Priya Verma,VR Headset Standalone,2025-05-05,in_transit,Delhivery,,
+ORD-00465,Matthew Brown,Phone Case Premium Leather,2024-09-02,cancelled,DHL,,
+ORD-00466,Rahul Rodriguez,Phone Case Premium Leather,2025-04-22,cancelled,Delhivery,,
+ORD-00467,Liam Martinez,Tablet Stand Holder,2025-01-03,cancelled,USPS,,
+ORD-00468,Isabella Joshi,Portable Projector Mini,2025-04-25,delayed,UPS,,out_of_stock
+ORD-00469,James Martin,Laptop Stand Adjustable,2025-07-30,in_transit,Delhivery,,
+ORD-00470,Ishaan Patel,Tablet Stand Holder,2025-07-20,cancelled,BlueDart,,
+ORD-00471,Fatima Martin,External Battery 20000mAh,2024-06-05,in_transit,DHL,,
+ORD-00472,Isha Moore,Router WiFi 6 Mesh,2024-09-08,returned,BlueDart,,out_of_stock
+ORD-00473,Riya Wang,VR Headset Standalone,2025-10-19,out_for_delivery,USPS,,
+ORD-00474,Isabella Smith,VR Headset Standalone,2024-12-26,in_transit,UPS,,
+ORD-00475,Fatima Ali,Microphone USB Condenser,2024-07-07,cancelled,Delhivery,,
+ORD-00476,Vihaan Hassan,Laptop Stand Adjustable,2024-03-17,out_for_delivery,FedEx,,
+ORD-00477,Priyanka Sharma,Desk Lamp LED Dimmable,2024-05-20,out_for_delivery,UPS,,
+ORD-00478,Arjun Mehta,Wireless Bluetooth Headphones,2024-08-11,cancelled,USPS,,
+ORD-00479,Olivia Singh,Surge Protector 8-Outlet,2025-10-15,out_for_delivery,BlueDart,,
+ORD-00480,Lucas Wang,Wireless Bluetooth Headphones,2024-01-07,cancelled,BlueDart,,
+ORD-00481,William Sharma,Wireless Bluetooth Headphones,2025-06-26,out_for_delivery,DHL,,
+ORD-00482,Alexander Rodriguez,Wireless Bluetooth Headphones,2025-05-29,out_for_delivery,Delhivery,,
+ORD-00483,Sophia Johnson,Mechanical Keyboard RGB,2024-04-08,cancelled,UPS,,
+ORD-00484,Meera Williams,Surge Protector 8-Outlet,2025-06-23,delayed,Amazon Logistics,,out_of_stock
+ORD-00485,Saanvi Jackson,USB-C Hub 7-in-1,2025-01-17,returned,USPS,,security_check
+ORD-00486,Meera Jones,External Battery 20000mAh,2025-12-01,delivered,Delhivery,2025-12-15,
+ORD-00487,Aditya Gupta,Phone Case Premium Leather,2025-01-23,returned,BlueDart,,high_demand_surge
+ORD-00488,Vihaan Sharma,Drone Mini Foldable,2024-06-24,delivered,USPS,2024-07-08,
+ORD-00489,Emma Park,Electric Toothbrush Sonic,2024-04-07,cancelled,FedEx,,
+ORD-00490,Isha Brown,Air Purifier HEPA Filter,2025-12-09,cancelled,USPS,,
+ORD-00491,Saanvi Kumar,Robot Vacuum Cleaner,2024-03-17,out_for_delivery,DHL,,
+ORD-00492,Alexander Park,Action Camera 4K Waterproof,2024-02-03,in_transit,Amazon Logistics,,
+ORD-00493,James Patel,Smart Watch Fitness Tracker,2025-08-24,in_transit,Amazon Logistics,,
+ORD-00494,Wei Jackson,Robot Vacuum Cleaner,2024-03-19,delayed,UPS,,security_check
+ORD-00495,Meera Park,Smart Home Hub,2025-02-02,out_for_delivery,BlueDart,,
+ORD-00496,Emma Moore,E-Reader 8-inch Display,2024-05-23,out_for_delivery,Delhivery,,
+ORD-00497,Sai Li,VR Headset Standalone,2024-12-20,delivered,FedEx,2024-12-27,
+ORD-00498,Arjun Anderson,Surge Protector 8-Outlet,2025-09-20,cancelled,USPS,,
+ORD-00499,Rahul Wilson,Wireless Bluetooth Headphones,2025-10-11,delayed,Amazon Logistics,,high_demand_surge
+ORD-00500,Mia Jones,Wireless Mouse Ergonomic,2025-07-20,returned,USPS,,warehouse_backlog
+ORD-00501,Haruto Santos,Action Camera 4K Waterproof,2025-01-24,delivered,Amazon Logistics,2025-02-03,
+ORD-00502,Meera Reddy,USB-C Hub 7-in-1,2024-10-01,in_transit,USPS,,
+ORD-00503,Wei Mehta,VR Headset Standalone,2025-02-02,delayed,DHL,,customs_clearance
+ORD-00504,Sai Sharma,External Battery 20000mAh,2025-03-31,delayed,Amazon Logistics,,address_error
+ORD-00505,Reyansh Yadav,USB-C Hub 7-in-1,2024-07-10,returned,USPS,,incorrect_routing
+ORD-00506,Amelia Li,Desk Lamp LED Dimmable,2024-04-15,delivered,FedEx,2024-04-21,
+ORD-00507,Matthew Fernandez,Portable Projector Mini,2024-11-28,returned,FedEx,,address_error
+ORD-00508,William Moore,E-Reader 8-inch Display,2024-03-27,out_for_delivery,BlueDart,,
+ORD-00509,Meera Park,Ring Light 12-inch,2024-06-22,out_for_delivery,USPS,,
+ORD-00510,Ananya Yadav,Tablet Stand Holder,2024-11-04,delayed,USPS,,warehouse_backlog
+ORD-00511,Arjun Smith,Desk Lamp LED Dimmable,2024-10-09,returned,DHL,,high_demand_surge
+ORD-00512,Arjun Taylor,Tablet Stand Holder,2024-09-09,out_for_delivery,Delhivery,,
+ORD-00513,Mia Fernandez,Surge Protector 8-Outlet,2024-07-19,returned,FedEx,,warehouse_backlog
+ORD-00514,Navya Sharma,Phone Case Premium Leather,2024-12-06,cancelled,USPS,,
+ORD-00515,Emma Perez,Monitor 27-inch 4K,2025-03-16,out_for_delivery,BlueDart,,
+ORD-00516,Krishna Martinez,Monitor 27-inch 4K,2025-09-09,out_for_delivery,UPS,,
+ORD-00517,Lucas Wilson,Webcam HD 1080p,2025-02-11,delayed,DHL,,high_demand_surge
+ORD-00518,Daniel Garcia,Monitor 27-inch 4K,2025-01-20,delayed,Amazon Logistics,,vehicle_breakdown
+ORD-00519,Olivia Verma,Robot Vacuum Cleaner,2025-07-31,in_transit,BlueDart,,
+ORD-00520,Alexander Johnson,Action Camera 4K Waterproof,2025-07-17,delivered,Delhivery,2025-07-25,
+ORD-00521,Kavya Perez,Portable Projector Mini,2024-10-25,out_for_delivery,FedEx,,
+ORD-00522,William Wang,Portable SSD 1TB,2025-10-10,delayed,UPS,,address_error
+ORD-00523,Yuki Mehta,Drone Mini Foldable,2025-03-09,returned,FedEx,,high_demand_surge
+ORD-00524,Matthew Nakamura,Router WiFi 6 Mesh,2025-02-14,cancelled,BlueDart,,
+ORD-00525,Chen Martin,Graphics Tablet Drawing,2024-02-07,delayed,Delhivery,,incorrect_routing
+ORD-00526,Matthew Gupta,Mechanical Keyboard RGB,2024-09-11,out_for_delivery,Delhivery,,
+ORD-00527,Liam Smith,Smart Speaker Voice Assistant,2025-09-19,delivered,BlueDart,2025-09-30,
+ORD-00528,Ava Anderson,Portable Projector Mini,2025-03-16,delivered,FedEx,2025-03-18,
+ORD-00529,Henry Hassan,Graphics Tablet Drawing,2025-08-17,out_for_delivery,BlueDart,,
+ORD-00530,Isha Perez,Wireless Mouse Ergonomic,2025-02-04,returned,Amazon Logistics,,security_check
+ORD-00531,Chen Li,Portable SSD 1TB,2024-12-19,delivered,USPS,2024-12-21,
+ORD-00532,Sai Verma,Smart Home Hub,2024-05-25,delayed,DHL,,out_of_stock
+ORD-00533,Isabella Brown,Ring Light 12-inch,2025-05-09,delayed,USPS,,customs_clearance
+ORD-00534,Benjamin Perez,Monitor 27-inch 4K,2024-03-09,delayed,FedEx,,customs_clearance
+ORD-00535,Vivaan Anderson,Smart Speaker Voice Assistant,2024-04-21,out_for_delivery,Amazon Logistics,,
+ORD-00536,Ananya Garcia,Ring Light 12-inch,2024-06-27,cancelled,UPS,,
+ORD-00537,Emma Kim,Desk Lamp LED Dimmable,2025-04-18,in_transit,Amazon Logistics,,
+ORD-00538,Ava Johnson,Webcam HD 1080p,2025-10-17,out_for_delivery,USPS,,
+ORD-00539,Ava Patel,VR Headset Standalone,2025-09-20,in_transit,USPS,,
+ORD-00540,Harper Lee,Phone Case Premium Leather,2024-01-05,out_for_delivery,UPS,,
+ORD-00541,Kavya Davis,E-Reader 8-inch Display,2025-12-21,delivered,BlueDart,2025-12-23,
+ORD-00542,Alexander Johnson,Wireless Mouse Ergonomic,2024-11-29,in_transit,USPS,,
+ORD-00543,Ayaan Miller,Action Camera 4K Waterproof,2025-05-16,cancelled,Delhivery,,
+ORD-00544,James Fernandez,Phone Case Premium Leather,2025-09-17,returned,BlueDart,,customs_clearance
+ORD-00545,Liam Thomas,Electric Toothbrush Sonic,2025-04-13,cancelled,UPS,,
+ORD-00546,Haruto Martinez,Robot Vacuum Cleaner,2025-09-21,cancelled,FedEx,,
+ORD-00547,Haruto Yadav,Monitor 27-inch 4K,2024-04-30,in_transit,DHL,,
+ORD-00548,Ayaan Johnson,Wireless Mouse Ergonomic,2025-12-11,in_transit,BlueDart,,
+ORD-00549,Noah Martin,Surge Protector 8-Outlet,2024-05-21,cancelled,USPS,,
+ORD-00550,Sophia Johnson,Microphone USB Condenser,2025-10-12,cancelled,Delhivery,,
+ORD-00551,Maria Johnson,Graphics Tablet Drawing,2024-06-19,returned,DHL,,warehouse_backlog
+ORD-00552,Diya Wilson,Smart Home Hub,2025-04-06,cancelled,FedEx,,
+ORD-00553,Liam Sharma,Microphone USB Condenser,2024-05-19,in_transit,Amazon Logistics,,
+ORD-00554,Noah Kim,Ring Light 12-inch,2025-10-30,returned,USPS,,high_demand_surge
+ORD-00555,William Perez,Microphone USB Condenser,2024-06-20,delivered,BlueDart,2024-06-21,
+ORD-00556,Isha Rodriguez,Laptop Stand Adjustable,2024-10-08,in_transit,BlueDart,,
+ORD-00557,Aanya Smith,E-Reader 8-inch Display,2025-04-13,cancelled,Delhivery,,
+ORD-00558,Rahul Wang,Graphics Tablet Drawing,2025-06-07,delivered,BlueDart,2025-06-09,
+ORD-00559,Alexander Taylor,Graphics Tablet Drawing,2024-02-12,out_for_delivery,USPS,,
+ORD-00560,Alexander Brown,Desk Lamp LED Dimmable,2024-04-14,out_for_delivery,Amazon Logistics,,
+ORD-00561,Maria Garcia,External Battery 20000mAh,2024-02-03,returned,DHL,,out_of_stock
+ORD-00562,Sai Perez,Electric Toothbrush Sonic,2024-04-30,in_transit,UPS,,
+ORD-00563,Ahmed Santos,Drone Mini Foldable,2024-12-25,out_for_delivery,BlueDart,,
+ORD-00564,Carlos Lee,Webcam HD 1080p,2025-09-22,in_transit,Amazon Logistics,,
+ORD-00565,Kavya Brown,Portable Projector Mini,2024-03-01,cancelled,DHL,,
+ORD-00566,Alexander Davis,Surge Protector 8-Outlet,2025-07-05,in_transit,DHL,,
+ORD-00567,Wei Rodriguez,External Battery 20000mAh,2025-08-09,delayed,Amazon Logistics,,incorrect_routing
+ORD-00568,Haruto Joshi,Portable SSD 1TB,2025-02-25,delivered,DHL,2025-03-11,
+ORD-00569,Chen Yadav,Noise Cancelling Earbuds,2024-05-29,out_for_delivery,DHL,,
+ORD-00570,Meera Jackson,Microphone USB Condenser,2024-05-25,cancelled,Delhivery,,
+ORD-00571,Saanvi Martin,Phone Case Premium Leather,2025-04-07,delivered,Delhivery,2025-04-20,
+ORD-00572,Sai Jackson,Ring Light 12-inch,2024-10-11,out_for_delivery,DHL,,
+ORD-00573,Isabella Wang,Monitor 27-inch 4K,2025-08-18,delivered,Amazon Logistics,2025-08-31,
+ORD-00574,Sai Thompson,Smart Speaker Voice Assistant,2025-11-11,out_for_delivery,DHL,,
+ORD-00575,Arjun Ali,Phone Case Premium Leather,2024-08-11,returned,Amazon Logistics,,carrier_issue
+ORD-00576,Mia Davis,Monitor 27-inch 4K,2024-10-17,delayed,BlueDart,,security_check
+ORD-00577,Krishna Park,Electric Toothbrush Sonic,2025-05-11,delayed,Delhivery,,weather_disruption
+ORD-00578,Aditya Joshi,Smart Speaker Voice Assistant,2025-04-15,delivered,FedEx,2025-04-29,high_demand_surge
+ORD-00579,Aarav Lee,Smart Watch Fitness Tracker,2025-12-06,in_transit,Delhivery,,
+ORD-00580,Navya Smith,Electric Toothbrush Sonic,2024-10-07,delivered,Delhivery,2024-10-13,
+ORD-00581,Olivia Smith,Laptop Stand Adjustable,2025-02-09,out_for_delivery,DHL,,
+ORD-00582,Fatima Jones,Desk Lamp LED Dimmable,2025-11-02,delivered,Delhivery,2025-11-04,high_demand_surge
+ORD-00583,Arjun Yadav,Router WiFi 6 Mesh,2024-08-19,cancelled,Delhivery,,
+ORD-00584,Benjamin Sharma,Wireless Bluetooth Headphones,2025-12-13,delayed,Amazon Logistics,,customs_clearance
+ORD-00585,Sophia Yadav,Microphone USB Condenser,2024-03-13,in_transit,USPS,,
+ORD-00586,Sai Joshi,Mechanical Keyboard RGB,2024-11-16,delayed,DHL,,warehouse_backlog
+ORD-00587,Noah Yadav,Smart Speaker Voice Assistant,2025-11-24,in_transit,FedEx,,
+ORD-00588,Charlotte Park,Wireless Bluetooth Headphones,2025-09-16,out_for_delivery,UPS,,
+ORD-00589,Benjamin Thomas,VR Headset Standalone,2024-08-06,out_for_delivery,Delhivery,,
+ORD-00590,Ishaan Martin,Surge Protector 8-Outlet,2025-12-04,returned,Amazon Logistics,,carrier_issue
+ORD-00591,Sai Joshi,Portable SSD 1TB,2024-05-06,cancelled,Delhivery,,
+ORD-00592,Noah Thomas,Desk Lamp LED Dimmable,2024-11-18,in_transit,UPS,,
+ORD-00593,Saanvi Gupta,Noise Cancelling Earbuds,2025-07-20,cancelled,BlueDart,,
+ORD-00594,Fatima Fernandez,External Battery 20000mAh,2025-12-08,delivered,Amazon Logistics,2025-12-22,
+ORD-00595,Navya Brown,Ring Light 12-inch,2025-09-13,cancelled,UPS,,
+ORD-00596,Ahmed Jackson,External Battery 20000mAh,2025-10-23,delivered,Amazon Logistics,2025-11-05,
+ORD-00597,Mia Moore,Mechanical Keyboard RGB,2024-09-03,returned,Delhivery,,security_check
+ORD-00598,Arjun Hassan,Air Purifier HEPA Filter,2024-01-13,delayed,DHL,,warehouse_backlog
+ORD-00599,Noah Park,Desk Lamp LED Dimmable,2025-01-09,cancelled,Delhivery,,
+ORD-00600,Diya Nakamura,E-Reader 8-inch Display,2024-03-15,delivered,BlueDart,2024-03-17,carrier_issue
+ORD-00601,Aditya Singh,Portable Projector Mini,2025-02-11,cancelled,DHL,,
+ORD-00602,Carlos Li,E-Reader 8-inch Display,2025-03-01,returned,Delhivery,,vehicle_breakdown
+ORD-00603,Sai Ali,Graphics Tablet Drawing,2025-09-22,in_transit,DHL,,
+ORD-00604,Sai Martinez,USB-C Hub 7-in-1,2025-06-07,in_transit,Amazon Logistics,,
+ORD-00605,Ishaan Ali,Monitor 27-inch 4K,2025-02-04,cancelled,Delhivery,,
+ORD-00606,Priyanka Reddy,External Battery 20000mAh,2025-12-16,returned,Delhivery,,carrier_issue
+ORD-00607,Vihaan Garcia,USB-C Hub 7-in-1,2025-03-20,delivered,USPS,2025-03-30,
+ORD-00608,Navya Johnson,Mechanical Keyboard RGB,2024-01-13,out_for_delivery,UPS,,
+ORD-00609,Chen Sharma,Webcam HD 1080p,2025-05-23,delayed,BlueDart,,incorrect_routing
+ORD-00610,Fatima Miller,Webcam HD 1080p,2025-01-15,in_transit,Delhivery,,
+ORD-00611,Rahul Davis,VR Headset Standalone,2024-04-30,delivered,DHL,2024-05-13,
+ORD-00612,Charlotte Reddy,Tablet Stand Holder,2025-12-30,cancelled,Delhivery,,
+ORD-00613,Arjun Wang,Cable Management Kit,2025-06-07,delayed,FedEx,,high_demand_surge
+ORD-00614,Daniel Smith,Wireless Mouse Ergonomic,2024-06-10,delayed,Amazon Logistics,,customs_clearance
+ORD-00615,Daniel Verma,Noise Cancelling Earbuds,2025-06-05,delivered,FedEx,2025-06-19,
+ORD-00616,Meera Kumar,Microphone USB Condenser,2025-01-07,returned,UPS,,warehouse_backlog
+ORD-00617,Aditya Kim,Portable Projector Mini,2025-11-02,returned,UPS,,out_of_stock
+ORD-00618,Meera Martin,Robot Vacuum Cleaner,2024-11-23,delayed,Amazon Logistics,,customs_clearance
+ORD-00619,Daniel Taylor,Mechanical Keyboard RGB,2025-05-29,out_for_delivery,FedEx,,
+ORD-00620,Diya Jones,Portable Projector Mini,2025-06-12,delivered,USPS,2025-06-14,
+ORD-00621,Aanya Martinez,Monitor 27-inch 4K,2024-03-29,cancelled,USPS,,
+ORD-00622,Aarav Taylor,Smart Watch Fitness Tracker,2024-10-25,cancelled,Amazon Logistics,,
+ORD-00623,Navya Nguyen,Noise Cancelling Earbuds,2025-04-20,delayed,BlueDart,,high_demand_surge
+ORD-00624,Rahul Williams,VR Headset Standalone,2025-07-13,in_transit,UPS,,
+ORD-00625,Aarav Martin,Wireless Bluetooth Headphones,2024-08-26,cancelled,DHL,,
+ORD-00626,Carlos Sharma,Monitor 27-inch 4K,2024-01-02,out_for_delivery,USPS,,
+ORD-00627,Ahmed Martinez,Mechanical Keyboard RGB,2024-07-29,cancelled,UPS,,
+ORD-00628,William Wang,Laptop Stand Adjustable,2024-05-25,out_for_delivery,DHL,,
+ORD-00629,Sai Kumar,Robot Vacuum Cleaner,2024-08-25,cancelled,USPS,,
+ORD-00630,Chen Taylor,Cable Management Kit,2024-03-27,cancelled,FedEx,,
+ORD-00631,Henry Yadav,Smart Speaker Voice Assistant,2025-02-07,delivered,BlueDart,2025-02-17,warehouse_backlog
+ORD-00632,Meera Rodriguez,Tablet Stand Holder,2024-11-18,returned,Delhivery,,out_of_stock
+ORD-00633,James Perez,Tablet Stand Holder,2024-08-27,delivered,UPS,2024-08-30,
+ORD-00634,Harper Joshi,Portable SSD 1TB,2024-04-18,in_transit,USPS,,
+ORD-00635,Isabella Wilson,Desk Lamp LED Dimmable,2024-05-03,cancelled,DHL,,
+ORD-00636,Rahul Brown,Cable Management Kit,2024-11-11,returned,DHL,,customs_clearance
+ORD-00637,Sai Smith,Portable Projector Mini,2025-12-03,delayed,Amazon Logistics,,security_check
+ORD-00638,Aditya Brown,Smart Home Hub,2024-12-01,in_transit,FedEx,,
+ORD-00639,Wei Garcia,Wireless Mouse Ergonomic,2025-02-09,cancelled,FedEx,,
+ORD-00640,Haruto Martinez,Tablet Stand Holder,2024-06-27,delivered,USPS,2024-07-11,
+ORD-00641,Ahmed Kim,Noise Cancelling Earbuds,2024-04-06,returned,FedEx,,warehouse_backlog
+ORD-00642,Ayaan Sharma,Laptop Stand Adjustable,2024-08-15,in_transit,UPS,,
+ORD-00643,Ava Taylor,Action Camera 4K Waterproof,2025-10-07,out_for_delivery,FedEx,,
+ORD-00644,Harper Santos,Tablet Stand Holder,2024-03-17,delivered,FedEx,2024-03-21,
+ORD-00645,Benjamin Yadav,USB-C Hub 7-in-1,2024-12-05,delivered,FedEx,2024-12-13,security_check
+ORD-00646,Sophia Jackson,Microphone USB Condenser,2024-01-31,returned,Delhivery,,vehicle_breakdown
+ORD-00647,Diya Thomas,Smart Watch Fitness Tracker,2024-07-10,delayed,DHL,,high_demand_surge
+ORD-00648,Ishaan Kumar,Surge Protector 8-Outlet,2025-09-26,cancelled,UPS,,
+ORD-00649,Maria Rodriguez,Microphone USB Condenser,2025-02-25,cancelled,USPS,,
+ORD-00650,Vihaan Gupta,Tablet Stand Holder,2025-01-27,in_transit,USPS,,
+ORD-00651,Priya Hassan,Noise Cancelling Earbuds,2025-10-07,cancelled,Amazon Logistics,,
+ORD-00652,Vivaan Moore,Portable Projector Mini,2025-12-31,delayed,USPS,,incorrect_routing
+ORD-00653,Mia Thomas,Robot Vacuum Cleaner,2025-08-02,cancelled,DHL,,
+ORD-00654,Noah Davis,Webcam HD 1080p,2024-01-27,delayed,BlueDart,,carrier_issue
+ORD-00655,Vivaan Davis,Laptop Stand Adjustable,2025-04-28,cancelled,DHL,,
+ORD-00656,Rahul Santos,Noise Cancelling Earbuds,2024-06-12,delivered,UPS,2024-06-23,
+ORD-00657,Alexander Singh,E-Reader 8-inch Display,2024-08-12,cancelled,Amazon Logistics,,
+ORD-00658,Noah Thomas,Robot Vacuum Cleaner,2024-06-26,in_transit,UPS,,
+ORD-00659,Harper Wilson,Portable Projector Mini,2025-12-15,delayed,BlueDart,,weather_disruption
+ORD-00660,Wei Thomas,Router WiFi 6 Mesh,2025-07-31,in_transit,BlueDart,,
+ORD-00661,Priya Wang,Graphics Tablet Drawing,2024-11-12,in_transit,USPS,,
+ORD-00662,Aditya Gupta,Laptop Stand Adjustable,2024-08-26,cancelled,UPS,,
+ORD-00663,Vivaan Hassan,Microphone USB Condenser,2024-01-01,delayed,BlueDart,,carrier_issue
+ORD-00664,Krishna Anderson,Drone Mini Foldable,2024-06-30,delayed,FedEx,,weather_disruption
+ORD-00665,Ishaan Santos,Drone Mini Foldable,2024-05-25,delivered,Amazon Logistics,2024-06-03,
+ORD-00666,Arjun Taylor,Drone Mini Foldable,2025-11-09,returned,BlueDart,,customs_clearance
+ORD-00667,Emma Martinez,Monitor 27-inch 4K,2024-05-19,in_transit,Delhivery,,
+ORD-00668,Sophia Wang,Smart Speaker Voice Assistant,2024-11-20,in_transit,Delhivery,,
+ORD-00669,Amelia Nguyen,Portable Projector Mini,2024-12-31,in_transit,Delhivery,,
+ORD-00670,Harper Johnson,Phone Case Premium Leather,2024-11-10,out_for_delivery,Delhivery,,
+ORD-00671,Aanya Yadav,Webcam HD 1080p,2024-01-02,out_for_delivery,BlueDart,,
+ORD-00672,Ava Park,Laptop Stand Adjustable,2024-07-05,cancelled,DHL,,
+ORD-00673,Evelyn Jones,Smart Speaker Voice Assistant,2025-08-02,delivered,USPS,2025-08-05,
+ORD-00674,Arjun Garcia,Wireless Mouse Ergonomic,2024-11-23,in_transit,Delhivery,,
+ORD-00675,Sai Anderson,Cable Management Kit,2024-01-12,delayed,UPS,,carrier_issue
+ORD-00676,Chen Reddy,Wireless Mouse Ergonomic,2024-09-19,delivered,Delhivery,2024-09-20,high_demand_surge
+ORD-00677,Fatima Martin,Webcam HD 1080p,2025-02-27,returned,USPS,,out_of_stock
+ORD-00678,Alexander Moore,Mechanical Keyboard RGB,2025-05-05,cancelled,Delhivery,,
+ORD-00679,Priyanka Jones,Webcam HD 1080p,2025-04-07,delivered,Amazon Logistics,2025-04-21,weather_disruption
+ORD-00680,James Miller,Mechanical Keyboard RGB,2024-03-16,delayed,UPS,,vehicle_breakdown
+ORD-00681,Ananya Reddy,Graphics Tablet Drawing,2024-04-05,delayed,BlueDart,,security_check
+ORD-00682,Lucas Patel,Desk Lamp LED Dimmable,2025-10-31,in_transit,BlueDart,,
+ORD-00683,Sophia Smith,Laptop Stand Adjustable,2024-04-13,delayed,UPS,,carrier_issue
+ORD-00684,William Kim,VR Headset Standalone,2025-07-07,delayed,Delhivery,,address_error
+ORD-00685,Navya Garcia,Mechanical Keyboard RGB,2024-02-20,returned,BlueDart,,incorrect_routing
+ORD-00686,Mia Mehta,Laptop Stand Adjustable,2025-01-04,delivered,USPS,2025-01-06,
+ORD-00687,Yuki Fernandez,Microphone USB Condenser,2024-07-23,delivered,FedEx,2024-07-27,address_error
+ORD-00688,Sai Nakamura,Electric Toothbrush Sonic,2024-04-28,delayed,Amazon Logistics,,vehicle_breakdown
+ORD-00689,Lucas Wang,Air Purifier HEPA Filter,2025-11-07,delayed,FedEx,,incorrect_routing
+ORD-00690,Noah Johnson,Wireless Mouse Ergonomic,2025-01-25,delayed,UPS,,high_demand_surge
+ORD-00691,Aditya Miller,Cable Management Kit,2025-04-21,delayed,UPS,,address_error
+ORD-00692,Daniel Singh,Portable SSD 1TB,2025-12-14,out_for_delivery,FedEx,,
+ORD-00693,Sai Thomas,Portable Projector Mini,2025-07-08,returned,Amazon Logistics,,security_check
+ORD-00694,Isha Kim,Laptop Stand Adjustable,2025-01-31,cancelled,USPS,,
+ORD-00695,Alexander Nakamura,Router WiFi 6 Mesh,2024-08-29,returned,DHL,,customs_clearance
+ORD-00696,Ava Kumar,Ring Light 12-inch,2025-08-07,cancelled,Amazon Logistics,,
+ORD-00697,Daniel Nguyen,Portable SSD 1TB,2024-05-03,returned,UPS,,warehouse_backlog
+ORD-00698,Kavya Williams,Portable SSD 1TB,2024-02-13,returned,FedEx,,vehicle_breakdown
+ORD-00699,Priya Mehta,Smart Home Hub,2025-09-01,delayed,DHL,,customs_clearance
+ORD-00700,Sai Moore,Graphics Tablet Drawing,2025-02-10,cancelled,DHL,,
+ORD-00701,Saanvi Hassan,Cable Management Kit,2024-01-13,out_for_delivery,BlueDart,,
+ORD-00702,Harper Hassan,Portable Projector Mini,2025-03-05,delivered,USPS,2025-03-08,security_check
+ORD-00703,Harper Joshi,Robot Vacuum Cleaner,2024-04-18,cancelled,Amazon Logistics,,
+ORD-00704,Reyansh Rodriguez,Electric Toothbrush Sonic,2025-07-02,delayed,USPS,,address_error
+ORD-00705,Noah Wang,Router WiFi 6 Mesh,2025-09-15,returned,FedEx,,warehouse_backlog
+ORD-00706,Saanvi Jackson,Portable SSD 1TB,2025-09-25,cancelled,Delhivery,,
+ORD-00707,Chen Jackson,Laptop Stand Adjustable,2025-02-09,delayed,Delhivery,,carrier_issue
+ORD-00708,Vihaan Nakamura,Robot Vacuum Cleaner,2024-10-02,delayed,FedEx,,out_of_stock
+ORD-00709,Navya Martinez,Tablet Stand Holder,2025-05-18,out_for_delivery,Delhivery,,
+ORD-00710,Reyansh Jones,Portable SSD 1TB,2024-11-03,out_for_delivery,USPS,,
+ORD-00711,Rahul Wilson,Tablet Stand Holder,2025-03-02,cancelled,Delhivery,,
+ORD-00712,Sai Williams,Cable Management Kit,2024-08-04,returned,Delhivery,,high_demand_surge
+ORD-00713,Priyanka Hassan,Electric Toothbrush Sonic,2025-01-17,delivered,BlueDart,2025-01-30,address_error
+ORD-00714,Wei Li,Phone Case Premium Leather,2024-05-18,cancelled,BlueDart,,
+ORD-00715,Vivaan Johnson,Smart Watch Fitness Tracker,2024-07-24,delivered,UPS,2024-07-25,
+ORD-00716,Olivia Williams,Tablet Stand Holder,2025-01-12,returned,BlueDart,,vehicle_breakdown
+ORD-00717,Carlos Verma,Action Camera 4K Waterproof,2024-02-01,in_transit,DHL,,
+ORD-00718,Mia Fernandez,Cable Management Kit,2024-06-30,returned,BlueDart,,incorrect_routing
+ORD-00719,Liam Thomas,Webcam HD 1080p,2024-09-21,out_for_delivery,Amazon Logistics,,
+ORD-00720,Chen Gupta,External Battery 20000mAh,2024-01-29,returned,FedEx,,warehouse_backlog
+ORD-00721,Daniel Brown,Electric Toothbrush Sonic,2024-08-14,out_for_delivery,UPS,,
+ORD-00722,Haruto Brown,Tablet Stand Holder,2025-10-29,returned,BlueDart,,weather_disruption
+ORD-00723,Rahul Sharma,Microphone USB Condenser,2024-05-15,out_for_delivery,UPS,,
+ORD-00724,Matthew Sharma,Noise Cancelling Earbuds,2024-09-15,cancelled,Amazon Logistics,,
+ORD-00725,Navya Davis,Desk Lamp LED Dimmable,2025-01-20,delayed,USPS,,address_error
+ORD-00726,Kavya Thompson,External Battery 20000mAh,2025-11-24,cancelled,Amazon Logistics,,
+ORD-00727,Evelyn Jackson,Router WiFi 6 Mesh,2024-04-14,delivered,BlueDart,2024-04-25,
+ORD-00728,Olivia Kim,Smart Speaker Voice Assistant,2025-08-31,cancelled,DHL,,
+ORD-00729,Navya Joshi,Microphone USB Condenser,2024-03-06,delayed,DHL,,out_of_stock
+ORD-00730,Saanvi Miller,Smart Speaker Voice Assistant,2025-12-29,out_for_delivery,DHL,,
+ORD-00731,Priya Mehta,Ring Light 12-inch,2024-09-03,delivered,Amazon Logistics,2024-09-17,
+ORD-00732,Matthew Jackson,Action Camera 4K Waterproof,2024-11-23,out_for_delivery,UPS,,
+ORD-00733,Fatima Patel,Smart Speaker Voice Assistant,2025-05-24,delayed,DHL,,vehicle_breakdown
+ORD-00734,Ava Moore,VR Headset Standalone,2024-02-06,cancelled,Delhivery,,
+ORD-00735,Daniel Williams,Monitor 27-inch 4K,2025-12-31,in_transit,Delhivery,,
+ORD-00736,Alexander Nakamura,Robot Vacuum Cleaner,2025-11-18,delayed,BlueDart,,address_error
+ORD-00737,Ananya Kim,Webcam HD 1080p,2024-10-27,delivered,USPS,2024-10-30,
+ORD-00738,Fatima Kim,E-Reader 8-inch Display,2024-07-06,out_for_delivery,DHL,,
+ORD-00739,Maria Gupta,Noise Cancelling Earbuds,2024-12-29,in_transit,Delhivery,,
+ORD-00740,Navya Martin,Portable Projector Mini,2024-12-05,delayed,DHL,,security_check
+ORD-00741,Aanya Thompson,Electric Toothbrush Sonic,2024-04-30,returned,FedEx,,security_check
+ORD-00742,Harper Nguyen,USB-C Hub 7-in-1,2025-04-28,in_transit,BlueDart,,
+ORD-00743,Ayaan Moore,Ring Light 12-inch,2024-11-01,returned,FedEx,,warehouse_backlog
+ORD-00744,Krishna Williams,Monitor 27-inch 4K,2025-02-23,cancelled,USPS,,
+ORD-00745,Ishaan Wilson,Electric Toothbrush Sonic,2024-07-03,delivered,USPS,2024-07-09,
+ORD-00746,Diya Wilson,Smart Speaker Voice Assistant,2024-02-29,delivered,USPS,2024-03-05,
+ORD-00747,Rahul Smith,Router WiFi 6 Mesh,2024-06-11,returned,Amazon Logistics,,customs_clearance
+ORD-00748,Krishna Nguyen,Desk Lamp LED Dimmable,2025-10-10,returned,USPS,,vehicle_breakdown
+ORD-00749,Lucas Moore,Wireless Bluetooth Headphones,2024-02-08,cancelled,UPS,,
+ORD-00750,Fatima Taylor,Wireless Bluetooth Headphones,2024-11-25,cancelled,UPS,,
+ORD-00751,Vivaan Sharma,Smart Speaker Voice Assistant,2024-09-11,in_transit,Delhivery,,
+ORD-00752,Liam Martinez,Portable SSD 1TB,2024-04-15,returned,BlueDart,,security_check
+ORD-00753,Navya Smith,USB-C Hub 7-in-1,2024-02-16,delayed,DHL,,high_demand_surge
+ORD-00754,Fatima Hassan,Surge Protector 8-Outlet,2025-06-20,delayed,USPS,,warehouse_backlog
+ORD-00755,Emma Wang,Wireless Mouse Ergonomic,2024-07-11,in_transit,Amazon Logistics,,
+ORD-00756,Ava Patel,Noise Cancelling Earbuds,2024-08-17,out_for_delivery,UPS,,
+ORD-00757,Kavya Patel,Router WiFi 6 Mesh,2025-05-31,in_transit,FedEx,,
+ORD-00758,Olivia Kumar,Phone Case Premium Leather,2025-10-17,delayed,Amazon Logistics,,incorrect_routing
+ORD-00759,Evelyn Singh,Surge Protector 8-Outlet,2024-02-19,out_for_delivery,FedEx,,
+ORD-00760,Maria Patel,Laptop Stand Adjustable,2025-12-07,delivered,USPS,2025-12-15,
+ORD-00761,Amelia Miller,Microphone USB Condenser,2025-12-19,in_transit,UPS,,
+ORD-00762,Chen Sharma,External Battery 20000mAh,2025-03-06,out_for_delivery,FedEx,,
+ORD-00763,Yuki Hassan,Tablet Stand Holder,2025-09-29,cancelled,Delhivery,,
+ORD-00764,Krishna Martin,Smart Home Hub,2024-04-17,cancelled,Delhivery,,
+ORD-00765,Evelyn Verma,External Battery 20000mAh,2024-04-26,delivered,USPS,2024-04-30,
+ORD-00766,Rahul Miller,Smart Home Hub,2025-06-19,in_transit,DHL,,
+ORD-00767,Wei Martin,External Battery 20000mAh,2024-06-13,delivered,BlueDart,2024-06-21,
+ORD-00768,Chen Nakamura,Monitor 27-inch 4K,2024-08-28,delivered,FedEx,2024-09-08,customs_clearance
+ORD-00769,Daniel Wang,Portable SSD 1TB,2024-04-02,cancelled,FedEx,,
+ORD-00770,Fatima Joshi,Air Purifier HEPA Filter,2024-09-19,out_for_delivery,UPS,,
+ORD-00771,Isabella Rodriguez,Tablet Stand Holder,2025-04-20,delivered,FedEx,2025-05-04,weather_disruption
+ORD-00772,Aanya Taylor,Portable Projector Mini,2025-11-24,delayed,USPS,,customs_clearance
+ORD-00773,Reyansh Kumar,Wireless Bluetooth Headphones,2024-05-21,out_for_delivery,Delhivery,,
+ORD-00774,Ananya Anderson,Wireless Mouse Ergonomic,2025-03-24,cancelled,DHL,,
+ORD-00775,Fatima Gupta,Wireless Mouse Ergonomic,2024-12-16,in_transit,FedEx,,
+ORD-00776,Ava Jackson,Cable Management Kit,2024-10-05,returned,Delhivery,,high_demand_surge
+ORD-00777,William Smith,Mechanical Keyboard RGB,2024-05-15,out_for_delivery,Delhivery,,
+ORD-00778,Vihaan Smith,Mechanical Keyboard RGB,2025-03-02,cancelled,USPS,,
+ORD-00779,Daniel Perez,Webcam HD 1080p,2025-09-17,returned,Amazon Logistics,,out_of_stock
+ORD-00780,Evelyn Patel,Electric Toothbrush Sonic,2025-12-01,out_for_delivery,UPS,,
+ORD-00781,Lucas Wang,Mechanical Keyboard RGB,2025-02-25,returned,FedEx,,customs_clearance
+ORD-00782,Riya Wilson,Wireless Bluetooth Headphones,2025-12-22,out_for_delivery,BlueDart,,
+ORD-00783,Rahul Park,VR Headset Standalone,2025-08-01,in_transit,Delhivery,,
+ORD-00784,Emma Hassan,Ring Light 12-inch,2025-12-05,out_for_delivery,BlueDart,,
+ORD-00785,Reyansh Lee,Action Camera 4K Waterproof,2024-09-11,returned,DHL,,vehicle_breakdown
+ORD-00786,Ishaan Kim,Air Purifier HEPA Filter,2025-09-19,delivered,FedEx,2025-09-30,
+ORD-00787,Henry Nakamura,Electric Toothbrush Sonic,2025-05-22,in_transit,FedEx,,
+ORD-00788,Priyanka Wang,Monitor 27-inch 4K,2024-09-03,delayed,DHL,,weather_disruption
+ORD-00789,Henry Jones,Graphics Tablet Drawing,2025-10-20,returned,USPS,,carrier_issue
+ORD-00790,Sai Thompson,Cable Management Kit,2025-08-09,returned,FedEx,,high_demand_surge
+ORD-00791,Benjamin Wilson,Mechanical Keyboard RGB,2025-05-24,out_for_delivery,Delhivery,,
+ORD-00792,Vivaan Joshi,Phone Case Premium Leather,2025-02-26,delivered,BlueDart,2025-03-07,customs_clearance
+ORD-00793,Matthew Nguyen,Smart Speaker Voice Assistant,2024-11-07,cancelled,BlueDart,,
+ORD-00794,Kavya Thompson,Monitor 27-inch 4K,2025-01-07,delivered,Amazon Logistics,2025-01-11,
+ORD-00795,Emma Kim,E-Reader 8-inch Display,2025-09-26,cancelled,USPS,,
+ORD-00796,Wei Taylor,Drone Mini Foldable,2025-04-08,delivered,FedEx,2025-04-21,
+ORD-00797,Aarav Anderson,Wireless Mouse Ergonomic,2025-10-10,delayed,BlueDart,,incorrect_routing
+ORD-00798,Olivia Joshi,Laptop Stand Adjustable,2024-06-17,returned,UPS,,vehicle_breakdown
+ORD-00799,Reyansh Miller,Surge Protector 8-Outlet,2024-07-19,in_transit,FedEx,,
+ORD-00800,Ava Brown,Cable Management Kit,2024-07-14,out_for_delivery,DHL,,
+ORD-00801,Reyansh Martin,Laptop Stand Adjustable,2025-10-10,out_for_delivery,BlueDart,,
+ORD-00802,Ayaan Perez,Cable Management Kit,2025-11-05,cancelled,BlueDart,,
+ORD-00803,Krishna Wang,Wireless Bluetooth Headphones,2025-06-27,out_for_delivery,FedEx,,
+ORD-00804,Amelia Lee,Smart Home Hub,2025-08-22,returned,BlueDart,,warehouse_backlog
+ORD-00805,Chen Santos,Webcam HD 1080p,2024-05-11,delivered,USPS,2024-05-22,
+ORD-00806,James Li,Air Purifier HEPA Filter,2025-01-28,returned,BlueDart,,carrier_issue
+ORD-00807,Saanvi Jackson,Monitor 27-inch 4K,2024-10-28,returned,Amazon Logistics,,warehouse_backlog
+ORD-00808,Krishna Martin,Surge Protector 8-Outlet,2025-12-17,out_for_delivery,BlueDart,,
+ORD-00809,Navya Kim,Electric Toothbrush Sonic,2024-11-17,out_for_delivery,Delhivery,,
+ORD-00810,Amelia Brown,Smart Watch Fitness Tracker,2024-08-02,cancelled,Delhivery,,
+ORD-00811,Aanya Thomas,Robot Vacuum Cleaner,2025-11-19,in_transit,Delhivery,,
+ORD-00812,Maria Johnson,Ring Light 12-inch,2025-07-09,out_for_delivery,Delhivery,,
+ORD-00813,James Verma,E-Reader 8-inch Display,2024-12-26,cancelled,USPS,,
+ORD-00814,Harper Park,Action Camera 4K Waterproof,2025-12-28,returned,Delhivery,,incorrect_routing
+ORD-00815,Aanya Lee,Portable Projector Mini,2024-01-14,cancelled,FedEx,,
+ORD-00816,Vivaan Moore,Portable SSD 1TB,2024-02-24,out_for_delivery,FedEx,,
+ORD-00817,Priya Davis,E-Reader 8-inch Display,2024-06-13,delayed,Delhivery,,address_error
+ORD-00818,Ishaan Singh,Drone Mini Foldable,2024-10-29,in_transit,Amazon Logistics,,
+ORD-00819,Alexander Kumar,Wireless Mouse Ergonomic,2025-04-08,delivered,BlueDart,2025-04-22,
+ORD-00820,Amelia Jones,VR Headset Standalone,2025-10-24,cancelled,USPS,,
+ORD-00821,Meera Li,Portable Projector Mini,2025-12-13,delayed,Delhivery,,weather_disruption
+ORD-00822,Noah Moore,Desk Lamp LED Dimmable,2025-12-02,delayed,BlueDart,,weather_disruption
+ORD-00823,Aarav Miller,Smart Watch Fitness Tracker,2025-09-27,returned,Amazon Logistics,,carrier_issue
+ORD-00824,Carlos Taylor,E-Reader 8-inch Display,2025-08-25,cancelled,Delhivery,,
+ORD-00825,Matthew Williams,E-Reader 8-inch Display,2024-07-17,delayed,USPS,,warehouse_backlog
+ORD-00826,Haruto Reddy,Webcam HD 1080p,2024-06-26,out_for_delivery,BlueDart,,
+ORD-00827,Ayaan Moore,Laptop Stand Adjustable,2025-03-14,delayed,BlueDart,,address_error
+ORD-00828,Krishna Smith,Router WiFi 6 Mesh,2024-09-18,delivered,DHL,2024-09-26,
+ORD-00829,Ishaan Kumar,Portable SSD 1TB,2024-11-26,cancelled,FedEx,,
+ORD-00830,Rahul Nguyen,Smart Home Hub,2025-11-08,delayed,USPS,,security_check
+ORD-00831,Amelia Thomas,USB-C Hub 7-in-1,2025-12-25,delayed,BlueDart,,carrier_issue
+ORD-00832,Diya Hassan,USB-C Hub 7-in-1,2025-06-01,in_transit,USPS,,
+ORD-00833,Alexander Ali,Phone Case Premium Leather,2024-04-04,delayed,UPS,,carrier_issue
+ORD-00834,Yuki Anderson,Monitor 27-inch 4K,2025-01-04,delayed,UPS,,security_check
+ORD-00835,Charlotte Nakamura,Graphics Tablet Drawing,2025-10-26,delivered,FedEx,2025-11-06,
+ORD-00836,Meera Nguyen,Robot Vacuum Cleaner,2025-09-28,in_transit,FedEx,,
+ORD-00837,Haruto Wilson,Phone Case Premium Leather,2024-04-26,returned,DHL,,incorrect_routing
+ORD-00838,Fatima Rodriguez,Wireless Bluetooth Headphones,2025-06-13,delayed,BlueDart,,incorrect_routing
+ORD-00839,Benjamin Wang,Laptop Stand Adjustable,2024-10-30,out_for_delivery,UPS,,
+ORD-00840,James Li,USB-C Hub 7-in-1,2024-04-08,in_transit,Amazon Logistics,,
+ORD-00841,Alexander Ali,Wireless Bluetooth Headphones,2025-10-03,delivered,UPS,2025-10-14,
+ORD-00842,Kavya Lee,Smart Home Hub,2024-04-16,in_transit,BlueDart,,
+ORD-00843,Chen Lee,Smart Speaker Voice Assistant,2024-03-14,out_for_delivery,Delhivery,,
+ORD-00844,Ishaan Patel,Cable Management Kit,2024-12-05,delivered,FedEx,2024-12-07,address_error
+ORD-00845,Amelia Reddy,Router WiFi 6 Mesh,2024-08-21,delayed,USPS,,vehicle_breakdown
+ORD-00846,Benjamin Jackson,Desk Lamp LED Dimmable,2024-11-19,delivered,USPS,2024-11-30,weather_disruption
+ORD-00847,Maria Nguyen,USB-C Hub 7-in-1,2025-08-22,delivered,Delhivery,2025-09-05,incorrect_routing
+ORD-00848,Reyansh Rodriguez,Portable Projector Mini,2025-12-03,delayed,BlueDart,,customs_clearance
+ORD-00849,Aanya Perez,Phone Case Premium Leather,2025-02-08,out_for_delivery,FedEx,,
+ORD-00850,Lucas Smith,Graphics Tablet Drawing,2024-08-13,in_transit,Delhivery,,
+ORD-00851,Ava Ali,External Battery 20000mAh,2025-10-11,in_transit,DHL,,
+ORD-00852,Haruto Taylor,Wireless Bluetooth Headphones,2025-07-20,cancelled,UPS,,
+ORD-00853,Ayaan Kumar,Wireless Bluetooth Headphones,2025-08-09,cancelled,USPS,,
+ORD-00854,Alexander Kim,USB-C Hub 7-in-1,2024-11-08,in_transit,Delhivery,,
+ORD-00855,Ahmed Thomas,Smart Watch Fitness Tracker,2025-02-26,out_for_delivery,Amazon Logistics,,
+ORD-00856,Henry Mehta,Webcam HD 1080p,2024-07-07,in_transit,BlueDart,,
+ORD-00857,Riya Williams,Mechanical Keyboard RGB,2024-07-04,out_for_delivery,Amazon Logistics,,
+ORD-00858,Daniel Singh,Electric Toothbrush Sonic,2025-07-16,returned,Delhivery,,incorrect_routing
+ORD-00859,Arjun Rodriguez,Action Camera 4K Waterproof,2024-03-09,delayed,FedEx,,carrier_issue
+ORD-00860,Fatima Santos,Microphone USB Condenser,2024-12-04,delayed,UPS,,carrier_issue
+ORD-00861,Reyansh Rodriguez,Surge Protector 8-Outlet,2024-03-12,in_transit,DHL,,
+ORD-00862,Mia Perez,Monitor 27-inch 4K,2025-09-23,out_for_delivery,DHL,,
+ORD-00863,Chen Santos,Portable SSD 1TB,2025-08-02,cancelled,DHL,,
+ORD-00864,James Lee,Webcam HD 1080p,2024-01-05,delayed,UPS,,carrier_issue
+ORD-00865,Wei Lee,Tablet Stand Holder,2025-01-03,in_transit,Delhivery,,
+ORD-00866,Fatima Anderson,Air Purifier HEPA Filter,2025-05-06,returned,USPS,,out_of_stock
+ORD-00867,Rahul Martinez,Microphone USB Condenser,2025-07-18,delivered,UPS,2025-07-29,
+ORD-00868,Saanvi Yadav,Air Purifier HEPA Filter,2025-07-05,in_transit,DHL,,
+ORD-00869,Fatima Reddy,VR Headset Standalone,2024-03-18,delivered,Amazon Logistics,2024-03-27,
+ORD-00870,Harper Santos,Phone Case Premium Leather,2025-08-27,in_transit,FedEx,,
+ORD-00871,Amelia Miller,Graphics Tablet Drawing,2025-07-06,returned,Delhivery,,warehouse_backlog
+ORD-00872,Olivia Jackson,Noise Cancelling Earbuds,2025-08-26,out_for_delivery,Amazon Logistics,,
+ORD-00873,Aanya Yadav,Cable Management Kit,2025-05-28,cancelled,FedEx,,
+ORD-00874,Ava Taylor,Ring Light 12-inch,2024-01-11,out_for_delivery,UPS,,
+ORD-00875,Evelyn Smith,E-Reader 8-inch Display,2025-06-10,in_transit,USPS,,
+ORD-00876,Ananya Johnson,Router WiFi 6 Mesh,2025-08-02,out_for_delivery,Amazon Logistics,,
+ORD-00877,Ishaan Nakamura,Wireless Mouse Ergonomic,2024-02-11,in_transit,Amazon Logistics,,
+ORD-00878,Mia Jones,USB-C Hub 7-in-1,2024-09-27,delayed,UPS,,weather_disruption
+ORD-00879,Yuki Brown,Ring Light 12-inch,2025-01-04,returned,USPS,,high_demand_surge
+ORD-00880,Aditya Kumar,Smart Speaker Voice Assistant,2024-11-27,delivered,Delhivery,2024-12-06,
+ORD-00881,Saanvi Miller,Router WiFi 6 Mesh,2025-07-11,cancelled,UPS,,
+ORD-00882,Noah Moore,Wireless Mouse Ergonomic,2025-08-24,out_for_delivery,Amazon Logistics,,
+ORD-00883,Arjun Hassan,Tablet Stand Holder,2025-01-20,in_transit,BlueDart,,
+ORD-00884,Ava Thomas,Smart Home Hub,2024-12-19,returned,Amazon Logistics,,high_demand_surge
+ORD-00885,Matthew Sharma,Ring Light 12-inch,2024-05-22,returned,UPS,,carrier_issue
+ORD-00886,Arjun Li,Smart Speaker Voice Assistant,2024-10-14,in_transit,UPS,,
+ORD-00887,Diya Smith,Wireless Mouse Ergonomic,2025-09-08,out_for_delivery,Amazon Logistics,,
+ORD-00888,Ayaan Jones,Desk Lamp LED Dimmable,2024-12-04,out_for_delivery,FedEx,,
+ORD-00889,Lucas Nakamura,Microphone USB Condenser,2024-08-03,cancelled,UPS,,
+ORD-00890,Maria Martin,Wireless Bluetooth Headphones,2024-09-06,delivered,UPS,2024-09-16,
+ORD-00891,Krishna Li,Laptop Stand Adjustable,2025-08-09,in_transit,FedEx,,
+ORD-00892,Ananya Miller,Robot Vacuum Cleaner,2024-07-03,cancelled,USPS,,
+ORD-00893,Matthew Park,Smart Speaker Voice Assistant,2024-01-20,out_for_delivery,Delhivery,,
+ORD-00894,Yuki Rodriguez,USB-C Hub 7-in-1,2024-08-09,returned,BlueDart,,high_demand_surge
+ORD-00895,Lucas Smith,Noise Cancelling Earbuds,2025-02-24,cancelled,UPS,,
+ORD-00896,Harper Johnson,Surge Protector 8-Outlet,2025-11-06,cancelled,DHL,,
+ORD-00897,Ananya Anderson,Robot Vacuum Cleaner,2025-04-09,cancelled,BlueDart,,
+ORD-00898,Arjun Jones,Phone Case Premium Leather,2025-01-29,in_transit,FedEx,,
+ORD-00899,Vivaan Williams,Ring Light 12-inch,2025-05-31,out_for_delivery,USPS,,
+ORD-00900,Ishaan Fernandez,Mechanical Keyboard RGB,2024-06-30,returned,BlueDart,,security_check
+ORD-00901,Aditya Ali,Ring Light 12-inch,2024-04-30,delivered,USPS,2024-05-11,security_check
+ORD-00902,Alexander Sharma,Air Purifier HEPA Filter,2025-11-25,out_for_delivery,USPS,,
+ORD-00903,Charlotte Martin,Wireless Mouse Ergonomic,2024-02-14,out_for_delivery,BlueDart,,
+ORD-00904,Sophia Jones,Portable Projector Mini,2025-05-08,returned,DHL,,security_check
+ORD-00905,Ahmed Park,Mechanical Keyboard RGB,2025-03-11,in_transit,DHL,,
+ORD-00906,Lucas Jones,Robot Vacuum Cleaner,2024-03-26,delayed,BlueDart,,incorrect_routing
+ORD-00907,William Miller,Smart Watch Fitness Tracker,2024-01-06,out_for_delivery,Delhivery,,
+ORD-00908,Aarav Park,Ring Light 12-inch,2024-04-30,cancelled,FedEx,,
+ORD-00909,Noah Brown,Drone Mini Foldable,2024-11-19,returned,DHL,,customs_clearance
+ORD-00910,Ishaan Lee,Smart Speaker Voice Assistant,2025-08-22,delayed,DHL,,incorrect_routing
+ORD-00911,Sophia Park,Wireless Mouse Ergonomic,2025-09-18,delayed,Delhivery,,vehicle_breakdown
+ORD-00912,Priyanka Brown,Desk Lamp LED Dimmable,2025-07-19,cancelled,USPS,,
+ORD-00913,Diya Taylor,Graphics Tablet Drawing,2025-07-22,returned,DHL,,address_error
+ORD-00914,Daniel Thomas,E-Reader 8-inch Display,2025-12-23,returned,Delhivery,,warehouse_backlog
+ORD-00915,Yuki Verma,VR Headset Standalone,2024-08-23,returned,Amazon Logistics,,warehouse_backlog
+ORD-00916,Reyansh Brown,Ring Light 12-inch,2025-02-14,delayed,Amazon Logistics,,incorrect_routing
+ORD-00917,Evelyn Singh,Webcam HD 1080p,2025-02-02,out_for_delivery,FedEx,,
+ORD-00918,Sai Mehta,Microphone USB Condenser,2025-09-06,returned,FedEx,,customs_clearance
+ORD-00919,Riya Jones,Wireless Mouse Ergonomic,2024-03-22,cancelled,FedEx,,
+ORD-00920,Fatima Moore,Robot Vacuum Cleaner,2025-02-14,cancelled,Delhivery,,
+ORD-00921,Charlotte Rodriguez,Drone Mini Foldable,2025-09-03,delivered,Amazon Logistics,2025-09-17,high_demand_surge
+ORD-00922,Benjamin Sharma,Smart Watch Fitness Tracker,2025-11-03,cancelled,DHL,,
+ORD-00923,Priya Kumar,Portable Projector Mini,2025-09-05,cancelled,BlueDart,,
+ORD-00924,Chen Jones,Surge Protector 8-Outlet,2024-06-22,out_for_delivery,FedEx,,
+ORD-00925,Olivia Garcia,Smart Speaker Voice Assistant,2024-01-01,in_transit,FedEx,,
+ORD-00926,Saanvi Jackson,Wireless Mouse Ergonomic,2025-11-16,returned,USPS,,security_check
+ORD-00927,Priya Hassan,Wireless Bluetooth Headphones,2025-12-21,delivered,FedEx,2025-12-30,
+ORD-00928,Amelia Santos,Wireless Mouse Ergonomic,2024-12-21,delayed,UPS,,security_check
+ORD-00929,Priya Thompson,Robot Vacuum Cleaner,2025-02-17,cancelled,FedEx,,
+ORD-00930,Riya Johnson,Desk Lamp LED Dimmable,2025-06-02,delivered,BlueDart,2025-06-04,
+ORD-00931,Emma Verma,Portable Projector Mini,2025-06-09,delayed,BlueDart,,security_check
+ORD-00932,Riya Perez,Phone Case Premium Leather,2025-07-30,returned,Amazon Logistics,,carrier_issue
+ORD-00933,Priyanka Anderson,E-Reader 8-inch Display,2025-04-14,out_for_delivery,USPS,,
+ORD-00934,Harper Patel,Microphone USB Condenser,2024-04-29,delayed,FedEx,,vehicle_breakdown
+ORD-00935,Carlos Jones,Action Camera 4K Waterproof,2025-12-19,in_transit,Amazon Logistics,,
+ORD-00936,James Martin,Wireless Mouse Ergonomic,2025-06-12,cancelled,FedEx,,
+ORD-00937,Chen Miller,Noise Cancelling Earbuds,2024-10-21,delivered,USPS,2024-11-01,
+ORD-00938,Emma Reddy,Graphics Tablet Drawing,2024-07-01,returned,DHL,,out_of_stock
+ORD-00939,Kavya Park,Tablet Stand Holder,2024-07-06,out_for_delivery,Delhivery,,
+ORD-00940,Priya Wang,VR Headset Standalone,2024-07-23,in_transit,Delhivery,,
+ORD-00941,Meera Miller,Smart Watch Fitness Tracker,2024-08-22,in_transit,Amazon Logistics,,
+ORD-00942,Meera Nguyen,Wireless Mouse Ergonomic,2024-06-08,delivered,FedEx,2024-06-10,
+ORD-00943,Yuki Wang,Surge Protector 8-Outlet,2024-01-07,cancelled,FedEx,,
+ORD-00944,Lucas Taylor,Surge Protector 8-Outlet,2024-11-18,returned,BlueDart,,address_error
+ORD-00945,Mia Johnson,E-Reader 8-inch Display,2025-06-07,delayed,USPS,,carrier_issue
+ORD-00946,Priyanka Park,Portable SSD 1TB,2024-02-25,cancelled,Amazon Logistics,,
+ORD-00947,Sophia Nakamura,Graphics Tablet Drawing,2024-02-03,cancelled,DHL,,
+ORD-00948,Ava Johnson,Cable Management Kit,2024-05-03,out_for_delivery,BlueDart,,
+ORD-00949,Isabella Wilson,Drone Mini Foldable,2024-01-09,delivered,Delhivery,2024-01-13,
+ORD-00950,Reyansh Wilson,Wireless Mouse Ergonomic,2025-09-19,delayed,UPS,,incorrect_routing
+ORD-00951,Riya Garcia,Tablet Stand Holder,2025-04-27,cancelled,DHL,,
+ORD-00952,Olivia Johnson,Microphone USB Condenser,2025-03-10,in_transit,USPS,,
+ORD-00953,Chen Taylor,Wireless Mouse Ergonomic,2025-02-14,delayed,USPS,,warehouse_backlog
+ORD-00954,Daniel Yadav,Router WiFi 6 Mesh,2025-12-03,in_transit,Amazon Logistics,,
+ORD-00955,Reyansh Davis,Portable Projector Mini,2024-08-29,cancelled,USPS,,
+ORD-00956,Noah Williams,Portable SSD 1TB,2024-06-02,returned,Amazon Logistics,,weather_disruption
+ORD-00957,Diya Martin,Microphone USB Condenser,2024-05-17,out_for_delivery,BlueDart,,
+ORD-00958,Alexander Wilson,Portable Projector Mini,2025-05-13,delayed,DHL,,incorrect_routing
+ORD-00959,Daniel Singh,Phone Case Premium Leather,2024-04-11,out_for_delivery,UPS,,
+ORD-00960,Vihaan Brown,Smart Home Hub,2024-09-17,returned,Amazon Logistics,,customs_clearance
+ORD-00961,Benjamin Anderson,Tablet Stand Holder,2025-01-04,delayed,BlueDart,,incorrect_routing
+ORD-00962,Riya Thomas,Wireless Bluetooth Headphones,2025-02-25,delivered,DHL,2025-03-11,
+ORD-00963,Matthew Williams,Router WiFi 6 Mesh,2025-08-12,out_for_delivery,Delhivery,,
+ORD-00964,Alexander Johnson,E-Reader 8-inch Display,2024-10-18,delayed,DHL,,incorrect_routing
+ORD-00965,Mia Perez,Air Purifier HEPA Filter,2024-03-21,returned,BlueDart,,address_error
+ORD-00966,Isabella Mehta,Electric Toothbrush Sonic,2024-06-20,out_for_delivery,Amazon Logistics,,
+ORD-00967,Emma Martin,Smart Speaker Voice Assistant,2025-09-19,cancelled,USPS,,
+ORD-00968,Arjun Gupta,Webcam HD 1080p,2024-12-17,in_transit,DHL,,
+ORD-00969,James Rodriguez,Drone Mini Foldable,2024-09-30,cancelled,Delhivery,,
+ORD-00970,Ava Davis,Air Purifier HEPA Filter,2025-03-31,delayed,Delhivery,,security_check
+ORD-00971,Charlotte Perez,Desk Lamp LED Dimmable,2024-06-20,in_transit,Amazon Logistics,,
+ORD-00972,Vivaan Yadav,VR Headset Standalone,2024-08-28,out_for_delivery,DHL,,
+ORD-00973,Ahmed Gupta,Smart Watch Fitness Tracker,2024-06-19,returned,FedEx,,customs_clearance
+ORD-00974,Arjun Nakamura,Graphics Tablet Drawing,2024-02-25,delivered,Amazon Logistics,2024-03-03,
+ORD-00975,Sai Joshi,Tablet Stand Holder,2025-09-24,in_transit,FedEx,,
+ORD-00976,Maria Moore,External Battery 20000mAh,2024-08-22,in_transit,Delhivery,,
+ORD-00977,Aanya Perez,Smart Speaker Voice Assistant,2024-05-09,in_transit,BlueDart,,
+ORD-00978,Ananya Patel,Laptop Stand Adjustable,2025-11-10,delayed,Amazon Logistics,,out_of_stock
+ORD-00979,Lucas Thompson,Electric Toothbrush Sonic,2025-07-07,delayed,BlueDart,,high_demand_surge
+ORD-00980,Krishna Ali,Webcam HD 1080p,2025-08-28,cancelled,USPS,,
+ORD-00981,Carlos Park,Desk Lamp LED Dimmable,2025-06-20,out_for_delivery,Delhivery,,
+ORD-00982,Alexander Martinez,Robot Vacuum Cleaner,2024-12-21,returned,BlueDart,,carrier_issue
+ORD-00983,Sai Perez,External Battery 20000mAh,2025-01-09,returned,DHL,,warehouse_backlog
+ORD-00984,Navya Sharma,Wireless Bluetooth Headphones,2025-06-19,in_transit,DHL,,
+ORD-00985,Aanya Nakamura,Graphics Tablet Drawing,2024-01-09,out_for_delivery,USPS,,
+ORD-00986,Priyanka Nakamura,External Battery 20000mAh,2024-01-10,returned,Amazon Logistics,,address_error
+ORD-00987,Matthew Jones,Portable Projector Mini,2024-01-08,cancelled,DHL,,
+ORD-00988,Priya Martin,Air Purifier HEPA Filter,2025-07-28,returned,USPS,,carrier_issue
+ORD-00989,Ananya Moore,Smart Home Hub,2025-01-22,in_transit,DHL,,
+ORD-00990,Sai Lee,Smart Speaker Voice Assistant,2024-09-02,cancelled,Amazon Logistics,,
+ORD-00991,Evelyn Davis,External Battery 20000mAh,2025-10-26,out_for_delivery,BlueDart,,
+ORD-00992,Saanvi Martin,Smart Watch Fitness Tracker,2024-03-11,in_transit,UPS,,
+ORD-00993,Aanya Verma,Smart Speaker Voice Assistant,2025-04-11,cancelled,USPS,,
+ORD-00994,Saanvi Nguyen,Microphone USB Condenser,2024-07-11,delayed,FedEx,,warehouse_backlog
+ORD-00995,Vihaan Ali,Wireless Bluetooth Headphones,2024-07-09,delivered,DHL,2024-07-14,high_demand_surge
+ORD-00996,Fatima Sharma,Noise Cancelling Earbuds,2024-04-02,in_transit,FedEx,,
+ORD-00997,Mia Brown,Monitor 27-inch 4K,2025-03-06,delayed,Amazon Logistics,,high_demand_surge
+ORD-00998,Olivia Thompson,Drone Mini Foldable,2024-02-02,delayed,FedEx,,warehouse_backlog
+ORD-00999,Vihaan Davis,E-Reader 8-inch Display,2025-02-05,delivered,BlueDart,2025-02-13,address_error
+ORD-01000,Noah Sharma,Mechanical Keyboard RGB,2024-09-11,returned,Amazon Logistics,,high_demand_surge
+ORD-01001,Meera Kumar,Smart Watch Fitness Tracker,2025-04-16,out_for_delivery,Amazon Logistics,,
+ORD-01002,Reyansh Hassan,Action Camera 4K Waterproof,2024-08-01,returned,USPS,,address_error
+ORD-01003,James Smith,Smart Speaker Voice Assistant,2024-02-13,out_for_delivery,BlueDart,,
+ORD-01004,Charlotte Verma,Tablet Stand Holder,2025-05-07,out_for_delivery,DHL,,
+ORD-01005,Priya Taylor,Air Purifier HEPA Filter,2024-02-23,out_for_delivery,UPS,,
+ORD-01006,Ayaan Garcia,Smart Speaker Voice Assistant,2025-03-20,delayed,FedEx,,warehouse_backlog
+ORD-01007,Saanvi Santos,Mechanical Keyboard RGB,2025-02-09,in_transit,FedEx,,
+ORD-01008,Aditya Santos,Portable Projector Mini,2025-12-08,returned,Delhivery,,security_check
+ORD-01009,Ishaan Taylor,E-Reader 8-inch Display,2024-04-01,in_transit,UPS,,
+ORD-01010,Mia Gupta,Action Camera 4K Waterproof,2025-09-25,delayed,Amazon Logistics,,weather_disruption
+ORD-01011,Vihaan Thomas,Smart Speaker Voice Assistant,2024-06-06,out_for_delivery,BlueDart,,
+ORD-01012,Reyansh Yadav,Microphone USB Condenser,2024-08-26,delayed,BlueDart,,out_of_stock
+ORD-01013,Benjamin Williams,Wireless Bluetooth Headphones,2025-12-06,returned,DHL,,warehouse_backlog
+ORD-01014,Riya Kumar,Microphone USB Condenser,2025-12-24,returned,BlueDart,,address_error
+ORD-01015,Alexander Wang,Smart Watch Fitness Tracker,2025-08-03,in_transit,BlueDart,,
+ORD-01016,Liam Wilson,VR Headset Standalone,2025-04-24,delayed,Amazon Logistics,,security_check
+ORD-01017,Amelia Smith,USB-C Hub 7-in-1,2025-06-27,in_transit,USPS,,
+ORD-01018,Aanya Miller,Graphics Tablet Drawing,2025-01-10,returned,FedEx,,incorrect_routing
+ORD-01019,Noah Johnson,Air Purifier HEPA Filter,2024-01-20,cancelled,Amazon Logistics,,
+ORD-01020,Olivia Nguyen,Noise Cancelling Earbuds,2024-11-24,out_for_delivery,FedEx,,
+ORD-01021,Yuki Ali,Smart Home Hub,2025-01-31,in_transit,BlueDart,,
+ORD-01022,Haruto Wang,E-Reader 8-inch Display,2025-07-18,in_transit,BlueDart,,
+ORD-01023,Aanya Wilson,Desk Lamp LED Dimmable,2025-10-18,delayed,FedEx,,customs_clearance
+ORD-01024,Charlotte Reddy,Laptop Stand Adjustable,2024-05-12,in_transit,Amazon Logistics,,
+ORD-01025,Aditya Williams,Mechanical Keyboard RGB,2025-05-12,in_transit,FedEx,,
+ORD-01026,Aditya Park,Smart Speaker Voice Assistant,2025-02-01,out_for_delivery,USPS,,
+ORD-01027,Charlotte Nguyen,Drone Mini Foldable,2025-08-27,delayed,FedEx,,out_of_stock
+ORD-01028,Isha Fernandez,Drone Mini Foldable,2024-03-13,delivered,UPS,2024-03-24,
+ORD-01029,Sai Thompson,Portable Projector Mini,2025-10-16,delivered,DHL,2025-10-25,
+ORD-01030,William Taylor,Portable Projector Mini,2025-12-26,delivered,Amazon Logistics,2026-01-05,
+ORD-01031,Aditya Reddy,Smart Home Hub,2024-11-07,delivered,UPS,2024-11-16,carrier_issue
+ORD-01032,Alexander Moore,Smart Watch Fitness Tracker,2024-07-16,cancelled,Delhivery,,
+ORD-01033,Meera Park,Smart Speaker Voice Assistant,2024-07-02,cancelled,Delhivery,,
+ORD-01034,Amelia Martin,VR Headset Standalone,2024-04-18,out_for_delivery,BlueDart,,
+ORD-01035,Liam Thompson,Drone Mini Foldable,2025-11-12,returned,FedEx,,warehouse_backlog
+ORD-01036,Diya Kim,Phone Case Premium Leather,2025-05-31,delayed,Delhivery,,warehouse_backlog
+ORD-01037,Alexander Fernandez,Cable Management Kit,2024-12-26,delayed,BlueDart,,out_of_stock
+ORD-01038,Olivia Martin,E-Reader 8-inch Display,2025-10-10,returned,Amazon Logistics,,out_of_stock
+ORD-01039,Matthew Garcia,Router WiFi 6 Mesh,2025-07-12,in_transit,USPS,,
+ORD-01040,Rahul Kim,Robot Vacuum Cleaner,2024-09-17,delayed,USPS,,high_demand_surge
+ORD-01041,Ava Sharma,VR Headset Standalone,2024-02-05,delayed,BlueDart,,weather_disruption
+ORD-01042,Charlotte Yadav,Air Purifier HEPA Filter,2024-11-05,delivered,DHL,2024-11-09,
+ORD-01043,James Patel,E-Reader 8-inch Display,2025-12-07,delayed,BlueDart,,incorrect_routing
+ORD-01044,Amelia Park,Robot Vacuum Cleaner,2025-08-08,in_transit,FedEx,,
+ORD-01045,Aditya Thompson,Wireless Mouse Ergonomic,2024-06-08,in_transit,DHL,,
+ORD-01046,Olivia Santos,Noise Cancelling Earbuds,2024-08-26,delayed,Amazon Logistics,,address_error
+ORD-01047,Sai Park,Phone Case Premium Leather,2025-08-05,in_transit,Delhivery,,
+ORD-01048,Arjun Wilson,Portable Projector Mini,2025-05-09,in_transit,USPS,,
+ORD-01049,Chen Park,Smart Home Hub,2024-04-07,cancelled,Delhivery,,
+ORD-01050,Navya Kumar,VR Headset Standalone,2025-08-13,returned,FedEx,,weather_disruption
+ORD-01051,Rahul Anderson,Wireless Mouse Ergonomic,2025-03-20,returned,Amazon Logistics,,customs_clearance
+ORD-01052,Rahul Jones,VR Headset Standalone,2025-10-30,cancelled,FedEx,,
+ORD-01053,Carlos Moore,Laptop Stand Adjustable,2024-11-08,cancelled,FedEx,,
+ORD-01054,James Ali,Router WiFi 6 Mesh,2024-06-02,delayed,BlueDart,,carrier_issue
+ORD-01055,Ishaan Singh,Action Camera 4K Waterproof,2025-02-06,returned,Amazon Logistics,,security_check
+ORD-01056,Daniel Li,USB-C Hub 7-in-1,2024-08-15,returned,DHL,,vehicle_breakdown
+ORD-01057,Ishaan Yadav,Monitor 27-inch 4K,2024-03-25,returned,BlueDart,,weather_disruption
+ORD-01058,Amelia Jackson,Tablet Stand Holder,2024-03-28,returned,BlueDart,,vehicle_breakdown
+ORD-01059,Rahul Yadav,E-Reader 8-inch Display,2024-05-18,returned,BlueDart,,carrier_issue
+ORD-01060,Mia Jackson,Smart Speaker Voice Assistant,2025-08-08,in_transit,BlueDart,,
+ORD-01061,Evelyn Hassan,Noise Cancelling Earbuds,2024-09-05,delivered,DHL,2024-09-18,
+ORD-01062,Haruto Park,USB-C Hub 7-in-1,2024-04-25,out_for_delivery,USPS,,
+ORD-01063,Sophia Taylor,Wireless Mouse Ergonomic,2024-07-14,delayed,DHL,,security_check
+ORD-01064,Maria Patel,E-Reader 8-inch Display,2024-11-08,in_transit,DHL,,
+ORD-01065,Evelyn Perez,Surge Protector 8-Outlet,2024-05-29,returned,FedEx,,carrier_issue
+ORD-01066,Priya Taylor,Portable SSD 1TB,2024-03-28,delivered,Delhivery,2024-03-29,
+ORD-01067,Evelyn Mehta,Electric Toothbrush Sonic,2024-10-21,delivered,DHL,2024-11-02,
+ORD-01068,Navya Perez,Microphone USB Condenser,2024-01-24,delayed,UPS,,incorrect_routing
+ORD-01069,Kavya Brown,Graphics Tablet Drawing,2025-06-19,delayed,BlueDart,,high_demand_surge
+ORD-01070,Evelyn Mehta,Drone Mini Foldable,2025-12-16,out_for_delivery,FedEx,,
+ORD-01071,Noah Santos,Air Purifier HEPA Filter,2025-11-10,cancelled,FedEx,,
+ORD-01072,Riya Smith,Laptop Stand Adjustable,2024-10-17,in_transit,Amazon Logistics,,
+ORD-01073,Chen Nguyen,Tablet Stand Holder,2024-02-24,returned,Delhivery,,weather_disruption
+ORD-01074,Arjun Moore,Action Camera 4K Waterproof,2024-10-04,out_for_delivery,Amazon Logistics,,
+ORD-01075,Yuki Taylor,Electric Toothbrush Sonic,2024-04-20,delivered,DHL,2024-05-04,
+ORD-01076,Noah Jones,Phone Case Premium Leather,2025-06-04,out_for_delivery,FedEx,,
+ORD-01077,James Wang,Electric Toothbrush Sonic,2025-09-03,cancelled,FedEx,,
+ORD-01078,Diya Williams,Ring Light 12-inch,2025-04-13,cancelled,Delhivery,,
+ORD-01079,Vivaan Kumar,Noise Cancelling Earbuds,2025-06-26,delayed,DHL,,high_demand_surge
+ORD-01080,Ava Smith,Wireless Bluetooth Headphones,2024-12-21,out_for_delivery,DHL,,
+ORD-01081,Liam Martinez,Noise Cancelling Earbuds,2025-05-28,delayed,Amazon Logistics,,weather_disruption
+ORD-01082,Carlos Miller,Air Purifier HEPA Filter,2025-01-31,delivered,BlueDart,2025-02-05,
+ORD-01083,Emma Jackson,Action Camera 4K Waterproof,2024-05-20,delivered,Delhivery,2024-05-27,
+ORD-01084,Haruto Nguyen,Electric Toothbrush Sonic,2025-10-02,out_for_delivery,UPS,,
+ORD-01085,William Garcia,Router WiFi 6 Mesh,2024-06-05,returned,DHL,,security_check
+ORD-01086,Emma Perez,Graphics Tablet Drawing,2024-05-14,in_transit,Delhivery,,
+ORD-01087,Krishna Santos,Graphics Tablet Drawing,2025-12-01,in_transit,Amazon Logistics,,
+ORD-01088,Krishna Martinez,Drone Mini Foldable,2025-12-23,cancelled,UPS,,
+ORD-01089,Sophia Mehta,Smart Speaker Voice Assistant,2025-08-01,in_transit,DHL,,
+ORD-01090,Arjun Kim,Graphics Tablet Drawing,2024-05-01,in_transit,DHL,,
+ORD-01091,Ishaan Patel,E-Reader 8-inch Display,2024-11-22,returned,USPS,,address_error
+ORD-01092,Benjamin Davis,Portable SSD 1TB,2024-07-11,delivered,UPS,2024-07-14,security_check
+ORD-01093,Evelyn Davis,Surge Protector 8-Outlet,2025-08-03,cancelled,UPS,,
+ORD-01094,Matthew Jones,Noise Cancelling Earbuds,2025-12-04,delivered,DHL,2025-12-06,
+ORD-01095,Lucas Yadav,Ring Light 12-inch,2025-09-11,returned,Delhivery,,out_of_stock
+ORD-01096,Diya Moore,Microphone USB Condenser,2025-04-30,in_transit,UPS,,
+ORD-01097,Priya Jones,Laptop Stand Adjustable,2025-02-22,delivered,DHL,2025-03-01,
+ORD-01098,Yuki Williams,E-Reader 8-inch Display,2024-07-28,delivered,UPS,2024-08-05,
+ORD-01099,Mia Wilson,Electric Toothbrush Sonic,2025-04-13,in_transit,USPS,,
+ORD-01100,Ava Kumar,Surge Protector 8-Outlet,2025-01-24,out_for_delivery,DHL,,
+ORD-01101,Ava Nguyen,VR Headset Standalone,2025-08-08,cancelled,BlueDart,,
+ORD-01102,Charlotte Kumar,Ring Light 12-inch,2024-04-21,returned,USPS,,weather_disruption
+ORD-01103,Meera Hassan,Graphics Tablet Drawing,2025-02-09,out_for_delivery,FedEx,,
+ORD-01104,Amelia Moore,Ring Light 12-inch,2025-10-07,delivered,UPS,2025-10-12,
+ORD-01105,Navya Rodriguez,Cable Management Kit,2024-06-19,returned,DHL,,security_check
+ORD-01106,Vihaan Hassan,Air Purifier HEPA Filter,2024-05-25,returned,Amazon Logistics,,high_demand_surge
+ORD-01107,Sai Li,Mechanical Keyboard RGB,2024-07-03,cancelled,Delhivery,,
+ORD-01108,Alexander Yadav,Phone Case Premium Leather,2025-02-27,delayed,USPS,,weather_disruption
+ORD-01109,Diya Thompson,Router WiFi 6 Mesh,2025-12-30,in_transit,USPS,,
+ORD-01110,Sai Miller,Monitor 27-inch 4K,2025-12-09,out_for_delivery,Delhivery,,
+ORD-01111,Ananya Verma,USB-C Hub 7-in-1,2024-04-26,out_for_delivery,USPS,,
+ORD-01112,Carlos Taylor,USB-C Hub 7-in-1,2025-06-20,out_for_delivery,USPS,,
+ORD-01113,Fatima Li,Surge Protector 8-Outlet,2024-06-12,returned,BlueDart,,vehicle_breakdown
+ORD-01114,Aditya Smith,Robot Vacuum Cleaner,2024-12-09,cancelled,Amazon Logistics,,
+ORD-01115,Yuki Mehta,Webcam HD 1080p,2024-05-28,in_transit,Amazon Logistics,,
+ORD-01116,Wei Singh,Desk Lamp LED Dimmable,2024-11-11,delayed,Delhivery,,high_demand_surge
+ORD-01117,Aanya Johnson,Mechanical Keyboard RGB,2024-05-14,in_transit,FedEx,,
+ORD-01118,Evelyn Miller,Wireless Bluetooth Headphones,2025-04-14,returned,Amazon Logistics,,high_demand_surge
+ORD-01119,Alexander Sharma,Surge Protector 8-Outlet,2025-05-20,in_transit,UPS,,
+ORD-01120,Harper Nakamura,Cable Management Kit,2025-02-23,returned,FedEx,,security_check
+ORD-01121,Matthew Sharma,Noise Cancelling Earbuds,2025-07-14,delayed,BlueDart,,incorrect_routing
+ORD-01122,Kavya Singh,Webcam HD 1080p,2024-05-31,delivered,Delhivery,2024-06-06,weather_disruption
+ORD-01123,Yuki Park,Smart Home Hub,2025-09-09,delayed,DHL,,customs_clearance
+ORD-01124,Vihaan Joshi,Desk Lamp LED Dimmable,2024-07-01,in_transit,Delhivery,,
+ORD-01125,Aanya Nguyen,Action Camera 4K Waterproof,2025-12-09,out_for_delivery,BlueDart,,
+ORD-01126,Daniel Kim,Webcam HD 1080p,2025-04-11,out_for_delivery,BlueDart,,
+ORD-01127,Olivia Kumar,USB-C Hub 7-in-1,2024-11-02,delayed,DHL,,vehicle_breakdown
+ORD-01128,Arjun Lee,Smart Home Hub,2025-07-17,delivered,DHL,2025-07-25,address_error
+ORD-01129,Emma Hassan,Desk Lamp LED Dimmable,2025-06-21,in_transit,Delhivery,,
+ORD-01130,Kavya Nguyen,Laptop Stand Adjustable,2024-04-21,cancelled,Delhivery,,
+ORD-01131,Carlos Hassan,USB-C Hub 7-in-1,2025-05-10,out_for_delivery,Delhivery,,
+ORD-01132,Matthew Rodriguez,Desk Lamp LED Dimmable,2025-09-15,delayed,DHL,,incorrect_routing
+ORD-01133,Daniel Nguyen,Wireless Mouse Ergonomic,2024-05-12,cancelled,BlueDart,,
+ORD-01134,Mia Hassan,VR Headset Standalone,2025-10-09,returned,USPS,,warehouse_backlog
+ORD-01135,Evelyn Jones,Drone Mini Foldable,2024-10-24,in_transit,FedEx,,
+ORD-01136,Ayaan Patel,Cable Management Kit,2025-10-02,delivered,Delhivery,2025-10-16,
+ORD-01137,Evelyn Martin,Desk Lamp LED Dimmable,2024-02-16,delayed,DHL,,incorrect_routing
+ORD-01138,Carlos Brown,Wireless Bluetooth Headphones,2025-10-17,in_transit,Delhivery,,
+ORD-01139,Aanya Miller,Portable Projector Mini,2024-03-10,delayed,DHL,,incorrect_routing
+ORD-01140,Amelia Wilson,E-Reader 8-inch Display,2024-01-07,delivered,Delhivery,2024-01-13,
+ORD-01141,Fatima Park,Surge Protector 8-Outlet,2024-01-30,in_transit,UPS,,
+ORD-01142,Emma Anderson,Robot Vacuum Cleaner,2025-11-19,returned,USPS,,weather_disruption
+ORD-01143,Maria Yadav,Microphone USB Condenser,2024-06-08,out_for_delivery,USPS,,
+ORD-01144,Alexander Anderson,Cable Management Kit,2025-02-27,out_for_delivery,FedEx,,
+ORD-01145,Charlotte Martinez,Router WiFi 6 Mesh,2025-11-25,delayed,BlueDart,,incorrect_routing
+ORD-01146,Vivaan Brown,Router WiFi 6 Mesh,2025-12-02,delayed,Amazon Logistics,,out_of_stock
+ORD-01147,Arjun Mehta,Tablet Stand Holder,2024-02-01,delayed,USPS,,incorrect_routing
+ORD-01148,Ananya Park,Surge Protector 8-Outlet,2025-02-02,in_transit,BlueDart,,
+ORD-01149,Ayaan Martinez,Drone Mini Foldable,2024-11-18,out_for_delivery,FedEx,,
+ORD-01150,Saanvi Martin,USB-C Hub 7-in-1,2025-05-23,in_transit,DHL,,
+ORD-01151,Benjamin Martinez,Smart Watch Fitness Tracker,2025-06-21,delayed,UPS,,customs_clearance
+ORD-01152,Olivia Kumar,E-Reader 8-inch Display,2024-07-25,delivered,USPS,2024-08-03,high_demand_surge
+ORD-01153,Henry Mehta,Smart Watch Fitness Tracker,2024-12-14,returned,Delhivery,,incorrect_routing
+ORD-01154,Navya Wilson,Portable SSD 1TB,2024-04-10,cancelled,Delhivery,,
+ORD-01155,Krishna Brown,VR Headset Standalone,2024-02-07,returned,USPS,,incorrect_routing
+ORD-01156,Ayaan Sharma,External Battery 20000mAh,2024-02-15,out_for_delivery,Amazon Logistics,,
+ORD-01157,Matthew Gupta,Monitor 27-inch 4K,2025-04-23,delivered,FedEx,2025-05-02,
+ORD-01158,Ahmed Martinez,Wireless Bluetooth Headphones,2025-08-14,delayed,Delhivery,,carrier_issue
+ORD-01159,James Williams,Smart Watch Fitness Tracker,2024-10-20,delayed,BlueDart,,out_of_stock
+ORD-01160,Rahul Perez,Action Camera 4K Waterproof,2024-04-30,delayed,UPS,,warehouse_backlog
+ORD-01161,Saanvi Verma,Wireless Bluetooth Headphones,2025-09-29,cancelled,BlueDart,,
+ORD-01162,Reyansh Brown,Graphics Tablet Drawing,2024-12-24,cancelled,DHL,,
+ORD-01163,Saanvi Mehta,Drone Mini Foldable,2024-10-17,cancelled,UPS,,
+ORD-01164,Ananya Reddy,External Battery 20000mAh,2025-09-19,delayed,BlueDart,,high_demand_surge
+ORD-01165,Vihaan Yadav,Wireless Bluetooth Headphones,2025-04-27,out_for_delivery,FedEx,,
+ORD-01166,Reyansh Moore,Laptop Stand Adjustable,2024-03-29,returned,USPS,,warehouse_backlog
+ORD-01167,Wei Fernandez,Air Purifier HEPA Filter,2025-08-29,out_for_delivery,Amazon Logistics,,
+ORD-01168,Chen Perez,Surge Protector 8-Outlet,2024-12-30,delayed,DHL,,carrier_issue
+ORD-01169,Wei Ali,USB-C Hub 7-in-1,2025-04-21,cancelled,UPS,,
+ORD-01170,Sai Thompson,Mechanical Keyboard RGB,2025-04-11,delayed,Delhivery,,high_demand_surge
+ORD-01171,Lucas Jones,Noise Cancelling Earbuds,2024-05-27,cancelled,DHL,,
+ORD-01172,Olivia Jackson,Webcam HD 1080p,2025-12-17,out_for_delivery,DHL,,
+ORD-01173,James Thompson,Microphone USB Condenser,2024-01-31,delivered,USPS,2024-02-02,
+ORD-01174,Isabella Smith,External Battery 20000mAh,2024-12-22,cancelled,BlueDart,,
+ORD-01175,Krishna Li,Mechanical Keyboard RGB,2025-02-19,out_for_delivery,Amazon Logistics,,
+ORD-01176,Reyansh Wilson,Graphics Tablet Drawing,2025-10-27,delivered,Amazon Logistics,2025-11-01,
+ORD-01177,Ava Santos,Desk Lamp LED Dimmable,2024-09-01,cancelled,UPS,,
+ORD-01178,Amelia Smith,Microphone USB Condenser,2025-01-28,delivered,DHL,2025-02-01,
+ORD-01179,Harper Lee,Portable Projector Mini,2025-03-21,cancelled,Amazon Logistics,,
+ORD-01180,Emma Ali,Drone Mini Foldable,2024-08-29,in_transit,Delhivery,,
+ORD-01181,Yuki Reddy,VR Headset Standalone,2025-12-29,cancelled,Amazon Logistics,,
+ORD-01182,Mia Verma,Router WiFi 6 Mesh,2025-09-02,returned,DHL,,incorrect_routing
+ORD-01183,Reyansh Perez,Webcam HD 1080p,2024-11-11,returned,FedEx,,security_check
+ORD-01184,Reyansh Fernandez,E-Reader 8-inch Display,2025-01-23,delayed,USPS,,weather_disruption
+ORD-01185,Sai Brown,Smart Home Hub,2024-05-22,cancelled,Amazon Logistics,,
+ORD-01186,Carlos Sharma,E-Reader 8-inch Display,2024-05-30,out_for_delivery,UPS,,
+ORD-01187,Benjamin Ali,External Battery 20000mAh,2025-02-03,cancelled,BlueDart,,
+ORD-01188,Benjamin Williams,Smart Watch Fitness Tracker,2025-11-28,delayed,DHL,,security_check
+ORD-01189,Haruto Martinez,Robot Vacuum Cleaner,2025-03-21,out_for_delivery,DHL,,
+ORD-01190,Sai Santos,Wireless Bluetooth Headphones,2025-09-18,cancelled,USPS,,
+ORD-01191,Krishna Rodriguez,Laptop Stand Adjustable,2025-01-13,cancelled,FedEx,,
+ORD-01192,Aarav Kim,Smart Home Hub,2025-01-02,delivered,Amazon Logistics,2025-01-07,
+ORD-01193,Meera Lee,Drone Mini Foldable,2025-08-27,returned,Delhivery,,out_of_stock
+ORD-01194,Wei Moore,Phone Case Premium Leather,2025-01-25,returned,BlueDart,,carrier_issue
+ORD-01195,Yuki Johnson,Microphone USB Condenser,2024-05-22,in_transit,BlueDart,,
+ORD-01196,Noah Taylor,Smart Home Hub,2025-03-03,in_transit,DHL,,
+ORD-01197,Yuki Yadav,Portable SSD 1TB,2024-01-12,delivered,Delhivery,2024-01-13,high_demand_surge
+ORD-01198,Yuki Lee,Portable SSD 1TB,2024-03-27,in_transit,Delhivery,,
+ORD-01199,William Thompson,Air Purifier HEPA Filter,2025-12-13,cancelled,USPS,,
+ORD-01200,Evelyn Johnson,Cable Management Kit,2025-06-05,returned,BlueDart,,high_demand_surge
