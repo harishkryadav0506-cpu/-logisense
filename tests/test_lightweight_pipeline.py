@@ -33,6 +33,7 @@ def test_health_endpoint():
     assert data["components"]["api"] == "healthy"
     assert data["components"]["orders_db"] == "healthy"
     assert data["components"]["vector_store"] in ("healthy", "fallback_policy_ready")
+    assert "keyword_classifier_ready" in data["components"]["bert_model"]
 
 
 def test_resolve_endpoint_success():

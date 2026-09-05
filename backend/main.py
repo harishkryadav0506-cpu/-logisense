@@ -239,7 +239,7 @@ async def health_check() -> HealthResponse:
         components["vector_store"] = f"error: {e}"
 
     # Sentiment classifier status
-    components["bert_model"] = "keyword_classifier_ready"
+    components["bert_model"] = "healthy (keyword_classifier_ready)"
 
     return HealthResponse(
         status="healthy",
