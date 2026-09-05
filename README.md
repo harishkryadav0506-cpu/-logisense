@@ -241,8 +241,8 @@ LogiSense is pre-configured for seamless cloud deployment with decoupled fronten
    - **Environment:** `Python`
    - **Region:** Choose closest to your users
    - **Branch:** `main`
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
+   - **Build Command:** `pip install -r requirements.txt && python -m rag.ingest`
+   - **Start Command:** `python startup.py && uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
 4. Under **Environment Variables**, add:
    - `ENVIRONMENT` = `production`
    - `PYTHON_VERSION` = `3.10.9`
@@ -352,6 +352,7 @@ logisense/
 │   └── test_agents.py             #   14 tests — agent & orchestrator end-to-end
 │
 ├── generate_data.py               # Synthetic data generation script
+├── startup.py                     # Cloud startup script (auto-initializes vector store & logs model status)
 ├── requirements.txt               # Complete backend & ML dependencies
 ├── Procfile                       # Process file for Render web service
 ├── render.yaml                    # Render Blueprint deployment specification

@@ -259,7 +259,7 @@ def main():
                 st.success(f"API: {health.get('status', 'unknown')}")
                 components = health.get("components", {})
                 for comp, status in components.items():
-                    icon = "✅" if status == "healthy" else "⚠️" if status in ("not_initialized", "not_trained") else "❌"
+                    icon = "✅" if ("healthy" in status or "fallback" in status) else "⚠️" if status in ("not_initialized", "not_trained") else "❌"
                     st.markdown(f"{icon} **{comp}**: {status}")
             else:
                 st.error(health["error"])
