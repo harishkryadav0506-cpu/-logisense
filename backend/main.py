@@ -10,6 +10,7 @@ Usage:
     uvicorn backend.main:app --reload --port 8000
 """
 
+import asyncio
 import logging
 import os
 import sys
@@ -31,6 +32,38 @@ sys.path.insert(0, str(PROJECT_ROOT))
 load_dotenv(PROJECT_ROOT / ".env")
 
 logger = logging.getLogger(__name__)
+
+# ─────────────────────────────────────────────────
+# Background RAG Ingestion State
+# ─────────────────────────────────────────────────
+
+_rag_status: str = "not_started"
+_rag_error: Optional[str] = None
+
+
+def _run_rag_ingestion() -> None:
+    """Run RAG ingestion in background thread without blocking server port."""
+    global _rag_status, _rag_error
+    try:
+        logger.info("[RAG Background] Starting asynchronous document ingestion from data/policies/...")
+        _rag_status = "ingesting"
+        from rag.ingest import ingest
+        ingest()
+        _rag_status = "healthy"
+        logger.info("[RAG Background] Ingestion completed successfully! Vector store is ready.")
+    except Exception as e:
+        _rag_status = "error"
+        _rag_error = str(e)
+        logger.error(f"[RAG Background] Ingestion failed: {e}")
+
+
+async def _background_init_vector_store() -> None:
+    """Trigger background ingestion in worker thread so event loop remains unblocked."""
+    global _rag_status
+    if _rag_status == "ingesting":
+        return
+    loop = asyncio.get_running_loop()
+    await loop.run_in_executor(None, _run_rag_ingestion)
 
 
 # ─────────────────────────────────────────────────
@@ -101,27 +134,27 @@ class HealthResponse(BaseModel):
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Application lifespan manager for startup/shutdown."""
+    """
+    Application lifespan manager.
+    Yields immediately so uvicorn binds to the port within seconds and passes Render port scans.
+    """
     logger.info("LogiSense API starting up...")
 
-    # 1. Ensure RAG vector store is initialized
-    try:
-        vector_store_path = PROJECT_ROOT / "rag" / "vector_store"
-        chroma_files = [
-            f for f in vector_store_path.iterdir() if f.name != ".gitkeep"
-        ] if vector_store_path.exists() else []
+    # Check vector store status
+    vector_store_path = PROJECT_ROOT / "rag" / "vector_store"
+    chroma_files = [
+        f for f in vector_store_path.iterdir() if f.name != ".gitkeep"
+    ] if vector_store_path.exists() else []
 
-        if not chroma_files:
-            logger.info("Vector store not found on startup. Automatically building from data/policies/...")
-            from rag.ingest import ingest
-            ingest()
-            logger.info("Vector store successfully initialized on startup.")
-        else:
-            logger.info(f"Vector store already initialized ({len(chroma_files)} files).")
-    except Exception as e:
-        logger.error(f"Error during startup vector store initialization: {e}")
+    global _rag_status
+    if chroma_files:
+        _rag_status = "healthy"
+        logger.info(f"Vector store already initialized ({len(chroma_files)} files found).")
+    else:
+        logger.info("Vector store not found. Scheduling non-blocking background ingestion...")
+        asyncio.create_task(_background_init_vector_store())
 
-    # 2. Check BERT model status and log deployment message
+    # Check BERT model status
     model_path = PROJECT_ROOT / "finetuning" / "saved_model"
     model_files = [
         f for f in model_path.iterdir() if f.name != ".gitkeep"
@@ -136,6 +169,7 @@ async def lifespan(app: FastAPI):
             "Note: The fine-tuned BERT classifier achieved 89% confidence in local testing and is available for local demo."
         )
 
+    # Server port binds immediately here
     yield
     logger.info("LogiSense API shutting down...")
 
@@ -266,9 +300,19 @@ async def health_check() -> HealthResponse:
         chroma_files = [
             f for f in vector_store_path.iterdir() if f.name != ".gitkeep"
         ] if vector_store_path.exists() else []
-        components["vector_store"] = "healthy" if chroma_files else "not_initialized"
-    except Exception:
-        components["vector_store"] = "error"
+
+        if chroma_files:
+            components["vector_store"] = "healthy"
+        elif _rag_status == "ingesting":
+            components["vector_store"] = "initializing_in_background"
+        elif _rag_status == "error":
+            components["vector_store"] = f"error: {_rag_error}"
+        else:
+            # Lazy trigger if not already running
+            asyncio.create_task(_background_init_vector_store())
+            components["vector_store"] = "initializing_in_background"
+    except Exception as e:
+        components["vector_store"] = f"error: {e}"
 
     # Check BERT model
     try:
