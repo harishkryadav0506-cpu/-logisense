@@ -173,6 +173,8 @@ cp .env.example .env
 # Edit .env and add your OpenAI API key (optional)
 ```
 
+> **Production Note:** For cloud deployments (e.g., Render.com), never commit `.env` files. Set production environment variables (such as `OPENAI_API_KEY`, `PORT`, `ENVIRONMENT=production`) directly in your cloud host's dashboard under **Environment** settings.
+
 ---
 
 ## 🚀 How to Run
@@ -225,6 +227,42 @@ streamlit run frontend/app.py
 
 ---
 
+## 🌐 Cloud Deployment
+
+LogiSense is pre-configured for seamless cloud deployment with decoupled frontend and backend architectures:
+- **Backend (FastAPI)** → [Render.com](https://render.com) (Web Service)
+- **Frontend (Streamlit)** → [Streamlit Community Cloud](https://share.streamlit.io)
+
+### 1. Deploy Backend on Render.com
+1. Sign in to [Render.com](https://render.com) and click **New +** → **Web Service**.
+2. Connect your GitHub repository: `https://github.com/harishkryadav0506-cpu/-logisense`.
+3. Set the service configuration:
+   - **Name:** `logisense-backend`
+   - **Environment:** `Python`
+   - **Region:** Choose closest to your users
+   - **Branch:** `main`
+   - **Build Command:** `pip install -r requirements.txt`
+   - **Start Command:** `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
+4. Under **Environment Variables**, add:
+   - `ENVIRONMENT` = `production`
+   - `PYTHON_VERSION` = `3.10.9`
+   - `OPENAI_API_KEY` = `your-key-here` *(optional, for LLM-powered resolution)*
+5. Click **Create Web Service**. Once deployed, copy your service URL (e.g., `https://logisense-backend.onrender.com`).
+
+> **Security Note:** Never commit `.env` or sensitive API keys to Git. Always configure production credentials in Render's dashboard under **Environment**.
+
+### 2. Deploy Frontend on Streamlit Community Cloud
+1. Sign in to [share.streamlit.io](https://share.streamlit.io) and click **New app**.
+2. Select your repository (`harishkryadav0506-cpu/-logisense`) and branch (`main`).
+3. Set **Main file path** to: `frontend/app.py`.
+4. Open **Advanced settings** → **Secrets**, and define your deployed Render backend URL:
+   ```toml
+   API_URL = "https://your-backend-url.onrender.com"
+   ```
+5. Click **Deploy**. Streamlit Cloud will connect directly to your live FastAPI backend.
+
+---
+
 ## 🧪 Running Tests
 
 ```bash
@@ -261,6 +299,9 @@ pytest tests/test_agents.py -v    # 14 tests — agents, orchestrator end-to-end
 
 ```
 logisense/
+├── .streamlit/                    # Streamlit Cloud configuration
+│   └── secrets.toml.example       #   Template for cloud backend URL secret
+│
 ├── assets/                        # Demo screenshots
 │   ├── dashboard.png              #   Interactive complaint intake UI
 │   ├── resolution.png             #   Resolution decision, badges, refund & email
@@ -291,10 +332,11 @@ logisense/
 │   └── email_tool.py              #   Templated email drafting (refund/reschedule/escalate)
 │
 ├── backend/                       # FastAPI REST API
-│   └── main.py                    #   POST /resolve, GET /order/{id}, GET /health
+│   └── main.py                    #   POST /resolve, GET /order/{id}, GET /health (with CORS & $PORT)
 │
 ├── frontend/                      # Streamlit Dashboard
-│   └── app.py                     #   Complaint form, resolution display, agent trace viewer
+│   ├── app.py                     #   Complaint form, resolution display, agent trace viewer
+│   └── requirements.txt           #   Lightweight dependencies for Streamlit Cloud
 │
 ├── data/                          # Synthetic Datasets
 │   ├── orders.csv                 #   1,200 orders (8 statuses, 5 carriers, 6 delay reasons)
@@ -310,7 +352,9 @@ logisense/
 │   └── test_agents.py             #   14 tests — agent & orchestrator end-to-end
 │
 ├── generate_data.py               # Synthetic data generation script
-├── requirements.txt               # Python dependencies
+├── requirements.txt               # Complete backend & ML dependencies
+├── Procfile                       # Process file for Render web service
+├── render.yaml                    # Render Blueprint deployment specification
 ├── .env.example                   # Environment variable template
 ├── .gitignore                     # Git ignore rules
 └── README.md                      # This file

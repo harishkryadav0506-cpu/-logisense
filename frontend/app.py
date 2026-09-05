@@ -9,6 +9,7 @@ Usage:
 """
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -23,7 +24,12 @@ sys.path.insert(0, str(PROJECT_ROOT))
 # Configuration
 # ─────────────────────────────────────────────────
 
-API_BASE_URL = "http://localhost:8000"
+try:
+    API_URL = st.secrets.get("API_URL", os.getenv("API_URL", "http://localhost:8000"))
+except Exception:
+    API_URL = os.getenv("API_URL", "http://localhost:8000")
+
+API_BASE_URL = API_URL
 
 # Page config
 st.set_page_config(
@@ -192,7 +198,8 @@ st.markdown("""
 
 def call_api(endpoint: str, method: str = "GET", data: dict = None) -> dict:
     """Make an API call to the backend."""
-    url = f"{API_BASE_URL}{endpoint}"
+    base_url = st.session_state.get("api_url", API_URL).rstrip("/")
+    url = f"{base_url}{endpoint}"
     try:
         with httpx.Client(timeout=60.0) as client:
             if method == "POST":
@@ -205,7 +212,7 @@ def call_api(endpoint: str, method: str = "GET", data: dict = None) -> dict:
             else:
                 return {"error": f"API error: {response.status_code} — {response.text}"}
     except httpx.ConnectError:
-        return {"error": "Cannot connect to backend. Make sure the FastAPI server is running on port 8000."}
+        return {"error": f"Cannot connect to backend at {base_url}. Ensure the server is running."}
     except Exception as e:
         return {"error": f"Request failed: {str(e)}"}
 
@@ -242,9 +249,7 @@ def main():
     # ── Sidebar ──
     with st.sidebar:
         st.markdown("### ⚙️ Settings")
-        api_url = st.text_input("API URL", value=API_BASE_URL, key="api_url")
-        if api_url != API_BASE_URL:
-            pass  # Could update API_BASE_URL dynamically
+        api_url = st.text_input("API URL", value=API_URL, key="api_url")
 
         st.markdown("---")
         st.markdown("### 📊 System Status")

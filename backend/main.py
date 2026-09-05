@@ -263,9 +263,12 @@ if __name__ == "__main__":
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     )
 
+    port = int(os.getenv("PORT", 8000))
+    reload = os.getenv("ENVIRONMENT", "production").lower() != "production"
+
     uvicorn.run(
         "backend.main:app",
         host="0.0.0.0",
-        port=8000,
-        reload=True,
+        port=port,
+        reload=reload,
     )
