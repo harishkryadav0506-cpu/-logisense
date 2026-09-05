@@ -153,28 +153,35 @@ def evaluate(model_dir: str | None = None) -> dict:
     recall = recall_score(true_labels, pred_labels, average="weighted")
     f1 = f1_score(true_labels, pred_labels, average="weighted")
 
+    # Calculate confidence scores
+    confidences = [max(probs) * 100 for probs in pred_probs]
+    avg_confidence = float(np.mean(confidences))
+    high_conf_pct = float(np.mean([c >= 80.0 for c in confidences]) * 100)
+
     # Print results
     label_names = [LABEL_TO_SEVERITY[i] for i in range(3)]
 
     print("\n" + "=" * 60)
     print("  EVALUATION RESULTS")
     print("=" * 60)
-    print(f"\n  Accuracy:  {accuracy:.4f}")
-    print(f"  Precision: {precision:.4f}")
-    print(f"  Recall:    {recall:.4f}")
-    print(f"  F1 Score:  {f1:.4f}")
+    print(f"\n  Accuracy:           {accuracy:.4f}")
+    print(f"  Precision:          {precision:.4f}")
+    print(f"  Recall:             {recall:.4f}")
+    print(f"  F1 Score:           {f1:.4f}")
+    print(f"  Avg Confidence:     {avg_confidence:.2f}%")
+    print(f"  High Conf (>=80%):  {high_conf_pct:.1f}%")
 
     # Classification report
-    print(f"\n{'─' * 60}")
+    print(f"\n{'-' * 60}")
     print("  CLASSIFICATION REPORT")
-    print(f"{'─' * 60}")
+    print(f"{'-' * 60}")
     print(classification_report(true_labels, pred_labels, target_names=label_names))
 
     # Confusion matrix
     cm = confusion_matrix(true_labels, pred_labels)
-    print(f"{'─' * 60}")
+    print(f"{'-' * 60}")
     print("  CONFUSION MATRIX")
-    print(f"{'─' * 60}")
+    print(f"{'-' * 60}")
     cm_df = pd.DataFrame(
         cm,
         index=[f"Actual: {name}" for name in label_names],
@@ -183,15 +190,15 @@ def evaluate(model_dir: str | None = None) -> dict:
     print(f"\n{cm_df.to_string()}\n")
 
     # Sample predictions
-    print(f"{'─' * 60}")
+    print(f"{'-' * 60}")
     print("  SAMPLE PREDICTIONS (10 examples)")
-    print(f"{'─' * 60}")
+    print(f"{'-' * 60}")
 
     sample_indices = np.random.choice(len(texts), min(10, len(texts)), replace=False)
     for idx in sample_indices:
         true_sev = LABEL_TO_SEVERITY[true_labels[idx]]
         pred_sev = LABEL_TO_SEVERITY[pred_labels[idx]]
-        correct = "✓" if true_labels[idx] == pred_labels[idx] else "✗"
+        correct = "[OK]" if true_labels[idx] == pred_labels[idx] else "[X]"
         confidence = max(pred_probs[idx]) * 100
 
         print(f"\n  {correct} Text: {texts[idx][:100]}...")
@@ -202,6 +209,8 @@ def evaluate(model_dir: str | None = None) -> dict:
         "precision": precision,
         "recall": recall,
         "f1_weighted": f1,
+        "avg_confidence": avg_confidence,
+        "high_confidence_pct": high_conf_pct,
         "confusion_matrix": cm.tolist(),
     }
 

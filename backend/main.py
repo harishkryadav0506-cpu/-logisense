@@ -16,7 +16,7 @@ import sys
 from contextlib import asynccontextmanager
 from datetime import datetime
 from pathlib import Path
-from typing import Optional
+from typing import Any, Optional, Union
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
@@ -48,6 +48,18 @@ class ComplaintRequest(BaseModel):
     )
 
 
+class AgentTraceStep(BaseModel):
+    """Structured step in the multi-agent execution trace."""
+    step_number: int = 1
+    step: Optional[int] = 1
+    agent_name: str
+    icon: str = "🔹"
+    action: str
+    result: str
+    timestamp: str = ""
+    formatted: Optional[str] = None
+
+
 class ResolutionResponse(BaseModel):
     """Response model for complaint resolution."""
     order_id: str
@@ -57,7 +69,7 @@ class ResolutionResponse(BaseModel):
     severity_confidence: float = 0.0
     refund_result: Optional[dict] = None
     email_draft: Optional[dict] = None
-    agent_trace: list[str] = []
+    agent_trace: list[Union[AgentTraceStep, dict[str, Any], str]] = []
     error: Optional[str] = None
 
 

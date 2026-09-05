@@ -125,12 +125,34 @@ st.markdown("""
 
     /* Trace step */
     .trace-step {
-        padding: 0.75rem 1rem;
-        margin: 0.5rem 0;
-        border-left: 4px solid #667eea;
-        background-color: #f8fafc;
-        border-radius: 0 8px 8px 0;
-        font-size: 0.9rem;
+        padding: 0.85rem 1.15rem;
+        margin: 0.6rem 0;
+        border-left: 4px solid #6366f1;
+        background-color: #ffffff;
+        color: #0f172a !important;
+        border-top: 1px solid #e2e8f0;
+        border-right: 1px solid #e2e8f0;
+        border-bottom: 1px solid #e2e8f0;
+        border-radius: 0 10px 10px 0;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .trace-step strong {
+        color: #0f172a !important;
+        font-weight: 700;
+    }
+
+    .trace-arrow {
+        color: #6366f1 !important;
+        font-weight: 700;
+        margin: 0 0.35rem;
+    }
+
+    .trace-result {
+        color: #1e1b4b !important;
+        font-weight: 600;
     }
 
     /* Card styling */
@@ -380,22 +402,51 @@ def main():
             st.markdown("### 🔍 Agent Execution Trace")
             with st.expander("View step-by-step agent trace", expanded=True):
                 for i, step in enumerate(result["agent_trace"], 1):
-                    # Color-code by agent
-                    if "TrackerAgent" in step:
-                        icon = "📍"
-                    elif "RAGAgent" in step:
-                        icon = "📚"
-                    elif "SentimentAgent" in step:
-                        icon = "🧠"
-                    elif "ResolverAgent" in step:
-                        icon = "⚖️"
-                    elif "ErrorHandler" in step:
-                        icon = "❌"
+                    if isinstance(step, dict):
+                        agent_name = step.get("agent_name", f"Agent {i}")
+                        icon = step.get("icon", "🔹")
+                        action = step.get("action", "Executed step")
+                        result_text = step.get("result", "")
                     else:
-                        icon = "🔹"
+                        # Fallback parsing if step is a raw string
+                        step_str = str(step)
+                        if "TrackerAgent" in step_str or "Tracker" in step_str:
+                            icon = "🎯"
+                            agent_name = "Tracker Agent"
+                            action = "Fetched order status from database"
+                            result_text = step_str.split("—")[-1].strip() if "—" in step_str else step_str
+                        elif "RAGAgent" in step_str or "RAG" in step_str:
+                            icon = "📊"
+                            agent_name = "RAG Agent"
+                            action = "Searched refund policy"
+                            result_text = "Found: eligible for refund" if "refund" in step_str.lower() else "Retrieved policy guidelines"
+                        elif "SentimentAgent" in step_str or "Sentiment" in step_str:
+                            icon = "💬"
+                            agent_name = "Sentiment Agent"
+                            action = "Classified severity"
+                            result_text = step_str.split("as")[-1].strip() if "as" in step_str else step_str
+                        elif "ResolverAgent" in step_str or "Resolver" in step_str:
+                            icon = "⚖️"
+                            agent_name = "Resolver Agent"
+                            action = "Made decision"
+                            result_text = step_str.split("—")[-1].strip() if "—" in step_str else step_str
+                        elif "ErrorHandler" in step_str:
+                            icon = "❌"
+                            agent_name = "Error Handler"
+                            action = "Handled error"
+                            result_text = step_str
+                        else:
+                            icon = "🔹"
+                            agent_name = f"Agent Step {i}"
+                            action = "Processed"
+                            result_text = step_str
 
                     st.markdown(
-                        f'<div class="trace-step">{icon} <strong>Step {i}:</strong> {step}</div>',
+                        f'<div class="trace-step">'
+                        f'{icon} <strong>{agent_name}</strong> — {action} '
+                        f'<span class="trace-arrow">→</span> '
+                        f'<span class="trace-result">{result_text}</span>'
+                        f'</div>',
                         unsafe_allow_html=True,
                     )
 

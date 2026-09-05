@@ -34,6 +34,41 @@ MEDIUM_SEVERITY_KEYWORDS = [
 ]
 
 
+# Singleton model cache
+_MODEL = None
+_TOKENIZER = None
+_DEVICE = None
+
+
+def reset_model_cache() -> None:
+    """Reset the singleton model cache so newly saved checkpoints are reloaded."""
+    global _MODEL, _TOKENIZER, _DEVICE
+    _MODEL = None
+    _TOKENIZER = None
+    _DEVICE = None
+
+
+def _get_model_and_tokenizer():
+    """Load and cache the fine-tuned BERT model and tokenizer."""
+    global _MODEL, _TOKENIZER, _DEVICE
+
+    if not SAVED_MODEL_DIR.exists() or not (SAVED_MODEL_DIR / "config.json").exists():
+        raise FileNotFoundError("Fine-tuned model not found in saved_model directory")
+
+    if _MODEL is None or _TOKENIZER is None:
+        import torch
+        from transformers import BertForSequenceClassification, BertTokenizer
+
+        _DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        logger.info(f"Loading fine-tuned BERT model on {_DEVICE}...")
+        _MODEL = BertForSequenceClassification.from_pretrained(str(SAVED_MODEL_DIR))
+        _TOKENIZER = BertTokenizer.from_pretrained(str(SAVED_MODEL_DIR))
+        _MODEL.to(_DEVICE)
+        _MODEL.eval()
+
+    return _MODEL, _TOKENIZER, _DEVICE
+
+
 def _classify_with_model(complaint_text: str) -> tuple[str, float]:
     """
     Classify complaint severity using the fine-tuned BERT model.
@@ -48,18 +83,9 @@ def _classify_with_model(complaint_text: str) -> tuple[str, float]:
         FileNotFoundError: If the saved model is not found.
     """
     import torch
-    from transformers import BertForSequenceClassification, BertTokenizer
-
     from finetuning.dataset import LABEL_TO_SEVERITY, MAX_LENGTH
 
-    if not SAVED_MODEL_DIR.exists() or not any(SAVED_MODEL_DIR.iterdir()):
-        raise FileNotFoundError("Fine-tuned model not found")
-
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = BertForSequenceClassification.from_pretrained(str(SAVED_MODEL_DIR))
-    tokenizer = BertTokenizer.from_pretrained(str(SAVED_MODEL_DIR))
-    model.to(device)
-    model.eval()
+    model, tokenizer, device = _get_model_and_tokenizer()
 
     encoding = tokenizer(
         complaint_text,
