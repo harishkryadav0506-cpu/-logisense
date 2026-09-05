@@ -20,8 +20,22 @@
 
 ---
 
+## 🌐 Live Demo
+
+> ### 🚀 **Try LogiSense Live in Your Browser:**
+> 
+> - 🖥️ **Interactive App (Streamlit Cloud):**  
+>   [![Streamlit](https://img.shields.io/badge/Streamlit_App-Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://logisense-copilot.streamlit.app)  
+>   **Try it now:** [**https://logisense-copilot.streamlit.app**](https://logisense-copilot.streamlit.app)
+> 
+> - ⚡ **Backend API (Render.com):**  
+>   [![FastAPI](https://img.shields.io/badge/FastAPI_Backend-Live_Status-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://logisense-backend-6jlh.onrender.com/health)  
+>   **Backend API:** [**https://logisense-backend-6jlh.onrender.com/health**](https://logisense-backend-6jlh.onrender.com/health)
+
 > [!NOTE]
 > **Live Demo Hosting Note:** The live demo uses a lightweight keyword-based fallback due to free-tier hosting memory constraints (512MB RAM). The full ML pipeline (fine-tuned BERT achieving 89% confidence, ChromaDB-based RAG) is implemented in the codebase and was validated locally - see `finetuning/` and `rag/` folders for the complete implementation.
+
+---
 
 ## 📋 Problem Statement
 
