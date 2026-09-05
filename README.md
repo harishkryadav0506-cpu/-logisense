@@ -4,17 +4,17 @@
     <strong>Autonomous E-commerce Logistics Copilot</strong>
   </p>
   <p align="center">
-    AI-powered complaint resolution system combining RAG, Fine-tuned BERT, and Multi-Agent orchestration
+    AI-powered complaint resolution system combining <b>RAG</b>, <b>Fine-tuned BERT Classifier</b>, and <b>Multi-Agent Orchestration</b>
   </p>
   <p align="center">
-    <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/LangChain-🦜-green" alt="LangChain">
-    <img src="https://img.shields.io/badge/LangGraph-Multi--Agent-blue" alt="LangGraph">
-    <img src="https://img.shields.io/badge/FastAPI-0.111+-009688?logo=fastapi&logoColor=white" alt="FastAPI">
-    <img src="https://img.shields.io/badge/Streamlit-1.35+-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit">
-    <img src="https://img.shields.io/badge/BERT-Fine--tuned-orange" alt="BERT">
-    <img src="https://img.shields.io/badge/ChromaDB-Vector--Store-purple" alt="ChromaDB">
-    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
+    <a href="#-how-to-run"><img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python"></a>
+    <a href="#-tech-stack"><img src="https://img.shields.io/badge/LangGraph-Multi--Agent-0052CC?logo=data:image/svg+xml;base64,&logoColor=white" alt="LangGraph"></a>
+    <a href="#-tech-stack"><img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" alt="FastAPI"></a>
+    <a href="#-tech-stack"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit"></a>
+    <a href="#-tech-stack"><img src="https://img.shields.io/badge/BERT-Fine--tuned_Classifier-F29111?logo=huggingface&logoColor=white" alt="BERT"></a>
+    <a href="#-tech-stack"><img src="https://img.shields.io/badge/ChromaDB-Vector_Store-8B5CF6" alt="ChromaDB"></a>
+    <a href="#-running-tests"><img src="https://img.shields.io/badge/Tests-39_Passing-2EA043?logo=pytest&logoColor=white" alt="Tests"></a>
+    <a href="#-license"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"></a>
   </p>
 </p>
 
@@ -24,17 +24,32 @@
 
 E-commerce companies handle **thousands of customer complaints daily** — delayed deliveries, wrong items, refund requests, and more. Manual resolution is:
 
-- ⏱️ **Slow** — Average 24-48 hours per case
-- 🔄 **Inconsistent** — Different agents give different answers
-- 💰 **Expensive** — Large support teams needed
-- 😤 **Frustrating** — Customers wait in queues
+- ⏱️ **Slow** — Average 24–48 hours per case
+- 🔄 **Inconsistent** — Different support staff give different answers
+- 💰 **Expensive** — Large support teams required
+- 😤 **Frustrating** — Customers wait in long queues
 
 **LogiSense** solves this by deploying an autonomous AI copilot that:
 
-1. **Retrieves** relevant policies using RAG (Retrieval-Augmented Generation)
-2. **Classifies** complaint severity using a fine-tuned BERT model
-3. **Orchestrates** multiple AI agents to decide and execute the best resolution
-4. **Responds** with professional email drafts in seconds, not hours
+1. **Tracks** order status in real-time via a structured order database
+2. **Retrieves** relevant company policies using RAG (Retrieval-Augmented Generation)
+3. **Classifies** complaint severity using a fine-tuned BERT classifier (3-class: low / medium / high)
+4. **Decides** the optimal resolution (refund, reschedule, or escalate) via a multi-agent pipeline
+5. **Drafts** a professional customer email — all in seconds, not hours
+
+---
+
+## ✨ Key Features
+
+| Feature | Description |
+|---------|-------------|
+| 🔗 **RAG Pipeline** | Ingests policy PDFs, chunks and embeds them into ChromaDB, and retrieves relevant context at query time |
+| 🧠 **Fine-tuned BERT Classifier** | `bert-base-uncased` fine-tuned on synthetic complaint data for 3-class severity classification (low / medium / high) with keyword-based fallback |
+| 🤖 **Multi-Agent Orchestration** | LangGraph `StateGraph` with 4 specialized agents, conditional routing, and shared typed state |
+| ⚡ **FastAPI Backend** | Async REST API with Pydantic validation, health checks, and auto-generated OpenAPI docs |
+| 🎨 **Streamlit Dashboard** | Interactive complaint form with example quick-fills, color-coded resolution badges, and step-by-step agent trace |
+| 🛠️ **Tool Ecosystem** | Order DB lookup, simulated refund processing with audit trail, and templated email generation |
+| ✅ **39 Passing Tests** | Comprehensive test coverage across tools, RAG pipeline, individual agents, and end-to-end orchestration |
 
 ---
 
@@ -49,12 +64,12 @@ E-commerce companies handle **thousands of customer complaints daily** — delay
                        ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                     FASTAPI BACKEND                            │
-│              (REST API + Request Validation)                   │
+│              (REST API + Pydantic Validation)                  │
 └──────────────────────┬──────────────────────────────────────────┘
                        │
                        ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│              LANGGRAPH ORCHESTRATOR                             │
+│              LANGGRAPH ORCHESTRATOR (StateGraph)                │
 │                                                                 │
 │  ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐   │
 │  │ TRACKER  │──▶│   RAG    │──▶│SENTIMENT │──▶│ RESOLVER │   │
@@ -64,13 +79,51 @@ E-commerce companies handle **thousands of customer complaints daily** — delay
 │       ▼              ▼              ▼              ▼           │
 │  ┌─────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐   │
 │  │Order DB │   │ ChromaDB │   │Fine-tuned│   │Refund +  │   │
-│  │  Tool   │   │Vector    │   │  BERT    │   │Email Tool│   │
-│  │         │   │  Store   │   │  Model   │   │          │   │
+│  │  Tool   │   │ Vector   │   │  BERT    │   │Email Tool│   │
+│  │(CSV)    │   │  Store   │   │Classifier│   │          │   │
 │  └─────────┘   └──────────┘   └──────────┘   └──────────┘   │
 │                                                                 │
 │  Pipeline: tracker → rag → sentiment → resolver                │
-│  Conditional: order_not_found → error_handler → END            │
+│  Conditional edge: order_not_found → error_handler → END       │
 └─────────────────────────────────────────────────────────────────┘
+```
+
+### Agent Pipeline Flow
+
+```
+                    ┌─────────────┐
+                    │   START     │
+                    └──────┬──────┘
+                           ▼
+                    ┌─────────────┐
+                    │   Tracker   │  ← Looks up order in CSV database
+                    │   Agent     │
+                    └──────┬──────┘
+                           │
+                     ┌─────┴─────┐
+                     │ Order     │
+                     │ found?    │
+                     └──┬────┬───┘
+                   Yes  │    │  No
+                        ▼    ▼
+                 ┌────────┐ ┌───────────┐
+                 │  RAG   │ │  Error    │
+                 │ Agent  │ │ Handler   │──▶ END
+                 └───┬────┘ └───────────┘
+                     ▼
+              ┌────────────┐
+              │ Sentiment  │  ← BERT classifier or keyword fallback
+              │   Agent    │
+              └─────┬──────┘
+                    ▼
+              ┌────────────┐
+              │  Resolver  │  ← Decides refund / reschedule / escalate
+              │   Agent    │    Calls refund_tool + email_tool
+              └─────┬──────┘
+                    ▼
+                 ┌──────┐
+                 │ END  │
+                 └──────┘
 ```
 
 ---
@@ -79,15 +132,15 @@ E-commerce companies handle **thousands of customer complaints daily** — delay
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
-| **LLM Orchestration** | LangGraph + LangChain | Multi-agent pipeline with state management |
-| **RAG** | ChromaDB + all-MiniLM-L6-v2 | Policy document retrieval |
-| **Fine-tuning** | BERT (bert-base-uncased) | Complaint severity classification |
-| **Backend** | FastAPI + Uvicorn | REST API with async support |
-| **Frontend** | Streamlit | Interactive dashboard UI |
-| **Embeddings** | Sentence-Transformers | Document and query embedding |
-| **Data** | Pandas + CSV | Order and complaint data management |
-| **PDF Processing** | PyPDF | Policy document parsing |
-| **LLM Provider** | OpenAI (GPT-3.5/4) | Resolution reasoning (with rule-based fallback) |
+| **Agent Orchestration** | LangGraph + LangChain | Multi-agent StateGraph with typed state and conditional edges |
+| **RAG** | ChromaDB + `all-MiniLM-L6-v2` | Policy document embedding and semantic retrieval |
+| **Severity Classification** | BERT (`bert-base-uncased`) | Fine-tuned 3-class complaint classifier with keyword fallback |
+| **Backend** | FastAPI + Uvicorn | Async REST API with auto-generated OpenAPI docs |
+| **Frontend** | Streamlit | Interactive complaint resolution dashboard |
+| **Embeddings** | Sentence-Transformers | 384-dim document and query embeddings |
+| **Data** | Pandas + CSV | Order database and complaint dataset management |
+| **PDF Processing** | PyPDF | Policy document parsing for RAG ingestion |
+| **LLM (Optional)** | OpenAI GPT-3.5/4 | Resolution reasoning — falls back to rule-based logic without API key |
 
 ---
 
@@ -97,14 +150,14 @@ E-commerce companies handle **thousands of customer complaints daily** — delay
 
 - Python 3.10+
 - pip or virtualenv
-- (Optional) OpenAI API key for LLM-powered resolution
+- (Optional) OpenAI API key for LLM-powered resolution reasoning
 
 ### Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/logisense.git
-cd logisense
+git clone https://github.com/harishkryadav0506-cpu/-logisense.git
+cd -logisense
 
 # Create virtual environment
 python -m venv venv
@@ -117,7 +170,7 @@ pip install -r requirements.txt
 
 # Set up environment variables
 cp .env.example .env
-# Edit .env and add your OpenAI API key
+# Edit .env and add your OpenAI API key (optional)
 ```
 
 ---
@@ -131,9 +184,9 @@ python generate_data.py
 ```
 
 This creates:
-- `data/orders.csv` — 1200 orders
-- `data/reviews.csv` — 600 complaints
-- `data/policies/` — 3 policy PDFs
+- `data/orders.csv` — 1,200 orders with statuses, carriers, and delay reasons
+- `data/reviews.csv` — 600 complaints labeled by severity (low / medium / high)
+- `data/policies/` — 3 policy PDFs (refund, shipping SLA, return)
 
 ### Step 2: Initialize RAG Vector Store
 
@@ -141,48 +194,56 @@ This creates:
 python -m rag.ingest
 ```
 
-### Step 3: (Optional) Fine-tune BERT Model
+Ingests the 3 policy PDFs → chunks them → embeds with `all-MiniLM-L6-v2` → persists to ChromaDB.
+
+### Step 3: (Optional) Fine-tune the BERT Classifier
 
 ```bash
 python -m finetuning.train --epochs 3
 python -m finetuning.evaluate
 ```
 
-> **Note:** Training on CPU takes ~15-20 minutes. Use Google Colab with GPU for faster training. The sentiment agent will use keyword-based fallback if the model is not trained.
+> **Note:** Training on CPU takes ~15–20 minutes. Use Google Colab with a GPU for faster training. If the model is not trained, the sentiment agent automatically uses a keyword-based fallback classifier.
 
 ### Step 4: Start the Backend
 
 ```bash
-cd logisense
 uvicorn backend.main:app --reload --port 8000
 ```
 
-API available at: http://localhost:8000
-API docs at: http://localhost:8000/docs
+- API: http://localhost:8000
+- Interactive docs (Swagger): http://localhost:8000/docs
 
 ### Step 5: Start the Frontend
 
 ```bash
 # In a new terminal
-cd logisense
 streamlit run frontend/app.py
 ```
 
-Dashboard available at: http://localhost:8501
+- Dashboard: http://localhost:8501
 
 ---
 
 ## 🧪 Running Tests
 
 ```bash
-# Run all tests
+# Run the full test suite (39 tests)
 pytest tests/ -v
 
-# Run specific test files
-pytest tests/test_tools.py -v
-pytest tests/test_rag.py -v
-pytest tests/test_agents.py -v
+# Run individual test modules
+pytest tests/test_tools.py -v     # 16 tests — order DB, refund, email tools
+pytest tests/test_rag.py -v       # 9 tests  — embeddings, retriever, relevance
+pytest tests/test_agents.py -v    # 14 tests — agents, orchestrator end-to-end
 ```
+
+### Test Coverage Summary
+
+| Module | Tests | What's Covered |
+|--------|-------|---------------|
+| `test_tools.py` | 16 | Order lookup (valid/invalid/case-insensitive), refund validation (negative/zero/over-limit), email templates (all resolution types) |
+| `test_rag.py` | 9 | Embedding model loading, 384-dim output, singleton pattern, retriever results, context formatting, refund-query relevance |
+| `test_agents.py` | 14 | Tracker (found/missing/state preservation), sentiment (low/high severity, method reporting), RAG (context/trace), resolver (decisions, email), orchestrator (end-to-end valid/invalid) |
 
 ---
 
@@ -190,50 +251,50 @@ pytest tests/test_agents.py -v
 
 ```
 logisense/
-├── data/                          # Synthetic datasets
-│   ├── orders.csv                 # 1200 orders with status, carriers, delays
-│   ├── reviews.csv                # 600 complaints with severity labels
-│   └── policies/                  # Policy PDFs for RAG
+├── agents/                        # LangGraph Multi-Agent System
+│   ├── orchestrator.py            #   StateGraph pipeline: tracker → rag → sentiment → resolver
+│   ├── tracker_agent.py           #   Order status lookup via order_db tool
+│   ├── rag_agent.py               #   Policy document retrieval via ChromaDB
+│   ├── sentiment_agent.py         #   BERT classifier with keyword fallback
+│   └── resolver_agent.py          #   Resolution decision + refund/email execution
+│
+├── rag/                           # RAG Pipeline
+│   ├── embeddings.py              #   Singleton HuggingFace embedding model (all-MiniLM-L6-v2)
+│   ├── ingest.py                  #   PDF → chunk → embed → ChromaDB persistence
+│   ├── retriever.py               #   Semantic similarity search over policy documents
+│   └── vector_store/              #   ChromaDB persistent storage (gitignored)
+│
+├── finetuning/                    # BERT Fine-tuning Pipeline
+│   ├── dataset.py                 #   Data preparation, tokenization, PyTorch Dataset
+│   ├── train.py                   #   Training loop with HuggingFace Trainer API
+│   ├── evaluate.py                #   Accuracy, F1, confusion matrix, sample predictions
+│   └── saved_model/               #   Trained model checkpoint (gitignored)
+│
+├── tools/                         # Function-Calling Tools
+│   ├── order_db.py                #   CSV-backed order database with caching
+│   ├── refund_tool.py             #   Refund processing with validation + CSV audit log
+│   └── email_tool.py              #   Templated email drafting (refund/reschedule/escalate)
+│
+├── backend/                       # FastAPI REST API
+│   └── main.py                    #   POST /resolve, GET /order/{id}, GET /health
+│
+├── frontend/                      # Streamlit Dashboard
+│   └── app.py                     #   Complaint form, resolution display, agent trace viewer
+│
+├── data/                          # Synthetic Datasets
+│   ├── orders.csv                 #   1,200 orders (8 statuses, 5 carriers, 6 delay reasons)
+│   ├── reviews.csv                #   600 complaints with severity labels
+│   └── policies/                  #   3 policy PDFs for RAG ingestion
 │       ├── refund_policy.pdf
 │       ├── shipping_sla.pdf
 │       └── return_policy.pdf
 │
-├── rag/                           # RAG Pipeline
-│   ├── embeddings.py              # HuggingFace embedding model (MiniLM)
-│   ├── ingest.py                  # PDF → chunk → embed → ChromaDB
-│   ├── retriever.py               # Semantic search over policies
-│   └── vector_store/              # ChromaDB persistent storage
+├── tests/                         # Test Suite (39 tests)
+│   ├── test_tools.py              #   16 tests — tool function validation
+│   ├── test_rag.py                #   9 tests  — embedding & retriever verification
+│   └── test_agents.py             #   14 tests — agent & orchestrator end-to-end
 │
-├── finetuning/                    # BERT Fine-tuning
-│   ├── dataset.py                 # Data preparation + PyTorch Dataset
-│   ├── train.py                   # Training with HF Trainer API
-│   ├── evaluate.py                # Metrics, confusion matrix, samples
-│   └── saved_model/               # Trained model checkpoint
-│
-├── agents/                        # LangGraph AI Agents
-│   ├── orchestrator.py            # StateGraph pipeline (main entry)
-│   ├── tracker_agent.py           # Order status lookup
-│   ├── rag_agent.py               # Policy document search
-│   ├── sentiment_agent.py         # Complaint severity classification
-│   └── resolver_agent.py          # Resolution decision + execution
-│
-├── tools/                         # Function Calling Tools
-│   ├── order_db.py                # Order database queries
-│   ├── refund_tool.py             # Refund processing + audit log
-│   └── email_tool.py              # Email draft generation
-│
-├── backend/                       # FastAPI Backend
-│   └── main.py                    # REST API endpoints
-│
-├── frontend/                      # Streamlit Frontend
-│   └── app.py                     # Interactive dashboard
-│
-├── tests/                         # Test Suite
-│   ├── test_rag.py                # RAG pipeline tests
-│   ├── test_tools.py              # Tool function tests
-│   └── test_agents.py             # Agent + orchestrator tests
-│
-├── generate_data.py               # Synthetic data generator
+├── generate_data.py               # Synthetic data generation script
 ├── requirements.txt               # Python dependencies
 ├── .env.example                   # Environment variable template
 ├── .gitignore                     # Git ignore rules
@@ -244,32 +305,68 @@ logisense/
 
 ## 📸 Screenshots
 
-> *Screenshots will be added after deployment*
+> Screenshots of the running application (captured during development and testing):
 
-| Dashboard | Resolution Result | Agent Trace |
-|-----------|------------------|-------------|
-| *Input form with complaint details* | *Resolution with severity badge* | *Step-by-step agent execution* |
+### Streamlit Dashboard — Complaint Form
+
+The dashboard provides an interactive form for submitting complaints, with one-click example buttons for quick testing at different severity levels.
+
+*To see the dashboard in action, start the backend and frontend as described in [How to Run](#-how-to-run).*
+
+### FastAPI — Interactive API Documentation
+
+The backend exposes auto-generated Swagger docs at `/docs` with three endpoints:
+- **`POST /resolve`** — Run the full multi-agent complaint resolution pipeline
+- **`GET /order/{order_id}`** — Look up order status and details
+- **`GET /health`** — Check API and component health (orders DB, vector store, BERT model)
+
+### Sample Pipeline Output
+
+```
+============================================================
+  FULL PIPELINE TEST
+============================================================
+Order ID:    ORD-00050
+Resolution:  REFUND
+Severity:    high (confidence: 0.91)
+Method:      keyword_fallback
+Reasoning:   High severity complaint with order status 'delayed'.
+             Per policy, immediate full refund is warranted.
+Refund:      $49.99 approved — Transaction: REF-95CA8009
+Email:       "Refund Processed — Order ORD-00050"
+
+Agent Trace:
+  1. TrackerAgent:   Found order — Status: delayed, Carrier: UPS,
+                     Delay reason: weather_disruption
+  2. RAGAgent:       Retrieved 3 policy chunks from
+                     refund_policy.pdf, shipping_sla.pdf
+  3. SentimentAgent: Classified severity as 'high'
+                     (confidence: 0.91, method: keyword_fallback)
+  4. ResolverAgent:  Decision = REFUND — immediate full refund
+  5. ResolverAgent:  Refund approved — TX: REF-95CA8009
+  6. ResolverAgent:  Email drafted — "Refund Processed — Order ORD-00050"
+```
 
 ---
 
 ## 🔮 Future Improvements
 
+- [ ] **Docker & CI/CD** — Containerize the app and add GitHub Actions for automated testing
 - [ ] **Multi-language support** — Handle complaints in multiple languages
 - [ ] **Real-time tracking** — WebSocket integration for live order updates
-- [ ] **Advanced analytics** — Dashboard with complaint trends and resolution metrics
-- [ ] **Voice input** — Speech-to-text for phone-based complaints
-- [ ] **Fine-tune on real data** — Replace synthetic data with actual customer complaints
-- [ ] **Deployment** — Dockerize and deploy to cloud (AWS/GCP/Azure)
-- [ ] **A/B testing** — Compare LLM vs rule-based resolution quality
+- [ ] **Analytics dashboard** — Complaint trends, resolution metrics, and agent performance
+- [ ] **Voice input** — Speech-to-text for phone-based complaint intake
+- [ ] **Train on real data** — Replace synthetic data with actual customer complaints
+- [ ] **A/B testing** — Compare LLM-based vs. rule-based resolution quality
 - [ ] **Feedback loop** — Let customers rate resolutions to improve the model
-- [ ] **Multi-turn conversations** — Support follow-up questions from customers
-- [ ] **Integration** — Connect with real payment gateways and email services
+- [ ] **Multi-turn chat** — Support follow-up questions from customers
+- [ ] **Production integrations** — Connect with real payment gateways and email services
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License — see the full text below.
 
 ```
 MIT License
