@@ -24,12 +24,15 @@ sys.path.insert(0, str(PROJECT_ROOT))
 # Configuration
 # ─────────────────────────────────────────────────
 
+DEFAULT_API_URL = "https://logisense-backend-6jlh.onrender.com"
+
 try:
-    API_URL = st.secrets.get("API_URL", os.getenv("API_URL", "http://localhost:8000"))
+    API_URL = st.secrets.get("API_URL", os.getenv("API_URL", DEFAULT_API_URL))
 except Exception:
-    API_URL = os.getenv("API_URL", "http://localhost:8000")
+    API_URL = os.getenv("API_URL", DEFAULT_API_URL)
 
 API_BASE_URL = API_URL
+
 
 # Page config
 st.set_page_config(
@@ -198,23 +201,43 @@ st.markdown("""
 
 def call_api(endpoint: str, method: str = "GET", data: dict = None) -> dict:
     """Make an API call to the backend."""
-    base_url = st.session_state.get("api_url", API_URL).rstrip("/")
-    url = f"{base_url}{endpoint}"
+    raw_base = st.session_state.get("api_url", API_URL)
+    base_url = (raw_base.strip() if raw_base else DEFAULT_API_URL).rstrip("/")
+    clean_endpoint = "/" + endpoint.lstrip("/")
+    url = f"{base_url}{clean_endpoint}"
+
     try:
-        with httpx.Client(timeout=60.0) as client:
-            if method == "POST":
-                response = client.post(url, json=data)
+        with httpx.Client(timeout=httpx.Timeout(90.0, connect=15.0)) as client:
+            headers = {"Content-Type": "application/json"}
+            if method.upper() == "POST":
+                response = client.post(url, json=data, headers=headers)
             else:
-                response = client.get(url)
+                response = client.get(url, headers=headers)
 
             if response.status_code == 200:
                 return response.json()
             else:
-                return {"error": f"API error: {response.status_code} — {response.text}"}
+                detail = ""
+                try:
+                    err_json = response.json()
+                    detail = err_json.get("detail", str(err_json))
+                except Exception:
+                    if response.status_code == 502:
+                        detail = f"Bad Gateway (502) — Backend at {base_url} is unavailable or restarting. If on Render free tier, it may be waking up from inactivity."
+                    elif response.status_code == 503:
+                        detail = f"Service Unavailable (503) — Backend at {base_url} is temporarily overloaded."
+                    elif response.status_code == 504:
+                        detail = f"Gateway Timeout (504) — The request to {base_url} timed out."
+                    else:
+                        detail = response.text[:200] if response.text else "No response body"
+                return {"error": f"API error: {response.status_code} — {detail}"}
     except httpx.ConnectError:
         return {"error": f"Cannot connect to backend at {base_url}. Ensure the server is running."}
+    except httpx.TimeoutException:
+        return {"error": f"Request to backend timed out. The server at {base_url} took more than 90 seconds to respond."}
     except Exception as e:
         return {"error": f"Request failed: {str(e)}"}
+
 
 
 def get_badge_html(action: str) -> str:
@@ -340,13 +363,14 @@ def main():
     submit_disabled = not (order_id and complaint_text and len(complaint_text) >= 10)
 
     if st.button("🚀 Resolve Complaint", disabled=submit_disabled, key="submit_btn"):
-        with st.spinner("🔄 Running AI resolution pipeline..."):
+        target_backend = st.session_state.get("api_url", DEFAULT_API_URL).rstrip("/")
+        with st.spinner(f"🔄 Running AI resolution pipeline (POST {target_backend}/resolve)..."):
             result = call_api(
                 "/resolve",
                 method="POST",
                 data={
-                    "order_id": order_id,
-                    "complaint_text": complaint_text,
+                    "order_id": order_id.strip(),
+                    "complaint_text": complaint_text.strip(),
                 },
             )
 
@@ -354,6 +378,7 @@ def main():
             st.error(f"❌ {result['error']}")
         else:
             st.session_state["result"] = result
+
 
     # ── Results Display ──
     if "result" in st.session_state:
