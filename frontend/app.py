@@ -271,12 +271,8 @@ def main():
 
     def _fill_example(label: str) -> None:
         """Callback to fill example data into session state."""
-        st.session_state["_prefill_order_id"] = examples[label]["order_id"]
-        st.session_state["_prefill_complaint"] = examples[label]["text"]
-
-    # Apply prefill values (set before widgets render)
-    default_order = st.session_state.pop("_prefill_order_id", "")
-    default_complaint = st.session_state.pop("_prefill_complaint", "")
+        st.session_state["order_id"] = examples[label]["order_id"]
+        st.session_state["complaint_text"] = examples[label]["text"]
 
     # Input Form
     col1, col2 = st.columns([1, 1])
@@ -290,13 +286,11 @@ def main():
         )
         order_id = st.text_input(
             "Order ID",
-            value=default_order,
             placeholder="e.g., ORD-00001",
             key="order_id",
         )
         complaint_text = st.text_area(
             "Complaint Description",
-            value=default_complaint,
             placeholder="Describe the issue with your order...",
             height=150,
             key="complaint_text",
