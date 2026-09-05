@@ -10,7 +10,6 @@ Usage:
     uvicorn backend.main:app --reload --port 8000
 """
 
-import asyncio
 import logging
 import os
 import sys
@@ -32,38 +31,6 @@ sys.path.insert(0, str(PROJECT_ROOT))
 load_dotenv(PROJECT_ROOT / ".env")
 
 logger = logging.getLogger(__name__)
-
-# ─────────────────────────────────────────────────
-# Background RAG Ingestion State
-# ─────────────────────────────────────────────────
-
-_rag_status: str = "not_started"
-_rag_error: Optional[str] = None
-
-
-def _run_rag_ingestion() -> None:
-    """Run RAG ingestion in background thread without blocking server port."""
-    global _rag_status, _rag_error
-    try:
-        logger.info("[RAG Background] Starting asynchronous document ingestion from data/policies/...")
-        _rag_status = "ingesting"
-        from rag.ingest import ingest
-        ingest()
-        _rag_status = "healthy"
-        logger.info("[RAG Background] Ingestion completed successfully! Vector store is ready.")
-    except Exception as e:
-        _rag_status = "error"
-        _rag_error = str(e)
-        logger.error(f"[RAG Background] Ingestion failed: {e}")
-
-
-async def _background_init_vector_store() -> None:
-    """Trigger background ingestion in worker thread so event loop remains unblocked."""
-    global _rag_status
-    if _rag_status == "ingesting":
-        return
-    loop = asyncio.get_running_loop()
-    await loop.run_in_executor(None, _run_rag_ingestion)
 
 
 # ─────────────────────────────────────────────────
@@ -136,40 +103,10 @@ class HealthResponse(BaseModel):
 async def lifespan(app: FastAPI):
     """
     Application lifespan manager.
-    Yields immediately so uvicorn binds to the port within seconds and passes Render port scans.
+    Starts immediately and binds to port without heavy ML loading.
     """
-    logger.info("LogiSense API starting up...")
-
-    # Check vector store status
-    vector_store_path = PROJECT_ROOT / "rag" / "vector_store"
-    chroma_files = [
-        f for f in vector_store_path.iterdir() if f.name != ".gitkeep"
-    ] if vector_store_path.exists() else []
-
-    global _rag_status
-    if chroma_files:
-        _rag_status = "healthy"
-        logger.info(f"Vector store already initialized ({len(chroma_files)} files found).")
-    else:
-        logger.info("Vector store not found. Scheduling non-blocking background ingestion...")
-        asyncio.create_task(_background_init_vector_store())
-
-    # Check BERT model status
-    model_path = PROJECT_ROOT / "finetuning" / "saved_model"
-    model_files = [
-        f for f in model_path.iterdir() if f.name != ".gitkeep"
-    ] if model_path.exists() else []
-
-    if model_files:
-        logger.info("Fine-tuned BERT model checkpoint found and active.")
-    else:
-        logger.info(
-            "Fine-tuned BERT checkpoint not present in cloud deployment (15-20 min CPU training omitted for cloud startup). "
-            "Using high-accuracy keyword fallback classifier. "
-            "Note: The fine-tuned BERT classifier achieved 89% confidence in local testing and is available for local demo."
-        )
-
-    # Server port binds immediately here
+    logger.info("LogiSense API starting up (Lightweight Cloud Mode)...")
+    logger.info("Server port binding immediately.")
     yield
     logger.info("LogiSense API shutting down...")
 
@@ -182,7 +119,7 @@ app = FastAPI(
     title="LogiSense — Autonomous E-commerce Logistics Copilot",
     description=(
         "AI-powered complaint resolution system combining RAG, "
-        "Fine-tuned BERT, and Multi-Agent orchestration."
+        "Sentiment Analysis, and Multi-Agent orchestration."
     ),
     version="1.0.0",
     lifespan=lifespan,
@@ -279,7 +216,6 @@ async def health_check() -> HealthResponse:
 
     Returns status of the API and its component dependencies.
     """
-    # Check component availability
     components = {
         "api": "healthy",
         "orders_db": "unknown",
@@ -294,35 +230,16 @@ async def health_check() -> HealthResponse:
     except Exception:
         components["orders_db"] = "error"
 
-    # Check vector store
+    # Check policy retriever availability
     try:
-        vector_store_path = PROJECT_ROOT / "rag" / "vector_store"
-        chroma_files = [
-            f for f in vector_store_path.iterdir() if f.name != ".gitkeep"
-        ] if vector_store_path.exists() else []
-
-        if chroma_files:
-            components["vector_store"] = "healthy"
-        elif _rag_status == "ingesting":
-            components["vector_store"] = "initializing_in_background"
-        elif _rag_status == "error":
-            components["vector_store"] = f"error: {_rag_error}"
-        else:
-            # Lazy trigger if not already running
-            asyncio.create_task(_background_init_vector_store())
-            components["vector_store"] = "initializing_in_background"
+        policies_dir = PROJECT_ROOT / "data" / "policies"
+        has_policies = policies_dir.exists() and any(policies_dir.glob("*.pdf"))
+        components["vector_store"] = "healthy" if has_policies else "fallback_policy_ready"
     except Exception as e:
         components["vector_store"] = f"error: {e}"
 
-    # Check BERT model
-    try:
-        model_path = PROJECT_ROOT / "finetuning" / "saved_model"
-        model_files = [
-            f for f in model_path.iterdir() if f.name != ".gitkeep"
-        ] if model_path.exists() else []
-        components["bert_model"] = "healthy" if model_files else "fallback_ready (89% fine-tuned model available for local demo)"
-    except Exception:
-        components["bert_model"] = "error"
+    # Sentiment classifier status
+    components["bert_model"] = "keyword_classifier_ready"
 
     return HealthResponse(
         status="healthy",

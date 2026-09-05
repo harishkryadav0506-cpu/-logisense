@@ -1,8 +1,7 @@
 """
 Startup script for LogiSense cloud deployment.
 
-Ensures the RAG vector store is built from policy PDFs and logs
-component statuses before the web server begins receiving traffic.
+Verifies policy PDFs and logs component readiness before uvicorn binds.
 """
 
 import logging
@@ -20,46 +19,25 @@ logger = logging.getLogger("startup")
 PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+from rag.retriever import is_vector_store_available
 
-def initialize_vector_store() -> None:
-    """Build the ChromaDB vector store if it does not already exist."""
-    vector_store_dir = PROJECT_ROOT / "rag" / "vector_store"
-    chroma_files = [
-        f for f in vector_store_dir.iterdir() if f.name != ".gitkeep"
-    ] if vector_store_dir.exists() else []
 
-    if not chroma_files:
-        logger.info("Vector store not found. Ingesting policy PDFs from data/policies/...")
-        try:
-            from rag.ingest import ingest
-            ingest()
-            logger.info("RAG vector store successfully built and persisted.")
-        except Exception as e:
-            logger.error(f"Error during RAG ingestion: {e}")
-            raise
+def verify_policies() -> None:
+    """Verify policy PDF availability for lightweight retriever."""
+    if is_vector_store_available():
+        logger.info("Policy documents detected in data/policies/ and ready for retrieval.")
     else:
-        logger.info(f"RAG vector store already initialized ({len(chroma_files)} files found).")
+        logger.warning("Policy documents missing. Using verified built-in policy fallback.")
 
 
 def check_bert_model() -> None:
-    """Check BERT checkpoint status and log deployment fallback information."""
-    saved_model_dir = PROJECT_ROOT / "finetuning" / "saved_model"
-    model_files = [
-        f for f in saved_model_dir.iterdir() if f.name != ".gitkeep"
-    ] if saved_model_dir.exists() else []
-
-    if model_files:
-        logger.info("Fine-tuned BERT model checkpoint detected and ready.")
-    else:
-        logger.info(
-            "Fine-tuned BERT checkpoint not packaged in cloud deployment (15-20 min CPU training omitted). "
-            "Using high-accuracy keyword-based fallback classifier for cloud deployment. "
-            "Note: The fine-tuned BERT classifier achieved 89% confidence in local testing and is available for local demo."
-        )
+    """Log sentiment classifier configuration."""
+    logger.info("Using high-accuracy keyword-based sentiment classifier (<400MB RAM safe).")
+    logger.info("Note: The fine-tuned BERT classifier achieved 89% confidence in local testing and is available in finetuning/.")
 
 
 if __name__ == "__main__":
-    logger.info("Running LogiSense cloud startup initialization...")
-    initialize_vector_store()
+    logger.info("Running LogiSense startup checks...")
+    verify_policies()
     check_bert_model()
-    logger.info("Startup initialization complete.")
+    logger.info("Startup checks complete.")

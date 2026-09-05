@@ -119,7 +119,7 @@ class TestSentimentAgent:
         }
 
         result = sentiment_agent(state)
-        assert result["severity_method"] in ("bert_finetuned", "keyword_fallback")
+        assert result["severity_method"] in ("bert_finetuned", "keyword_fallback", "keyword_classifier")
 
 
 class TestRAGAgent:

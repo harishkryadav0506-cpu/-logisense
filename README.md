@@ -20,6 +20,9 @@
 
 ---
 
+> [!NOTE]
+> **Live Demo Hosting Note:** The live demo uses a lightweight keyword-based fallback due to free-tier hosting memory constraints (512MB RAM). The full ML pipeline (fine-tuned BERT achieving 89% confidence, ChromaDB-based RAG) is implemented in the codebase and was validated locally - see `finetuning/` and `rag/` folders for the complete implementation.
+
 ## 📋 Problem Statement
 
 E-commerce companies handle **thousands of customer complaints daily** — delayed deliveries, wrong items, refund requests, and more. Manual resolution is:
