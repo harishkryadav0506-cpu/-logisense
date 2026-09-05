@@ -253,6 +253,31 @@ def main():
     # ── Main Content ──
     st.markdown("---")
 
+    # Example complaint definitions
+    examples = {
+        "Low Severity": {
+            "order_id": "ORD-00010",
+            "text": "My order arrived a day late but everything looks fine. Just wanted to let you know.",
+        },
+        "Medium Severity": {
+            "order_id": "ORD-00050",
+            "text": "Order is delayed by 3 days now. I need it for an event this weekend. Please expedite.",
+        },
+        "High Severity": {
+            "order_id": "ORD-00100",
+            "text": "URGENT: Order never arrived and I was charged twice! I need immediate refund for both charges. This is unacceptable!",
+        },
+    }
+
+    def _fill_example(label: str) -> None:
+        """Callback to fill example data into session state."""
+        st.session_state["_prefill_order_id"] = examples[label]["order_id"]
+        st.session_state["_prefill_complaint"] = examples[label]["text"]
+
+    # Apply prefill values (set before widgets render)
+    default_order = st.session_state.pop("_prefill_order_id", "")
+    default_complaint = st.session_state.pop("_prefill_complaint", "")
+
     # Input Form
     col1, col2 = st.columns([1, 1])
 
@@ -265,11 +290,13 @@ def main():
         )
         order_id = st.text_input(
             "Order ID",
+            value=default_order,
             placeholder="e.g., ORD-00001",
             key="order_id",
         )
         complaint_text = st.text_area(
             "Complaint Description",
+            value=default_complaint,
             placeholder="Describe the issue with your order...",
             height=150,
             key="complaint_text",
@@ -277,26 +304,15 @@ def main():
 
     with col2:
         st.markdown("### 💡 Example Complaints")
-        examples = {
-            "Low Severity": {
-                "order_id": "ORD-00010",
-                "text": "My order arrived a day late but everything looks fine. Just wanted to let you know.",
-            },
-            "Medium Severity": {
-                "order_id": "ORD-00050",
-                "text": "Order is delayed by 3 days now. I need it for an event this weekend. Please expedite.",
-            },
-            "High Severity": {
-                "order_id": "ORD-00100",
-                "text": "URGENT: Order never arrived and I was charged twice! I need immediate refund for both charges. This is unacceptable!",
-            },
-        }
 
-        for label, example in examples.items():
-            if st.button(f"📌 {label}", key=f"example_{label}"):
-                st.session_state["order_id"] = example["order_id"]
-                st.session_state["complaint_text"] = example["text"]
-                st.rerun()
+        for label in examples:
+            st.button(
+                f"📌 {label}",
+                key=f"example_{label}",
+                on_click=_fill_example,
+                args=(label,),
+            )
+
 
     # Submit button
     st.markdown("")
