@@ -173,8 +173,8 @@ E-commerce companies handle **thousands of customer complaints daily** — delay
 
 ```bash
 # Clone the repository
-git clone https://github.com/harishkryadav0506-cpu/-logisense.git
-cd -logisense
+git clone https://github.com/harishkryadav0506-cpu/logisense.git
+cd logisense
 
 # Create virtual environment
 python -m venv venv
@@ -252,7 +252,7 @@ LogiSense is pre-configured for seamless cloud deployment with decoupled fronten
 
 ### 1. Deploy Backend on Render.com
 1. Sign in to [Render.com](https://render.com) and click **New +** → **Web Service**.
-2. Connect your GitHub repository: `https://github.com/harishkryadav0506-cpu/-logisense`.
+2. Connect your GitHub repository: `https://github.com/harishkryadav0506-cpu/logisense`.
 3. Set the service configuration:
    - **Name:** `logisense-backend`
    - **Environment:** `Python`
@@ -270,7 +270,7 @@ LogiSense is pre-configured for seamless cloud deployment with decoupled fronten
 
 ### 2. Deploy Frontend on Streamlit Community Cloud
 1. Sign in to [share.streamlit.io](https://share.streamlit.io) and click **New app**.
-2. Select your repository (`harishkryadav0506-cpu/-logisense`) and branch (`main`).
+2. Select your repository (`harishkryadav0506-cpu/logisense`) and branch (`main`).
 3. Set **Main file path** to: `frontend/app.py`.
 4. Open **Advanced settings** → **Secrets**, and define your deployed Render backend URL:
    ```toml
