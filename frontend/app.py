@@ -337,7 +337,7 @@ def main():
         st.markdown("### 📝 Submit Complaint")
         customer_name = st.text_input(
             "Customer Name",
-            placeholder="e.g., Aarav Sharma",
+            placeholder="e.g., Harish Yadav",
             key="customer_name",
         )
         order_id = st.text_input(
