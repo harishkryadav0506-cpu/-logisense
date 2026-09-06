@@ -13,7 +13,8 @@
     <a href="#-tech-stack"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit"></a>
     <a href="#-tech-stack"><img src="https://img.shields.io/badge/BERT-Fine--tuned_Classifier-F29111?logo=huggingface&logoColor=white" alt="BERT"></a>
     <a href="#-tech-stack"><img src="https://img.shields.io/badge/ChromaDB-Vector_Store-8B5CF6" alt="ChromaDB"></a>
-    <a href="#-running-tests"><img src="https://img.shields.io/badge/Tests-39_Passing-2EA043?logo=pytest&logoColor=white" alt="Tests"></a>
+    <a href="#-running-tests"><img src="https://img.shields.io/badge/Tests-40_Passing-2EA043?logo=pytest&logoColor=white" alt="Tests"></a>
+    <a href="https://github.com/harishkryadav0506-cpu/logisense/actions/workflows/ci.yml"><img src="https://github.com/harishkryadav0506-cpu/logisense/actions/workflows/ci.yml/badge.svg" alt="CI/CD"></a>
     <a href="#-license"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"></a>
   </p>
 </p>
@@ -244,6 +245,37 @@ streamlit run frontend/app.py
 
 ---
 
+## 🐳 Docker (Local Containerization)
+
+LogiSense includes a lightweight, production-ready `Dockerfile` to build and run the FastAPI backend inside a container for local development and DevOps workflows:
+
+### 1. Build the Docker Image
+```bash
+docker build -t logisense-backend .
+```
+
+### 2. Run the Container
+```bash
+docker run -d -p 8000:8000 --name logisense-api logisense-backend
+```
+
+- **Backend API:** `http://localhost:8000`
+- **Interactive Swagger Docs:** `http://localhost:8000/docs`
+- **Health Check Endpoint:** `http://localhost:8000/health`
+
+### 3. Stop and Clean Up
+```bash
+docker stop logisense-api && docker rm logisense-api
+```
+
+> **DevOps Highlights:**
+> - Base image: `python:3.11-slim` for minimal image footprint.
+> - Layer-cached dependencies via separate `requirements.txt` copy.
+> - Built-in container `HEALTHCHECK` probing `http://localhost:8000/health`.
+> - Excluded test caches, venvs, and local git history via `.dockerignore`.
+
+---
+
 ## 🌐 Cloud Deployment
 
 LogiSense is pre-configured for seamless cloud deployment with decoupled frontend and backend architectures:
@@ -397,7 +429,7 @@ logisense/
 
 ## 🔮 Future Improvements
 
-- [ ] **Docker & CI/CD** — Containerize the app and add GitHub Actions for automated testing
+- [x] **Docker & CI/CD** — Containerize the app and add GitHub Actions for automated testing
 - [ ] **Multi-language support** — Handle complaints in multiple languages
 - [ ] **Real-time tracking** — WebSocket integration for live order updates
 - [ ] **Analytics dashboard** — Complaint trends, resolution metrics, and agent performance
