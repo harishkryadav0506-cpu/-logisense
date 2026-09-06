@@ -26,8 +26,8 @@
 > ### 🚀 **Try LogiSense Live in Your Browser:**
 > 
 > - 🖥️ **Interactive App (Streamlit Cloud):**  
->   [![Streamlit](https://img.shields.io/badge/Streamlit_App-Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://logisense-copilot.streamlit.app)  
->   **Try it now:** [**https://logisense-copilot.streamlit.app**](https://logisense-copilot.streamlit.app)
+>   [![Streamlit](https://img.shields.io/badge/Streamlit_App-Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://logisense.streamlit.app)  
+>   **Try it now:** [**https://logisense.streamlit.app**](https://logisense.streamlit.app)
 > 
 > - ⚡ **Backend API (Render.com):**  
 >   [![FastAPI](https://img.shields.io/badge/FastAPI_Backend-Live_Status-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://logisense-backend-6jlh.onrender.com/health)  
